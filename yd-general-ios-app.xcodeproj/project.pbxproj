@@ -1,0 +1,801 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		158AF8C8270418F90095A3B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 158AF8C7270418F90095A3B1 /* AppDelegate.m */; };
+		158AF8D3270418FB0095A3B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 158AF8D2270418FB0095A3B1 /* Assets.xcassets */; };
+		158AF8D6270418FB0095A3B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 158AF8D4270418FB0095A3B1 /* LaunchScreen.storyboard */; };
+		158AF8D9270418FB0095A3B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 158AF8D8270418FB0095A3B1 /* main.m */; };
+		158AF8E3270418FC0095A3B1 /* yd_general_ios_appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 158AF8E2270418FC0095A3B1 /* yd_general_ios_appTests.m */; };
+		158AF8ED270418FC0095A3B1 /* yd_general_ios_appUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 158AF8EC270418FC0095A3B1 /* yd_general_ios_appUITests.m */; };
+		158AF8EF270418FC0095A3B1 /* yd_general_ios_appUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 158AF8EE270418FC0095A3B1 /* yd_general_ios_appUITestsLaunchTests.m */; };
+		158AF8FE2704193B0095A3B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 158AF8C7270418F90095A3B1 /* AppDelegate.m */; };
+		158AF8FF2704193B0095A3B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 158AF8D8270418FB0095A3B1 /* main.m */; };
+		158AF9032704193B0095A3B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 158AF8D4270418FB0095A3B1 /* LaunchScreen.storyboard */; };
+		158AF9042704193B0095A3B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 158AF8D2270418FB0095A3B1 /* Assets.xcassets */; };
+		158AF90F27043BBF0095A3B1 /* yd-general-ios-app-dev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 158AF90D27043BB30095A3B1 /* yd-general-ios-app-dev-Info.plist */; };
+		158AF91027043BC20095A3B1 /* yd-general-ios-app-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 158AF8D7270418FB0095A3B1 /* yd-general-ios-app-Info.plist */; };
+		158AF919270443250095A3B1 /* AppDelegate+YDNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 158AF918270443250095A3B1 /* AppDelegate+YDNotifications.m */; };
+		158AF91A270443250095A3B1 /* AppDelegate+YDNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 158AF918270443250095A3B1 /* AppDelegate+YDNotifications.m */; };
+		158AF91E2704455C0095A3B1 /* YDTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 158AF91D2704455C0095A3B1 /* YDTestViewController.m */; };
+		158AF91F2704455C0095A3B1 /* YDTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 158AF91D2704455C0095A3B1 /* YDTestViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		158AF8DF270418FC0095A3B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 158AF8BB270418F90095A3B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 158AF8C2270418F90095A3B1;
+			remoteInfo = "yd-general-ios-app";
+		};
+		158AF8E9270418FC0095A3B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 158AF8BB270418F90095A3B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 158AF8C2270418F90095A3B1;
+			remoteInfo = "yd-general-ios-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		158AF8C3270418F90095A3B1 /* yd-general-ios-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "yd-general-ios-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		158AF8C6270418F90095A3B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		158AF8C7270418F90095A3B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		158AF8D2270418FB0095A3B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		158AF8D5270418FB0095A3B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		158AF8D7270418FB0095A3B1 /* yd-general-ios-app-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "yd-general-ios-app-Info.plist"; sourceTree = "<group>"; };
+		158AF8D8270418FB0095A3B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		158AF8DE270418FC0095A3B1 /* yd-general-ios-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "yd-general-ios-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		158AF8E2270418FC0095A3B1 /* yd_general_ios_appTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = yd_general_ios_appTests.m; sourceTree = "<group>"; };
+		158AF8E8270418FC0095A3B1 /* yd-general-ios-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "yd-general-ios-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		158AF8EC270418FC0095A3B1 /* yd_general_ios_appUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = yd_general_ios_appUITests.m; sourceTree = "<group>"; };
+		158AF8EE270418FC0095A3B1 /* yd_general_ios_appUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = yd_general_ios_appUITestsLaunchTests.m; sourceTree = "<group>"; };
+		158AF9092704193B0095A3B1 /* yd-general-ios-app-dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "yd-general-ios-app-dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		158AF90D27043BB30095A3B1 /* yd-general-ios-app-dev-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "yd-general-ios-app-dev-Info.plist"; sourceTree = "<group>"; };
+		158AF91127043CA80095A3B1 /* YDAppDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDAppDefine.h; sourceTree = "<group>"; };
+		158AF91227043E670095A3B1 /* YDAppOnlineDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDAppOnlineDefine.h; sourceTree = "<group>"; };
+		158AF91327043E760095A3B1 /* YDAppDevDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDAppDevDefine.h; sourceTree = "<group>"; };
+		158AF91627043F820095A3B1 /* YDAppPch.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDAppPch.pch; sourceTree = "<group>"; };
+		158AF917270443250095A3B1 /* AppDelegate+YDNotifications.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+YDNotifications.h"; sourceTree = "<group>"; };
+		158AF918270443250095A3B1 /* AppDelegate+YDNotifications.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+YDNotifications.m"; sourceTree = "<group>"; };
+		158AF91C2704455B0095A3B1 /* YDTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDTestViewController.h; sourceTree = "<group>"; };
+		158AF91D2704455C0095A3B1 /* YDTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDTestViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		158AF8C0270418F90095A3B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		158AF8DB270418FC0095A3B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		158AF8E5270418FC0095A3B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		158AF9012704193B0095A3B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		158AF8BA270418F90095A3B1 = {
+			isa = PBXGroup;
+			children = (
+				158AF8C5270418F90095A3B1 /* yd-general-ios-app */,
+				158AF8E1270418FC0095A3B1 /* yd-general-ios-appTests */,
+				158AF8EB270418FC0095A3B1 /* yd-general-ios-appUITests */,
+				158AF8C4270418F90095A3B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		158AF8C4270418F90095A3B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				158AF8C3270418F90095A3B1 /* yd-general-ios-app.app */,
+				158AF8DE270418FC0095A3B1 /* yd-general-ios-appTests.xctest */,
+				158AF8E8270418FC0095A3B1 /* yd-general-ios-appUITests.xctest */,
+				158AF9092704193B0095A3B1 /* yd-general-ios-app-dev.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		158AF8C5270418F90095A3B1 /* yd-general-ios-app */ = {
+			isa = PBXGroup;
+			children = (
+				158AF91B270445380095A3B1 /* YDTest */,
+				158AF91527043F550095A3B1 /* YDPch */,
+				158AF91427043F260095A3B1 /* YDAPPDelegate */,
+				158AF90B27043B440095A3B1 /* YDConfig */,
+				158AF8D2270418FB0095A3B1 /* Assets.xcassets */,
+				158AF8D4270418FB0095A3B1 /* LaunchScreen.storyboard */,
+				158AF8D8270418FB0095A3B1 /* main.m */,
+			);
+			path = "yd-general-ios-app";
+			sourceTree = "<group>";
+		};
+		158AF8E1270418FC0095A3B1 /* yd-general-ios-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				158AF8E2270418FC0095A3B1 /* yd_general_ios_appTests.m */,
+			);
+			path = "yd-general-ios-appTests";
+			sourceTree = "<group>";
+		};
+		158AF8EB270418FC0095A3B1 /* yd-general-ios-appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				158AF8EC270418FC0095A3B1 /* yd_general_ios_appUITests.m */,
+				158AF8EE270418FC0095A3B1 /* yd_general_ios_appUITestsLaunchTests.m */,
+			);
+			path = "yd-general-ios-appUITests";
+			sourceTree = "<group>";
+		};
+		158AF90B27043B440095A3B1 /* YDConfig */ = {
+			isa = PBXGroup;
+			children = (
+				158AF90C27043B7C0095A3B1 /* TargestDeploy */,
+			);
+			path = YDConfig;
+			sourceTree = "<group>";
+		};
+		158AF90C27043B7C0095A3B1 /* TargestDeploy */ = {
+			isa = PBXGroup;
+			children = (
+				158AF90D27043BB30095A3B1 /* yd-general-ios-app-dev-Info.plist */,
+				158AF8D7270418FB0095A3B1 /* yd-general-ios-app-Info.plist */,
+				158AF91127043CA80095A3B1 /* YDAppDefine.h */,
+				158AF91227043E670095A3B1 /* YDAppOnlineDefine.h */,
+				158AF91327043E760095A3B1 /* YDAppDevDefine.h */,
+			);
+			path = TargestDeploy;
+			sourceTree = "<group>";
+		};
+		158AF91427043F260095A3B1 /* YDAPPDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				158AF8C6270418F90095A3B1 /* AppDelegate.h */,
+				158AF8C7270418F90095A3B1 /* AppDelegate.m */,
+				158AF917270443250095A3B1 /* AppDelegate+YDNotifications.h */,
+				158AF918270443250095A3B1 /* AppDelegate+YDNotifications.m */,
+			);
+			path = YDAPPDelegate;
+			sourceTree = "<group>";
+		};
+		158AF91527043F550095A3B1 /* YDPch */ = {
+			isa = PBXGroup;
+			children = (
+				158AF91627043F820095A3B1 /* YDAppPch.pch */,
+			);
+			path = YDPch;
+			sourceTree = "<group>";
+		};
+		158AF91B270445380095A3B1 /* YDTest */ = {
+			isa = PBXGroup;
+			children = (
+				158AF91C2704455B0095A3B1 /* YDTestViewController.h */,
+				158AF91D2704455C0095A3B1 /* YDTestViewController.m */,
+			);
+			path = YDTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		158AF8C2270418F90095A3B1 /* yd-general-ios-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 158AF8F2270418FC0095A3B1 /* Build configuration list for PBXNativeTarget "yd-general-ios-app" */;
+			buildPhases = (
+				158AF8BF270418F90095A3B1 /* Sources */,
+				158AF8C0270418F90095A3B1 /* Frameworks */,
+				158AF8C1270418F90095A3B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "yd-general-ios-app";
+			productName = "yd-general-ios-app";
+			productReference = 158AF8C3270418F90095A3B1 /* yd-general-ios-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		158AF8DD270418FC0095A3B1 /* yd-general-ios-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 158AF8F5270418FC0095A3B1 /* Build configuration list for PBXNativeTarget "yd-general-ios-appTests" */;
+			buildPhases = (
+				158AF8DA270418FC0095A3B1 /* Sources */,
+				158AF8DB270418FC0095A3B1 /* Frameworks */,
+				158AF8DC270418FC0095A3B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				158AF8E0270418FC0095A3B1 /* PBXTargetDependency */,
+			);
+			name = "yd-general-ios-appTests";
+			productName = "yd-general-ios-appTests";
+			productReference = 158AF8DE270418FC0095A3B1 /* yd-general-ios-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		158AF8E7270418FC0095A3B1 /* yd-general-ios-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 158AF8F8270418FC0095A3B1 /* Build configuration list for PBXNativeTarget "yd-general-ios-appUITests" */;
+			buildPhases = (
+				158AF8E4270418FC0095A3B1 /* Sources */,
+				158AF8E5270418FC0095A3B1 /* Frameworks */,
+				158AF8E6270418FC0095A3B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				158AF8EA270418FC0095A3B1 /* PBXTargetDependency */,
+			);
+			name = "yd-general-ios-appUITests";
+			productName = "yd-general-ios-appUITests";
+			productReference = 158AF8E8270418FC0095A3B1 /* yd-general-ios-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		158AF8FB2704193B0095A3B1 /* yd-general-ios-app-dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 158AF9062704193B0095A3B1 /* Build configuration list for PBXNativeTarget "yd-general-ios-app-dev" */;
+			buildPhases = (
+				158AF8FC2704193B0095A3B1 /* Sources */,
+				158AF9012704193B0095A3B1 /* Frameworks */,
+				158AF9022704193B0095A3B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "yd-general-ios-app-dev";
+			productName = "yd-general-ios-app";
+			productReference = 158AF9092704193B0095A3B1 /* yd-general-ios-app-dev.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		158AF8BB270418F90095A3B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = YD;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					158AF8C2270418F90095A3B1 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					158AF8DD270418FC0095A3B1 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 158AF8C2270418F90095A3B1;
+					};
+					158AF8E7270418FC0095A3B1 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 158AF8C2270418F90095A3B1;
+					};
+				};
+			};
+			buildConfigurationList = 158AF8BE270418F90095A3B1 /* Build configuration list for PBXProject "yd-general-ios-app" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 158AF8BA270418F90095A3B1;
+			productRefGroup = 158AF8C4270418F90095A3B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				158AF8C2270418F90095A3B1 /* yd-general-ios-app */,
+				158AF8FB2704193B0095A3B1 /* yd-general-ios-app-dev */,
+				158AF8DD270418FC0095A3B1 /* yd-general-ios-appTests */,
+				158AF8E7270418FC0095A3B1 /* yd-general-ios-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		158AF8C1270418F90095A3B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				158AF8D6270418FB0095A3B1 /* LaunchScreen.storyboard in Resources */,
+				158AF8D3270418FB0095A3B1 /* Assets.xcassets in Resources */,
+				158AF91027043BC20095A3B1 /* yd-general-ios-app-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		158AF8DC270418FC0095A3B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		158AF8E6270418FC0095A3B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		158AF9022704193B0095A3B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				158AF9032704193B0095A3B1 /* LaunchScreen.storyboard in Resources */,
+				158AF9042704193B0095A3B1 /* Assets.xcassets in Resources */,
+				158AF90F27043BBF0095A3B1 /* yd-general-ios-app-dev-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		158AF8BF270418F90095A3B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				158AF8C8270418F90095A3B1 /* AppDelegate.m in Sources */,
+				158AF91E2704455C0095A3B1 /* YDTestViewController.m in Sources */,
+				158AF919270443250095A3B1 /* AppDelegate+YDNotifications.m in Sources */,
+				158AF8D9270418FB0095A3B1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		158AF8DA270418FC0095A3B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				158AF8E3270418FC0095A3B1 /* yd_general_ios_appTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		158AF8E4270418FC0095A3B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				158AF8EF270418FC0095A3B1 /* yd_general_ios_appUITestsLaunchTests.m in Sources */,
+				158AF8ED270418FC0095A3B1 /* yd_general_ios_appUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		158AF8FC2704193B0095A3B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				158AF8FE2704193B0095A3B1 /* AppDelegate.m in Sources */,
+				158AF91F2704455C0095A3B1 /* YDTestViewController.m in Sources */,
+				158AF91A270443250095A3B1 /* AppDelegate+YDNotifications.m in Sources */,
+				158AF8FF2704193B0095A3B1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		158AF8E0270418FC0095A3B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 158AF8C2270418F90095A3B1 /* yd-general-ios-app */;
+			targetProxy = 158AF8DF270418FC0095A3B1 /* PBXContainerItemProxy */;
+		};
+		158AF8EA270418FC0095A3B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 158AF8C2270418F90095A3B1 /* yd-general-ios-app */;
+			targetProxy = 158AF8E9270418FC0095A3B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		158AF8D4270418FB0095A3B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				158AF8D5270418FB0095A3B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		158AF8F0270418FC0095A3B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		158AF8F1270418FC0095A3B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		158AF8F3270418FC0095A3B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XWNPFKK4U5;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/yd-general-ios-app/YDPch/YDAppPch.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"kIosApp=1",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "yd-general-ios-app/YDConfig/TargestDeploy/yd-general-ios-app-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yd-general-ios-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		158AF8F4270418FC0095A3B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XWNPFKK4U5;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/yd-general-ios-app/YDPch/YDAppPch.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "kIosApp=1";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "yd-general-ios-app/YDConfig/TargestDeploy/yd-general-ios-app-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yd-general-ios-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		158AF8F6270418FC0095A3B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XWNPFKK4U5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yd-general-ios-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yd-general-ios-app.app/yd-general-ios-app";
+			};
+			name = Debug;
+		};
+		158AF8F7270418FC0095A3B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XWNPFKK4U5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yd-general-ios-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yd-general-ios-app.app/yd-general-ios-app";
+			};
+			name = Release;
+		};
+		158AF8F9270418FC0095A3B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XWNPFKK4U5;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yd-general-ios-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "yd-general-ios-app";
+			};
+			name = Debug;
+		};
+		158AF8FA270418FC0095A3B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XWNPFKK4U5;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yd-general-ios-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "yd-general-ios-app";
+			};
+			name = Release;
+		};
+		158AF9072704193B0095A3B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XWNPFKK4U5;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/yd-general-ios-app/YDPch/YDAppPch.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"kIosAppDev=1",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "yd-general-ios-app/YDConfig/TargestDeploy/yd-general-ios-app-dev-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yd-general-ios-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		158AF9082704193B0095A3B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XWNPFKK4U5;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/yd-general-ios-app/YDPch/YDAppPch.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "kIosAppDev=1";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "yd-general-ios-app/YDConfig/TargestDeploy/yd-general-ios-app-dev-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yd-general-ios-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		158AF8BE270418F90095A3B1 /* Build configuration list for PBXProject "yd-general-ios-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				158AF8F0270418FC0095A3B1 /* Debug */,
+				158AF8F1270418FC0095A3B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		158AF8F2270418FC0095A3B1 /* Build configuration list for PBXNativeTarget "yd-general-ios-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				158AF8F3270418FC0095A3B1 /* Debug */,
+				158AF8F4270418FC0095A3B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		158AF8F5270418FC0095A3B1 /* Build configuration list for PBXNativeTarget "yd-general-ios-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				158AF8F6270418FC0095A3B1 /* Debug */,
+				158AF8F7270418FC0095A3B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		158AF8F8270418FC0095A3B1 /* Build configuration list for PBXNativeTarget "yd-general-ios-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				158AF8F9270418FC0095A3B1 /* Debug */,
+				158AF8FA270418FC0095A3B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		158AF9062704193B0095A3B1 /* Build configuration list for PBXNativeTarget "yd-general-ios-app-dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				158AF9072704193B0095A3B1 /* Debug */,
+				158AF9082704193B0095A3B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 158AF8BB270418F90095A3B1 /* Project object */;
+}

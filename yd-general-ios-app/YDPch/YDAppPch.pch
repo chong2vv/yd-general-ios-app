@@ -1,0 +1,29 @@
+//
+//  YDAppPch.pch
+//  yd-general-ios-app
+//
+//  Created by wangyuandong on 2021/9/29.
+//
+
+#ifndef YDAppPch_pch
+#define YDAppPch_pch
+
+#define YDAppDelegate ((AppDelegate *)[UIApplication sharedApplication].delegate)
+
+#define DeallocLog      NSLog(@"~~~ %@ dealloc ~~~" , [self class]);
+#ifndef TARGET_IPHONE_SIMULATOR
+#define TARGET_IPHONE_SIMULATOR 0
+#endif
+
+#define printf_console printf
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "YDAppDefine.h"
+
+#endif
+
+
+#endif /* YDAppPch_pch */
