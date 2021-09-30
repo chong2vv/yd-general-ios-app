@@ -1,5 +1,5 @@
 #pod 源
-#source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/CocoaPods/Specs.git'
 
 #私有pod
 platform :ios, '10.0'
@@ -19,7 +19,8 @@ def sharePods
   pod 'M80AttributedLabel', '~> 1.9.9'
   
   #YDKit
-  pod 'YDAvoidCrashKit', '~> 0.1.1'
+  pod 'YDAvoidCrashKit', '~> 0.1.2'
+  pod 'YDUtilKit', '~> 0.0.3'
   
   
 end
