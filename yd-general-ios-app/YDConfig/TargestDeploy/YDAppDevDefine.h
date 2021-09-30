@@ -8,5 +8,8 @@
 #ifndef YDAppDevDefine_h
 #define YDAppDevDefine_h
 
+// api
+#define kYDBaseURLString  @""
+#define kYDDataAcquisitionBaseURLString @""
 
 #endif /* YDAppDevDefine_h */

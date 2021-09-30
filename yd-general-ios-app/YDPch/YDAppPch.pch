@@ -23,6 +23,7 @@
 
 //src
 #import "YDAppDefine.h"
+#import "YDNetWorkConfig.h"
 
 //third
 #import <MJRefresh/MJRefresh.h>
@@ -31,6 +32,12 @@
 #import <Masonry/Masonry.h>
 #import <YYModel/YYModel.h>
 #import <SDWebImage.h>
+
+//YDFoundation
+#import "YDBaseVC.h"
+#import <YDUtilKit/YDUtilKit.h>
+#import <YDNetworkManager/YDNetworkManager.h>
+#import <YDAvoidCrashKit/YDAvoidCrashKit.h>
 #endif
 
 

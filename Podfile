@@ -22,7 +22,7 @@ def sharePods
   
   #YDKit
   pod 'YDAvoidCrashKit', '~> 0.1.2'
-  pod 'YDUtilKit', '~> 0.0.3'
+  pod 'YDUtilKit', '~> 0.0.5'
   pod 'YDNetworkManager', '~> 0.0.5'
   
 end
