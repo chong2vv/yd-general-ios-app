@@ -110,6 +110,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15850CD327059CC0002F79B5 /* YDApp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = YDApp;
+			sourceTree = "<group>";
+		};
+		15850CD427059F7D002F79B5 /* NetworkConfig */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetworkConfig;
+			sourceTree = "<group>";
+		};
 		158AF8BA270418F90095A3B1 = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +150,7 @@
 		158AF8C5270418F90095A3B1 /* yd-general-ios-app */ = {
 			isa = PBXGroup;
 			children = (
+				15850CD327059CC0002F79B5 /* YDApp */,
 				158AF91B270445380095A3B1 /* YDTest */,
 				158AF91527043F550095A3B1 /* YDPch */,
 				158AF91427043F260095A3B1 /* YDAPPDelegate */,
@@ -167,6 +182,7 @@
 		158AF90B27043B440095A3B1 /* YDConfig */ = {
 			isa = PBXGroup;
 			children = (
+				15850CD427059F7D002F79B5 /* NetworkConfig */,
 				158AF90C27043B7C0095A3B1 /* TargestDeploy */,
 			);
 			path = YDConfig;
@@ -229,7 +245,6 @@
 				C4927EC62FAED2A1247763F7 /* Pods-yd-general-ios-app-dev.debug.xcconfig */,
 				E6399C9DB774853E20F3742D /* Pods-yd-general-ios-app-dev.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
