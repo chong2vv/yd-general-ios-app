@@ -12,4 +12,6 @@
 #define kYDBaseURLString  @""
 #define kYDDataAcquisitionBaseURLString @""
 
+#define buglyKey @""
+
 #endif /* YDAppOnlineDefine_h */

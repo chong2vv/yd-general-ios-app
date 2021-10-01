@@ -23,6 +23,38 @@
 		150A67A3270608A9009EE4AF /* YDHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67A1270608A9009EE4AF /* YDHomePageViewController.m */; };
 		150A67A7270608BB009EE4AF /* YDLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67A6270608BB009EE4AF /* YDLoginViewController.m */; };
 		150A67A8270608BB009EE4AF /* YDLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67A6270608BB009EE4AF /* YDLoginViewController.m */; };
+		150A67B327068414009EE4AF /* AppDelegate+YDAvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67B227068414009EE4AF /* AppDelegate+YDAvoidCrash.m */; };
+		150A67B427068414009EE4AF /* AppDelegate+YDAvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67B227068414009EE4AF /* AppDelegate+YDAvoidCrash.m */; };
+		150A67B727068977009EE4AF /* AppDelegate+YDThird.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67B627068977009EE4AF /* AppDelegate+YDThird.m */; };
+		150A67B827068977009EE4AF /* AppDelegate+YDThird.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67B627068977009EE4AF /* AppDelegate+YDThird.m */; };
+		150A67BC270691EB009EE4AF /* YDMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67BB270691EB009EE4AF /* YDMineViewController.m */; };
+		150A67BD270691EB009EE4AF /* YDMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67BB270691EB009EE4AF /* YDMineViewController.m */; };
+		150A67C527069437009EE4AF /* YDCameraPermissionUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67C427069437009EE4AF /* YDCameraPermissionUtil.m */; };
+		150A67C627069437009EE4AF /* YDCameraPermissionUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67C427069437009EE4AF /* YDCameraPermissionUtil.m */; };
+		150A67CA27069690009EE4AF /* YDDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67C927069690009EE4AF /* YDDB.m */; };
+		150A67CB27069690009EE4AF /* YDDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67C927069690009EE4AF /* YDDB.m */; };
+		150A67D227069855009EE4AF /* YDButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67D127069855009EE4AF /* YDButton.m */; };
+		150A67D327069855009EE4AF /* YDButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67D127069855009EE4AF /* YDButton.m */; };
+		150A67D72706A128009EE4AF /* AppDelegate+YDSetupVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67D62706A128009EE4AF /* AppDelegate+YDSetupVC.m */; };
+		150A67D82706A128009EE4AF /* AppDelegate+YDSetupVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67D62706A128009EE4AF /* AppDelegate+YDSetupVC.m */; };
+		150A67DA27070F86009EE4AF /* YDConfigImage.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150A67D927070F86009EE4AF /* YDConfigImage.xcassets */; };
+		150A67DB27070F86009EE4AF /* YDConfigImage.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150A67D927070F86009EE4AF /* YDConfigImage.xcassets */; };
+		150A67DD27071302009EE4AF /* YDNotificationConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67DC27071302009EE4AF /* YDNotificationConst.m */; };
+		150A67DE27071302009EE4AF /* YDNotificationConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67DC27071302009EE4AF /* YDNotificationConst.m */; };
+		150A67E227073557009EE4AF /* YDStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67E127073557009EE4AF /* YDStyle.m */; };
+		150A67E327073557009EE4AF /* YDStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67E127073557009EE4AF /* YDStyle.m */; };
+		150A67E627073642009EE4AF /* YDImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67E527073642009EE4AF /* YDImageView.m */; };
+		150A67E727073642009EE4AF /* YDImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67E527073642009EE4AF /* YDImageView.m */; };
+		150A67EA27073A69009EE4AF /* YDTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67E927073A69009EE4AF /* YDTableView.m */; };
+		150A67EB27073A69009EE4AF /* YDTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67E927073A69009EE4AF /* YDTableView.m */; };
+		150A67F027074092009EE4AF /* YDHiddenFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67EF27074092009EE4AF /* YDHiddenFunctionViewController.m */; };
+		150A67F127074092009EE4AF /* YDHiddenFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67EF27074092009EE4AF /* YDHiddenFunctionViewController.m */; };
+		150A67F5270740B6009EE4AF /* YDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67F4270740B6009EE4AF /* YDView.m */; };
+		150A67F6270740B6009EE4AF /* YDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67F4270740B6009EE4AF /* YDView.m */; };
+		150A67F9270740D5009EE4AF /* YDHiddenFunctionPasswordInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67F8270740D5009EE4AF /* YDHiddenFunctionPasswordInputView.m */; };
+		150A67FA270740D5009EE4AF /* YDHiddenFunctionPasswordInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67F8270740D5009EE4AF /* YDHiddenFunctionPasswordInputView.m */; };
+		150A67FD27074AB2009EE4AF /* YDHiddenFunctionPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67FC27074AB2009EE4AF /* YDHiddenFunctionPasswordView.m */; };
+		150A67FE27074AB4009EE4AF /* YDHiddenFunctionPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67FC27074AB2009EE4AF /* YDHiddenFunctionPasswordView.m */; };
 		158AF8C8270418F90095A3B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 158AF8C7270418F90095A3B1 /* AppDelegate.m */; };
 		158AF8D3270418FB0095A3B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 158AF8D2270418FB0095A3B1 /* Assets.xcassets */; };
 		158AF8D6270418FB0095A3B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 158AF8D4270418FB0095A3B1 /* LaunchScreen.storyboard */; };
@@ -36,8 +68,8 @@
 		158AF9042704193B0095A3B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 158AF8D2270418FB0095A3B1 /* Assets.xcassets */; };
 		158AF90F27043BBF0095A3B1 /* yd-general-ios-app-dev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 158AF90D27043BB30095A3B1 /* yd-general-ios-app-dev-Info.plist */; };
 		158AF91027043BC20095A3B1 /* yd-general-ios-app-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 158AF8D7270418FB0095A3B1 /* yd-general-ios-app-Info.plist */; };
-		158AF919270443250095A3B1 /* AppDelegate+YDNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 158AF918270443250095A3B1 /* AppDelegate+YDNotifications.m */; };
-		158AF91A270443250095A3B1 /* AppDelegate+YDNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 158AF918270443250095A3B1 /* AppDelegate+YDNotifications.m */; };
+		158AF919270443250095A3B1 /* AppDelegate+YDServicePush.m in Sources */ = {isa = PBXBuildFile; fileRef = 158AF918270443250095A3B1 /* AppDelegate+YDServicePush.m */; };
+		158AF91A270443250095A3B1 /* AppDelegate+YDServicePush.m in Sources */ = {isa = PBXBuildFile; fileRef = 158AF918270443250095A3B1 /* AppDelegate+YDServicePush.m */; };
 		158AF91E2704455C0095A3B1 /* YDTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 158AF91D2704455C0095A3B1 /* YDTestViewController.m */; };
 		158AF91F2704455C0095A3B1 /* YDTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 158AF91D2704455C0095A3B1 /* YDTestViewController.m */; };
 		21035A6C219FA3AB9D49D6B0 /* libPods-yd-general-ios-app.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38246749678BFA03C80151BE /* libPods-yd-general-ios-app.a */; };
@@ -79,6 +111,39 @@
 		150A67A1270608A9009EE4AF /* YDHomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDHomePageViewController.m; sourceTree = "<group>"; };
 		150A67A5270608BB009EE4AF /* YDLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDLoginViewController.h; sourceTree = "<group>"; };
 		150A67A6270608BB009EE4AF /* YDLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDLoginViewController.m; sourceTree = "<group>"; };
+		150A67B127068414009EE4AF /* AppDelegate+YDAvoidCrash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+YDAvoidCrash.h"; sourceTree = "<group>"; };
+		150A67B227068414009EE4AF /* AppDelegate+YDAvoidCrash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+YDAvoidCrash.m"; sourceTree = "<group>"; };
+		150A67B527068977009EE4AF /* AppDelegate+YDThird.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+YDThird.h"; sourceTree = "<group>"; };
+		150A67B627068977009EE4AF /* AppDelegate+YDThird.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+YDThird.m"; sourceTree = "<group>"; };
+		150A67BA270691EB009EE4AF /* YDMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDMineViewController.h; sourceTree = "<group>"; };
+		150A67BB270691EB009EE4AF /* YDMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDMineViewController.m; sourceTree = "<group>"; };
+		150A67C0270692D1009EE4AF /* YDUtilBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDUtilBlock.h; sourceTree = "<group>"; };
+		150A67C327069437009EE4AF /* YDCameraPermissionUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDCameraPermissionUtil.h; sourceTree = "<group>"; };
+		150A67C427069437009EE4AF /* YDCameraPermissionUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDCameraPermissionUtil.m; sourceTree = "<group>"; };
+		150A67C827069690009EE4AF /* YDDB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDDB.h; sourceTree = "<group>"; };
+		150A67C927069690009EE4AF /* YDDB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDDB.m; sourceTree = "<group>"; };
+		150A67CD270696E6009EE4AF /* YDNotificationConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDNotificationConst.h; sourceTree = "<group>"; };
+		150A67D027069855009EE4AF /* YDButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDButton.h; sourceTree = "<group>"; };
+		150A67D127069855009EE4AF /* YDButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDButton.m; sourceTree = "<group>"; };
+		150A67D42706A0F9009EE4AF /* YDBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDBaseView.h; sourceTree = "<group>"; };
+		150A67D52706A128009EE4AF /* AppDelegate+YDSetupVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+YDSetupVC.h"; sourceTree = "<group>"; };
+		150A67D62706A128009EE4AF /* AppDelegate+YDSetupVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+YDSetupVC.m"; sourceTree = "<group>"; };
+		150A67D927070F86009EE4AF /* YDConfigImage.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = YDConfigImage.xcassets; sourceTree = "<group>"; };
+		150A67DC27071302009EE4AF /* YDNotificationConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDNotificationConst.m; sourceTree = "<group>"; };
+		150A67E027073557009EE4AF /* YDStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDStyle.h; sourceTree = "<group>"; };
+		150A67E127073557009EE4AF /* YDStyle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDStyle.m; sourceTree = "<group>"; };
+		150A67E427073642009EE4AF /* YDImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDImageView.h; sourceTree = "<group>"; };
+		150A67E527073642009EE4AF /* YDImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDImageView.m; sourceTree = "<group>"; };
+		150A67E827073A69009EE4AF /* YDTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDTableView.h; sourceTree = "<group>"; };
+		150A67E927073A69009EE4AF /* YDTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDTableView.m; sourceTree = "<group>"; };
+		150A67EE27074092009EE4AF /* YDHiddenFunctionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDHiddenFunctionViewController.h; sourceTree = "<group>"; };
+		150A67EF27074092009EE4AF /* YDHiddenFunctionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDHiddenFunctionViewController.m; sourceTree = "<group>"; };
+		150A67F3270740B6009EE4AF /* YDView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDView.h; sourceTree = "<group>"; };
+		150A67F4270740B6009EE4AF /* YDView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDView.m; sourceTree = "<group>"; };
+		150A67F7270740D5009EE4AF /* YDHiddenFunctionPasswordInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDHiddenFunctionPasswordInputView.h; sourceTree = "<group>"; };
+		150A67F8270740D5009EE4AF /* YDHiddenFunctionPasswordInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDHiddenFunctionPasswordInputView.m; sourceTree = "<group>"; };
+		150A67FB27074AB2009EE4AF /* YDHiddenFunctionPasswordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDHiddenFunctionPasswordView.h; sourceTree = "<group>"; };
+		150A67FC27074AB2009EE4AF /* YDHiddenFunctionPasswordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDHiddenFunctionPasswordView.m; sourceTree = "<group>"; };
 		158AF8C3270418F90095A3B1 /* yd-general-ios-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "yd-general-ios-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		158AF8C6270418F90095A3B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		158AF8C7270418F90095A3B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -97,8 +162,8 @@
 		158AF91227043E670095A3B1 /* YDAppOnlineDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDAppOnlineDefine.h; sourceTree = "<group>"; };
 		158AF91327043E760095A3B1 /* YDAppDevDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDAppDevDefine.h; sourceTree = "<group>"; };
 		158AF91627043F820095A3B1 /* YDAppPch.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDAppPch.pch; sourceTree = "<group>"; };
-		158AF917270443250095A3B1 /* AppDelegate+YDNotifications.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+YDNotifications.h"; sourceTree = "<group>"; };
-		158AF918270443250095A3B1 /* AppDelegate+YDNotifications.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+YDNotifications.m"; sourceTree = "<group>"; };
+		158AF917270443250095A3B1 /* AppDelegate+YDServicePush.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+YDServicePush.h"; sourceTree = "<group>"; };
+		158AF918270443250095A3B1 /* AppDelegate+YDServicePush.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+YDServicePush.m"; sourceTree = "<group>"; };
 		158AF91C2704455B0095A3B1 /* YDTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDTestViewController.h; sourceTree = "<group>"; };
 		158AF91D2704455C0095A3B1 /* YDTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDTestViewController.m; sourceTree = "<group>"; };
 		38246749678BFA03C80151BE /* libPods-yd-general-ios-app.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-yd-general-ios-app.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -164,7 +229,9 @@
 		150A67852706012F009EE4AF /* YDApp */ = {
 			isa = PBXGroup;
 			children = (
+				150A67EC27074062009EE4AF /* YDHiddenFunction */,
 				150A67872706014B009EE4AF /* YDHomePage */,
+				150A67B927068F65009EE4AF /* YDMine */,
 				150A67862706013C009EE4AF /* YDLogin */,
 			);
 			path = YDApp;
@@ -198,7 +265,8 @@
 		150A678927060275009EE4AF /* YDVendors */ = {
 			isa = PBXGroup;
 			children = (
-				150A678A270602C0009EE4AF /* YDBaseVC */,
+				150A67CE27069830009EE4AF /* YDBaseUI */,
+				150A67C2270693F3009EE4AF /* YDPermissionUtil */,
 			);
 			path = YDVendors;
 			sourceTree = "<group>";
@@ -226,6 +294,122 @@
 				150A67A6270608BB009EE4AF /* YDLoginViewController.m */,
 			);
 			path = VC;
+			sourceTree = "<group>";
+		};
+		150A67B927068F65009EE4AF /* YDMine */ = {
+			isa = PBXGroup;
+			children = (
+				150A67BE270691F0009EE4AF /* VC */,
+			);
+			path = YDMine;
+			sourceTree = "<group>";
+		};
+		150A67BE270691F0009EE4AF /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				150A67BA270691EB009EE4AF /* YDMineViewController.h */,
+				150A67BB270691EB009EE4AF /* YDMineViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		150A67BF27069227009EE4AF /* YDUtilBlock */ = {
+			isa = PBXGroup;
+			children = (
+				150A67C0270692D1009EE4AF /* YDUtilBlock.h */,
+			);
+			path = YDUtilBlock;
+			sourceTree = "<group>";
+		};
+		150A67C2270693F3009EE4AF /* YDPermissionUtil */ = {
+			isa = PBXGroup;
+			children = (
+				150A67C327069437009EE4AF /* YDCameraPermissionUtil.h */,
+				150A67C427069437009EE4AF /* YDCameraPermissionUtil.m */,
+			);
+			path = YDPermissionUtil;
+			sourceTree = "<group>";
+		};
+		150A67C72706955E009EE4AF /* YDDB */ = {
+			isa = PBXGroup;
+			children = (
+				150A67C827069690009EE4AF /* YDDB.h */,
+				150A67C927069690009EE4AF /* YDDB.m */,
+			);
+			path = YDDB;
+			sourceTree = "<group>";
+		};
+		150A67CC270696C8009EE4AF /* YDNotificationConst */ = {
+			isa = PBXGroup;
+			children = (
+				150A67CD270696E6009EE4AF /* YDNotificationConst.h */,
+				150A67DC27071302009EE4AF /* YDNotificationConst.m */,
+			);
+			path = YDNotificationConst;
+			sourceTree = "<group>";
+		};
+		150A67CE27069830009EE4AF /* YDBaseUI */ = {
+			isa = PBXGroup;
+			children = (
+				150A67DF27073546009EE4AF /* YDStyle */,
+				150A67CF27069840009EE4AF /* YDBaseVIew */,
+				150A678A270602C0009EE4AF /* YDBaseVC */,
+			);
+			path = YDBaseUI;
+			sourceTree = "<group>";
+		};
+		150A67CF27069840009EE4AF /* YDBaseVIew */ = {
+			isa = PBXGroup;
+			children = (
+				150A67D42706A0F9009EE4AF /* YDBaseView.h */,
+				150A67D027069855009EE4AF /* YDButton.h */,
+				150A67D127069855009EE4AF /* YDButton.m */,
+				150A67F3270740B6009EE4AF /* YDView.h */,
+				150A67F4270740B6009EE4AF /* YDView.m */,
+				150A67E427073642009EE4AF /* YDImageView.h */,
+				150A67E527073642009EE4AF /* YDImageView.m */,
+				150A67E827073A69009EE4AF /* YDTableView.h */,
+				150A67E927073A69009EE4AF /* YDTableView.m */,
+			);
+			path = YDBaseVIew;
+			sourceTree = "<group>";
+		};
+		150A67DF27073546009EE4AF /* YDStyle */ = {
+			isa = PBXGroup;
+			children = (
+				150A67E027073557009EE4AF /* YDStyle.h */,
+				150A67E127073557009EE4AF /* YDStyle.m */,
+			);
+			path = YDStyle;
+			sourceTree = "<group>";
+		};
+		150A67EC27074062009EE4AF /* YDHiddenFunction */ = {
+			isa = PBXGroup;
+			children = (
+				150A67F22707409E009EE4AF /* VIew */,
+				150A67ED2707407C009EE4AF /* VC */,
+			);
+			path = YDHiddenFunction;
+			sourceTree = "<group>";
+		};
+		150A67ED2707407C009EE4AF /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				150A67EE27074092009EE4AF /* YDHiddenFunctionViewController.h */,
+				150A67EF27074092009EE4AF /* YDHiddenFunctionViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		150A67F22707409E009EE4AF /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				150A67F7270740D5009EE4AF /* YDHiddenFunctionPasswordInputView.h */,
+				150A67F8270740D5009EE4AF /* YDHiddenFunctionPasswordInputView.m */,
+				150A67FB27074AB2009EE4AF /* YDHiddenFunctionPasswordView.h */,
+				150A67FC27074AB2009EE4AF /* YDHiddenFunctionPasswordView.m */,
+			);
+			path = VIew;
 			sourceTree = "<group>";
 		};
 		158AF8BA270418F90095A3B1 = {
@@ -257,6 +441,7 @@
 				158AF91B270445380095A3B1 /* YDTest */,
 				158AF91427043F260095A3B1 /* YDAPPDelegate */,
 				150A67852706012F009EE4AF /* YDApp */,
+				150A67C72706955E009EE4AF /* YDDB */,
 				158AF91527043F550095A3B1 /* YDPch */,
 				150A678927060275009EE4AF /* YDVendors */,
 				158AF90B27043B440095A3B1 /* YDConfig */,
@@ -287,6 +472,8 @@
 		158AF90B27043B440095A3B1 /* YDConfig */ = {
 			isa = PBXGroup;
 			children = (
+				150A67CC270696C8009EE4AF /* YDNotificationConst */,
+				150A67BF27069227009EE4AF /* YDUtilBlock */,
 				150A67802706007C009EE4AF /* UserConfig */,
 				150A677B2705FF68009EE4AF /* NetworkConfig */,
 				158AF90C27043B7C0095A3B1 /* TargestDeploy */,
@@ -311,8 +498,15 @@
 			children = (
 				158AF8C6270418F90095A3B1 /* AppDelegate.h */,
 				158AF8C7270418F90095A3B1 /* AppDelegate.m */,
-				158AF917270443250095A3B1 /* AppDelegate+YDNotifications.h */,
-				158AF918270443250095A3B1 /* AppDelegate+YDNotifications.m */,
+				150A67D52706A128009EE4AF /* AppDelegate+YDSetupVC.h */,
+				150A67D62706A128009EE4AF /* AppDelegate+YDSetupVC.m */,
+				150A67B127068414009EE4AF /* AppDelegate+YDAvoidCrash.h */,
+				150A67B227068414009EE4AF /* AppDelegate+YDAvoidCrash.m */,
+				150A67B527068977009EE4AF /* AppDelegate+YDThird.h */,
+				150A67B627068977009EE4AF /* AppDelegate+YDThird.m */,
+				158AF917270443250095A3B1 /* AppDelegate+YDServicePush.h */,
+				158AF918270443250095A3B1 /* AppDelegate+YDServicePush.m */,
+				150A67D927070F86009EE4AF /* YDConfigImage.xcassets */,
 			);
 			path = YDAPPDelegate;
 			sourceTree = "<group>";
@@ -481,6 +675,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				150A67DA27070F86009EE4AF /* YDConfigImage.xcassets in Resources */,
 				158AF8D6270418FB0095A3B1 /* LaunchScreen.storyboard in Resources */,
 				158AF8D3270418FB0095A3B1 /* Assets.xcassets in Resources */,
 				158AF91027043BC20095A3B1 /* yd-general-ios-app-Info.plist in Resources */,
@@ -505,6 +700,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				150A67DB27070F86009EE4AF /* YDConfigImage.xcassets in Resources */,
 				158AF9032704193B0095A3B1 /* LaunchScreen.storyboard in Resources */,
 				158AF9042704193B0095A3B1 /* Assets.xcassets in Resources */,
 				158AF90F27043BBF0095A3B1 /* yd-general-ios-app-dev-Info.plist in Resources */,
@@ -616,16 +812,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				150A67C527069437009EE4AF /* YDCameraPermissionUtil.m in Sources */,
 				150A677E2705FFEB009EE4AF /* YDNetWorkConfig.m in Sources */,
+				150A67EA27073A69009EE4AF /* YDTableView.m in Sources */,
+				150A67B327068414009EE4AF /* AppDelegate+YDAvoidCrash.m in Sources */,
+				150A67F5270740B6009EE4AF /* YDView.m in Sources */,
 				150A679927060446009EE4AF /* UIViewController+YDNav.m in Sources */,
+				150A67F9270740D5009EE4AF /* YDHiddenFunctionPasswordInputView.m in Sources */,
+				150A67FD27074AB2009EE4AF /* YDHiddenFunctionPasswordView.m in Sources */,
+				150A67B727068977009EE4AF /* AppDelegate+YDThird.m in Sources */,
 				158AF8C8270418F90095A3B1 /* AppDelegate.m in Sources */,
 				150A6791270603AE009EE4AF /* UIViewController+YDHook.m in Sources */,
+				150A67BC270691EB009EE4AF /* YDMineViewController.m in Sources */,
 				150A67A2270608A9009EE4AF /* YDHomePageViewController.m in Sources */,
+				150A67F027074092009EE4AF /* YDHiddenFunctionViewController.m in Sources */,
+				150A67E627073642009EE4AF /* YDImageView.m in Sources */,
 				158AF91E2704455C0095A3B1 /* YDTestViewController.m in Sources */,
 				150A678D27060308009EE4AF /* YDBaseViewController.m in Sources */,
+				150A67DD27071302009EE4AF /* YDNotificationConst.m in Sources */,
 				150A678327060117009EE4AF /* YDUserConfig.m in Sources */,
-				158AF919270443250095A3B1 /* AppDelegate+YDNotifications.m in Sources */,
+				150A67D227069855009EE4AF /* YDButton.m in Sources */,
+				158AF919270443250095A3B1 /* AppDelegate+YDServicePush.m in Sources */,
 				158AF8D9270418FB0095A3B1 /* main.m in Sources */,
+				150A67CA27069690009EE4AF /* YDDB.m in Sources */,
+				150A67E227073557009EE4AF /* YDStyle.m in Sources */,
+				150A67D72706A128009EE4AF /* AppDelegate+YDSetupVC.m in Sources */,
 				150A679D27060758009EE4AF /* UINavigationController+YDHookStatusBar.m in Sources */,
 				150A67A7270608BB009EE4AF /* YDLoginViewController.m in Sources */,
 			);
@@ -652,16 +863,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				150A67C627069437009EE4AF /* YDCameraPermissionUtil.m in Sources */,
 				150A677F2705FFEF009EE4AF /* YDNetWorkConfig.m in Sources */,
+				150A67EB27073A69009EE4AF /* YDTableView.m in Sources */,
+				150A67B427068414009EE4AF /* AppDelegate+YDAvoidCrash.m in Sources */,
+				150A67F6270740B6009EE4AF /* YDView.m in Sources */,
 				150A679A27060446009EE4AF /* UIViewController+YDNav.m in Sources */,
+				150A67FA270740D5009EE4AF /* YDHiddenFunctionPasswordInputView.m in Sources */,
+				150A67FE27074AB4009EE4AF /* YDHiddenFunctionPasswordView.m in Sources */,
+				150A67B827068977009EE4AF /* AppDelegate+YDThird.m in Sources */,
 				158AF8FE2704193B0095A3B1 /* AppDelegate.m in Sources */,
 				150A6792270603AE009EE4AF /* UIViewController+YDHook.m in Sources */,
+				150A67BD270691EB009EE4AF /* YDMineViewController.m in Sources */,
 				150A67A3270608A9009EE4AF /* YDHomePageViewController.m in Sources */,
+				150A67F127074092009EE4AF /* YDHiddenFunctionViewController.m in Sources */,
+				150A67E727073642009EE4AF /* YDImageView.m in Sources */,
 				158AF91F2704455C0095A3B1 /* YDTestViewController.m in Sources */,
 				150A678E27060308009EE4AF /* YDBaseViewController.m in Sources */,
+				150A67DE27071302009EE4AF /* YDNotificationConst.m in Sources */,
 				150A678427060117009EE4AF /* YDUserConfig.m in Sources */,
-				158AF91A270443250095A3B1 /* AppDelegate+YDNotifications.m in Sources */,
+				150A67D327069855009EE4AF /* YDButton.m in Sources */,
+				158AF91A270443250095A3B1 /* AppDelegate+YDServicePush.m in Sources */,
 				158AF8FF2704193B0095A3B1 /* main.m in Sources */,
+				150A67CB27069690009EE4AF /* YDDB.m in Sources */,
+				150A67E327073557009EE4AF /* YDStyle.m in Sources */,
+				150A67D82706A128009EE4AF /* AppDelegate+YDSetupVC.m in Sources */,
 				150A679E27060758009EE4AF /* UINavigationController+YDHookStatusBar.m in Sources */,
 				150A67A8270608BB009EE4AF /* YDLoginViewController.m in Sources */,
 			);

@@ -6,8 +6,10 @@
 //
 
 #import "AppDelegate.h"
-#import "AppDelegate+YDNotifications.h"
-
+#import "AppDelegate+YDServicePush.h"
+#import "AppDelegate+YDAvoidCrash.h"
+#import "AppDelegate+YDThird.h"
+#import "AppDelegate+YDSetupVC.h"
 
 
 #import "YDTestViewController.h"
@@ -21,8 +23,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+    //开启YDAvoidCrash方崩溃库
+    [self becomeEffective];
+    
     //注册推送
     [self registerForRemoteNotifications:application];
+    
+    //开启第三方配置，如bugly
+    [self thirdPartyConfig:application];
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     [self.window makeKeyAndVisible];
@@ -33,10 +41,8 @@
         [[UITabBar appearance] setTranslucent:NO];
     }
     
-    
-    YDTestViewController *vc = [[YDTestViewController alloc] init];
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
-    self.window.rootViewController = nav;
+    //配置root vc
+    [self configRootVC:application];
     
     return YES;
 }

@@ -5,9 +5,9 @@
 //  Created by wangyuandong on 2021/9/29.
 //
 
-#import "AppDelegate+YDNotifications.h"
+#import "AppDelegate+YDServicePush.h"
 
-@implementation AppDelegate (YDNotifications)
+@implementation AppDelegate (YDServicePush)
 
 - (void)registerForRemoteNotifications:(UIApplication *)application {
     

@@ -19,6 +19,7 @@ def sharePods
   pod 'YYModel'
   pod 'SVProgressHUD'
   pod 'SDWebImage', '~> 5.8.4'
+  pod 'FMDB'
   
   #YDKit
   pod 'YDAvoidCrashKit', '~> 0.1.2'

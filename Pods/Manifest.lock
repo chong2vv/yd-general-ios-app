@@ -85,6 +85,7 @@ DEPENDENCIES:
   - DoraemonKit/WithGPS (~> 3.0.4)
   - DoraemonKit/WithLoad (~> 3.0.4)
   - DoraemonKit/WithLogger (~> 3.0.4)
+  - FMDB
   - IQKeyboardManager
   - lottie-ios (~> 2.5.2)
   - M80AttributedLabel (~> 1.9.9)
@@ -143,6 +144,6 @@ SPEC CHECKSUMS:
   YTKNetwork: c16be90b06be003de9e9cd0d3b187cc8eaf35c04
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: c7f0d2c0fc76681e1b8c7b232647deb48c95d674
+PODFILE CHECKSUM: e0d6deedc31c0e717d252b79bfb47553bf4977d7
 
 COCOAPODS: 1.11.0.beta.2

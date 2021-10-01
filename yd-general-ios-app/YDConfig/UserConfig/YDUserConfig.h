@@ -11,6 +11,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface YDUserConfig : NSObject
 
++ (instancetype)shared;
+
+- (BOOL)isLogin;
+
 @end
 
 NS_ASSUME_NONNULL_END
