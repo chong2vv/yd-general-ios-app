@@ -21,6 +21,7 @@
     }else{
         [self configLoginVC];
     }
+    [self loadUserLoginNotification];
 }
 
 // 配置登录VC
@@ -38,7 +39,7 @@
 }
 
 //登录、登出消息通知处理
-- (void)loadNotification {
+- (void)loadUserLoginNotification {
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(_userLogin) name:YDUserNotificationUserLogin object:nil];
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(_userLogout) name:YDUserNotificationUserLogout object:nil];

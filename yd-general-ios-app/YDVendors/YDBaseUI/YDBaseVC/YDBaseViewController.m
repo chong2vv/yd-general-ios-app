@@ -16,10 +16,31 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-    [self.navigationController.navigationBar whenFiveTapped:^{
-        YDHiddenFunctionViewController *vc = [[YDHiddenFunctionViewController alloc] init];
-        [self.navigationController pushViewController:vc animated:YES];
-    }];
+    self.navigationController.navigationBar.backgroundColor = [UIColor whiteColor];
+//    self.edgesForExtendedLayout = UIRectEdgeNone;
+    self.automaticallyAdjustsScrollViewInsets = YES;
+    
+    //navigation标题文字颜色
+        NSDictionary *dic = @{NSForegroundColorAttributeName : [UIColor blackColor],
+                              NSFontAttributeName : [UIFont systemFontOfSize:18 weight:UIFontWeightMedium]};
+        if (@available(iOS 15.0, *)) {
+            UINavigationBarAppearance *barApp = [UINavigationBarAppearance new];
+            barApp.backgroundColor = [UIColor whiteColor];
+            barApp.shadowColor = [UIColor whiteColor];
+            barApp.titleTextAttributes = dic;
+            self.navigationController.navigationBar.scrollEdgeAppearance = barApp;
+            self.navigationController.navigationBar.standardAppearance = barApp;
+        }else{
+            //背景色
+            self.navigationController.navigationBar.barTintColor = [UIColor whiteColor];
+            self.navigationController.navigationBar.titleTextAttributes = dic;
+            [self.navigationController.navigationBar setShadowImage:[UIImage new]];
+            [self.navigationController.navigationBar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
+        }
+        //不透明
+        self.navigationController.navigationBar.translucent = NO;
+        //navigation控件颜色
+        self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
 }
 
 @end

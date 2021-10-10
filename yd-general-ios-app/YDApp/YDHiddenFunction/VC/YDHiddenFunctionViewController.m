@@ -6,17 +6,17 @@
 //
 
 #import "YDHiddenFunctionViewController.h"
-#import "YDHiddenFunctionPasswordInputView.h"
+#import "YDHiddenFunctionPasswordView.h"
 
 static NSString *hiddenFunctionlistViewControllerCellIdentifier = @"hiddenFunctionlistViewControllerCell";
 
-@interface YDHiddenFunctionViewController ()<YDHiddenFunctionPasswordViewDelegate, UITableViewDelegate, UITableViewDataSource>
+@interface YDHiddenFunctionViewController ()<YDHiddenFunctionPasswordInputDelegate, UITableViewDelegate, UITableViewDataSource>
 
 
 @property (nonatomic, strong) UILabel               *titleLabel;
 @property (nonatomic, strong) UIView                *inputLabelView;
 @property (nonatomic, strong) NSMutableArray <UILabel *>*inputLabels;
-@property (nonatomic, strong)YDHiddenFunctionPasswordInputView *passwordView;
+@property (nonatomic, strong)YDHiddenFunctionPasswordView *passwordView;
 @property (nonatomic, strong)YDTableView *tableView;
 @property (nonatomic, copy)NSArray *titleListData;
 @property (nonatomic, copy)NSArray *valueListData;
@@ -27,9 +27,9 @@ static NSString *hiddenFunctionlistViewControllerCellIdentifier = @"hiddenFuncti
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = @"隐藏功能";
     self.titleListData = @[@"Logger", @"UserId", @"BundleName", @"Version", @"BundleVersion"];
     self.valueListData = @[@"查看日志", @"", [self getString:[[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleName"]], [self getString:[[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"]], [self getString:[[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleVersion"]]];
-    
     [self configUI];
     [self configPasswordView];
 }
@@ -54,9 +54,11 @@ static NSString *hiddenFunctionlistViewControllerCellIdentifier = @"hiddenFuncti
     }];
 }
 
-- (void)keyViewDidEndEditing:(NSString *)key {
-    if ([key isEqualToString:@"121212"]) {
+- (void)checkPasswordInput:(NSString *)password {
+    if ([password isEqualToString:@"888888"]) {
         self.passwordView.hidden = YES;
+    }else {
+        [SVProgressHUD showErrorWithStatus:@"秘钥输入错误"];
     }
 }
 
@@ -105,9 +107,9 @@ static NSString *hiddenFunctionlistViewControllerCellIdentifier = @"hiddenFuncti
     return _tableView;
 }
 
-- (YDHiddenFunctionPasswordInputView *)passwordView {
+- (YDHiddenFunctionPasswordView *)passwordView {
     if (!_passwordView) {
-        _passwordView = [[YDHiddenFunctionPasswordInputView alloc] init];
+        _passwordView = [[YDHiddenFunctionPasswordView alloc] init];
         _passwordView.delegate = self;
     }
     return _passwordView;

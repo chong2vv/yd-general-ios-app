@@ -20,9 +20,10 @@ def sharePods
   pod 'SVProgressHUD'
   pod 'SDWebImage', '~> 5.8.4'
   pod 'FMDB'
+#  pod 'SAMKeychain'
   
   #YDKit
-  pod 'YDAvoidCrashKit', '~> 0.1.2'
+  pod 'YDAvoidCrashKit', '~> 0.1.3'
   pod 'YDUtilKit', '~> 0.0.5'
   pod 'YDNetworkManager', '~> 0.0.5'
   

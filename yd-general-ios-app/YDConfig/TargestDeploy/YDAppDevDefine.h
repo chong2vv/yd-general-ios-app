@@ -11,6 +11,7 @@
 // api
 #define kYDBaseURLString  @""
 #define kYDDataAcquisitionBaseURLString @""
+#define kYDOSSBaseURLString @""
 
 #define buglyKey @""
 

@@ -10,6 +10,5 @@
 
 #import "UIViewController+YDHook.h"
 #import "UIViewController+YDNav.h"
-#import "UINavigationController+YDHookStatusBar.h"
 
 #endif /* YDBaseVC_h */

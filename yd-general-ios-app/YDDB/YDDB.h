@@ -6,11 +6,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <fmdb/FMDB.h>
 
-NS_ASSUME_NONNULL_BEGIN
+#define PATH_OF_APP_HOME    NSHomeDirectory()
+#define PATH_OF_TEMP        NSTemporaryDirectory()
+#define PATH_OF_DOCUMENT    [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0]
 
 @interface YDDB : NSObject
+@property (nonatomic, copy) NSString *userDBPath;
+
++ (YDDB *)shareInstance;
 
 @end
 
-NS_ASSUME_NONNULL_END

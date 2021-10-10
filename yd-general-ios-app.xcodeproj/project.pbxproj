@@ -17,8 +17,6 @@
 		150A6792270603AE009EE4AF /* UIViewController+YDHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A6790270603AE009EE4AF /* UIViewController+YDHook.m */; };
 		150A679927060446009EE4AF /* UIViewController+YDNav.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A679827060446009EE4AF /* UIViewController+YDNav.m */; };
 		150A679A27060446009EE4AF /* UIViewController+YDNav.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A679827060446009EE4AF /* UIViewController+YDNav.m */; };
-		150A679D27060758009EE4AF /* UINavigationController+YDHookStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A679C27060758009EE4AF /* UINavigationController+YDHookStatusBar.m */; };
-		150A679E27060758009EE4AF /* UINavigationController+YDHookStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A679C27060758009EE4AF /* UINavigationController+YDHookStatusBar.m */; };
 		150A67A2270608A9009EE4AF /* YDHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67A1270608A9009EE4AF /* YDHomePageViewController.m */; };
 		150A67A3270608A9009EE4AF /* YDHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67A1270608A9009EE4AF /* YDHomePageViewController.m */; };
 		150A67A7270608BB009EE4AF /* YDLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67A6270608BB009EE4AF /* YDLoginViewController.m */; };
@@ -72,6 +70,16 @@
 		158AF91A270443250095A3B1 /* AppDelegate+YDServicePush.m in Sources */ = {isa = PBXBuildFile; fileRef = 158AF918270443250095A3B1 /* AppDelegate+YDServicePush.m */; };
 		158AF91E2704455C0095A3B1 /* YDTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 158AF91D2704455C0095A3B1 /* YDTestViewController.m */; };
 		158AF91F2704455C0095A3B1 /* YDTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 158AF91D2704455C0095A3B1 /* YDTestViewController.m */; };
+		15BA9C202711DEFB008019F4 /* YDPlistConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BA9C1F2711DEFB008019F4 /* YDPlistConst.m */; };
+		15BA9C212711DEFB008019F4 /* YDPlistConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BA9C1F2711DEFB008019F4 /* YDPlistConst.m */; };
+		15BA9C252711E4FB008019F4 /* YDUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BA9C242711E4FB008019F4 /* YDUser.m */; };
+		15BA9C262711E4FB008019F4 /* YDUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BA9C242711E4FB008019F4 /* YDUser.m */; };
+		15BA9C292711E930008019F4 /* YDDB+YDUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BA9C282711E930008019F4 /* YDDB+YDUser.m */; };
+		15BA9C2A2711E930008019F4 /* YDDB+YDUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BA9C282711E930008019F4 /* YDDB+YDUser.m */; };
+		15BA9C2F27127AA2008019F4 /* YDImageUploadService.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BA9C2E27127AA2008019F4 /* YDImageUploadService.m */; };
+		15BA9C3027127AA2008019F4 /* YDImageUploadService.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BA9C2E27127AA2008019F4 /* YDImageUploadService.m */; };
+		15BA9C38271288D2008019F4 /* YDLoginCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BA9C37271288D2008019F4 /* YDLoginCommand.m */; };
+		15BA9C39271288D2008019F4 /* YDLoginCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BA9C37271288D2008019F4 /* YDLoginCommand.m */; };
 		21035A6C219FA3AB9D49D6B0 /* libPods-yd-general-ios-app.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38246749678BFA03C80151BE /* libPods-yd-general-ios-app.a */; };
 		3306CEEFBDBA79D3E4794172 /* libPods-yd-general-ios-app-dev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E27A2D3BDC72AB5C3E16729 /* libPods-yd-general-ios-app-dev.a */; };
 /* End PBXBuildFile section */
@@ -104,8 +112,6 @@
 		150A6790270603AE009EE4AF /* UIViewController+YDHook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+YDHook.m"; sourceTree = "<group>"; };
 		150A679727060446009EE4AF /* UIViewController+YDNav.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+YDNav.h"; sourceTree = "<group>"; };
 		150A679827060446009EE4AF /* UIViewController+YDNav.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+YDNav.m"; sourceTree = "<group>"; };
-		150A679B27060758009EE4AF /* UINavigationController+YDHookStatusBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+YDHookStatusBar.h"; sourceTree = "<group>"; };
-		150A679C27060758009EE4AF /* UINavigationController+YDHookStatusBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+YDHookStatusBar.m"; sourceTree = "<group>"; };
 		150A679F2706079C009EE4AF /* YDBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDBaseVC.h; sourceTree = "<group>"; };
 		150A67A0270608A9009EE4AF /* YDHomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDHomePageViewController.h; sourceTree = "<group>"; };
 		150A67A1270608A9009EE4AF /* YDHomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDHomePageViewController.m; sourceTree = "<group>"; };
@@ -166,6 +172,16 @@
 		158AF918270443250095A3B1 /* AppDelegate+YDServicePush.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+YDServicePush.m"; sourceTree = "<group>"; };
 		158AF91C2704455B0095A3B1 /* YDTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDTestViewController.h; sourceTree = "<group>"; };
 		158AF91D2704455C0095A3B1 /* YDTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDTestViewController.m; sourceTree = "<group>"; };
+		15BA9C1E2711DEFB008019F4 /* YDPlistConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDPlistConst.h; sourceTree = "<group>"; };
+		15BA9C1F2711DEFB008019F4 /* YDPlistConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDPlistConst.m; sourceTree = "<group>"; };
+		15BA9C232711E4FB008019F4 /* YDUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDUser.h; sourceTree = "<group>"; };
+		15BA9C242711E4FB008019F4 /* YDUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDUser.m; sourceTree = "<group>"; };
+		15BA9C272711E930008019F4 /* YDDB+YDUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YDDB+YDUser.h"; sourceTree = "<group>"; };
+		15BA9C282711E930008019F4 /* YDDB+YDUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YDDB+YDUser.m"; sourceTree = "<group>"; wrapsLines = 0; };
+		15BA9C2D27127AA2008019F4 /* YDImageUploadService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDImageUploadService.h; sourceTree = "<group>"; };
+		15BA9C2E27127AA2008019F4 /* YDImageUploadService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDImageUploadService.m; sourceTree = "<group>"; };
+		15BA9C36271288D2008019F4 /* YDLoginCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDLoginCommand.h; sourceTree = "<group>"; };
+		15BA9C37271288D2008019F4 /* YDLoginCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDLoginCommand.m; sourceTree = "<group>"; };
 		38246749678BFA03C80151BE /* libPods-yd-general-ios-app.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-yd-general-ios-app.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E27A2D3BDC72AB5C3E16729 /* libPods-yd-general-ios-app-dev.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-yd-general-ios-app-dev.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87A3397D9D276E34E025EA8D /* Pods-yd-general-ios-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yd-general-ios-app.release.xcconfig"; path = "Target Support Files/Pods-yd-general-ios-app/Pods-yd-general-ios-app.release.xcconfig"; sourceTree = "<group>"; };
@@ -220,6 +236,7 @@
 		150A67802706007C009EE4AF /* UserConfig */ = {
 			isa = PBXGroup;
 			children = (
+				15BA9C222711E4EA008019F4 /* YDUserModel */,
 				150A678127060117009EE4AF /* YDUserConfig.h */,
 				150A678227060117009EE4AF /* YDUserConfig.m */,
 			);
@@ -240,6 +257,7 @@
 		150A67862706013C009EE4AF /* YDLogin */ = {
 			isa = PBXGroup;
 			children = (
+				15BA9C312712887B008019F4 /* Command */,
 				150A67A4270608AF009EE4AF /* VC */,
 			);
 			path = YDLogin;
@@ -281,8 +299,6 @@
 				150A6790270603AE009EE4AF /* UIViewController+YDHook.m */,
 				150A679727060446009EE4AF /* UIViewController+YDNav.h */,
 				150A679827060446009EE4AF /* UIViewController+YDNav.m */,
-				150A679B27060758009EE4AF /* UINavigationController+YDHookStatusBar.h */,
-				150A679C27060758009EE4AF /* UINavigationController+YDHookStatusBar.m */,
 			);
 			path = YDBaseVC;
 			sourceTree = "<group>";
@@ -335,6 +351,8 @@
 			children = (
 				150A67C827069690009EE4AF /* YDDB.h */,
 				150A67C927069690009EE4AF /* YDDB.m */,
+				15BA9C272711E930008019F4 /* YDDB+YDUser.h */,
+				15BA9C282711E930008019F4 /* YDDB+YDUser.m */,
 			);
 			path = YDDB;
 			sourceTree = "<group>";
@@ -445,6 +463,7 @@
 				158AF91527043F550095A3B1 /* YDPch */,
 				150A678927060275009EE4AF /* YDVendors */,
 				158AF90B27043B440095A3B1 /* YDConfig */,
+				15BA9C2B27127A5A008019F4 /* YDService */,
 				158AF8D2270418FB0095A3B1 /* Assets.xcassets */,
 				158AF8D4270418FB0095A3B1 /* LaunchScreen.storyboard */,
 				158AF8D8270418FB0095A3B1 /* main.m */,
@@ -472,6 +491,7 @@
 		158AF90B27043B440095A3B1 /* YDConfig */ = {
 			isa = PBXGroup;
 			children = (
+				15BA9C1D2711DEDB008019F4 /* YDPlistConst */,
 				150A67CC270696C8009EE4AF /* YDNotificationConst */,
 				150A67BF27069227009EE4AF /* YDUtilBlock */,
 				150A67802706007C009EE4AF /* UserConfig */,
@@ -526,6 +546,50 @@
 				158AF91D2704455C0095A3B1 /* YDTestViewController.m */,
 			);
 			path = YDTest;
+			sourceTree = "<group>";
+		};
+		15BA9C1D2711DEDB008019F4 /* YDPlistConst */ = {
+			isa = PBXGroup;
+			children = (
+				15BA9C1E2711DEFB008019F4 /* YDPlistConst.h */,
+				15BA9C1F2711DEFB008019F4 /* YDPlistConst.m */,
+			);
+			path = YDPlistConst;
+			sourceTree = "<group>";
+		};
+		15BA9C222711E4EA008019F4 /* YDUserModel */ = {
+			isa = PBXGroup;
+			children = (
+				15BA9C232711E4FB008019F4 /* YDUser.h */,
+				15BA9C242711E4FB008019F4 /* YDUser.m */,
+			);
+			path = YDUserModel;
+			sourceTree = "<group>";
+		};
+		15BA9C2B27127A5A008019F4 /* YDService */ = {
+			isa = PBXGroup;
+			children = (
+				15BA9C2C27127A71008019F4 /* YDImageUploadService */,
+			);
+			path = YDService;
+			sourceTree = "<group>";
+		};
+		15BA9C2C27127A71008019F4 /* YDImageUploadService */ = {
+			isa = PBXGroup;
+			children = (
+				15BA9C2D27127AA2008019F4 /* YDImageUploadService.h */,
+				15BA9C2E27127AA2008019F4 /* YDImageUploadService.m */,
+			);
+			path = YDImageUploadService;
+			sourceTree = "<group>";
+		};
+		15BA9C312712887B008019F4 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				15BA9C36271288D2008019F4 /* YDLoginCommand.h */,
+				15BA9C37271288D2008019F4 /* YDLoginCommand.m */,
+			);
+			path = Command;
 			sourceTree = "<group>";
 		};
 		B877425005EF63FE87D986E5 /* Frameworks */ = {
@@ -812,6 +876,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15BA9C38271288D2008019F4 /* YDLoginCommand.m in Sources */,
+				15BA9C292711E930008019F4 /* YDDB+YDUser.m in Sources */,
 				150A67C527069437009EE4AF /* YDCameraPermissionUtil.m in Sources */,
 				150A677E2705FFEB009EE4AF /* YDNetWorkConfig.m in Sources */,
 				150A67EA27073A69009EE4AF /* YDTableView.m in Sources */,
@@ -820,7 +886,9 @@
 				150A679927060446009EE4AF /* UIViewController+YDNav.m in Sources */,
 				150A67F9270740D5009EE4AF /* YDHiddenFunctionPasswordInputView.m in Sources */,
 				150A67FD27074AB2009EE4AF /* YDHiddenFunctionPasswordView.m in Sources */,
+				15BA9C2F27127AA2008019F4 /* YDImageUploadService.m in Sources */,
 				150A67B727068977009EE4AF /* AppDelegate+YDThird.m in Sources */,
+				15BA9C202711DEFB008019F4 /* YDPlistConst.m in Sources */,
 				158AF8C8270418F90095A3B1 /* AppDelegate.m in Sources */,
 				150A6791270603AE009EE4AF /* UIViewController+YDHook.m in Sources */,
 				150A67BC270691EB009EE4AF /* YDMineViewController.m in Sources */,
@@ -836,8 +904,8 @@
 				158AF8D9270418FB0095A3B1 /* main.m in Sources */,
 				150A67CA27069690009EE4AF /* YDDB.m in Sources */,
 				150A67E227073557009EE4AF /* YDStyle.m in Sources */,
+				15BA9C252711E4FB008019F4 /* YDUser.m in Sources */,
 				150A67D72706A128009EE4AF /* AppDelegate+YDSetupVC.m in Sources */,
-				150A679D27060758009EE4AF /* UINavigationController+YDHookStatusBar.m in Sources */,
 				150A67A7270608BB009EE4AF /* YDLoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -863,6 +931,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15BA9C39271288D2008019F4 /* YDLoginCommand.m in Sources */,
+				15BA9C2A2711E930008019F4 /* YDDB+YDUser.m in Sources */,
 				150A67C627069437009EE4AF /* YDCameraPermissionUtil.m in Sources */,
 				150A677F2705FFEF009EE4AF /* YDNetWorkConfig.m in Sources */,
 				150A67EB27073A69009EE4AF /* YDTableView.m in Sources */,
@@ -871,7 +941,9 @@
 				150A679A27060446009EE4AF /* UIViewController+YDNav.m in Sources */,
 				150A67FA270740D5009EE4AF /* YDHiddenFunctionPasswordInputView.m in Sources */,
 				150A67FE27074AB4009EE4AF /* YDHiddenFunctionPasswordView.m in Sources */,
+				15BA9C3027127AA2008019F4 /* YDImageUploadService.m in Sources */,
 				150A67B827068977009EE4AF /* AppDelegate+YDThird.m in Sources */,
+				15BA9C212711DEFB008019F4 /* YDPlistConst.m in Sources */,
 				158AF8FE2704193B0095A3B1 /* AppDelegate.m in Sources */,
 				150A6792270603AE009EE4AF /* UIViewController+YDHook.m in Sources */,
 				150A67BD270691EB009EE4AF /* YDMineViewController.m in Sources */,
@@ -887,8 +959,8 @@
 				158AF8FF2704193B0095A3B1 /* main.m in Sources */,
 				150A67CB27069690009EE4AF /* YDDB.m in Sources */,
 				150A67E327073557009EE4AF /* YDStyle.m in Sources */,
+				15BA9C262711E4FB008019F4 /* YDUser.m in Sources */,
 				150A67D82706A128009EE4AF /* AppDelegate+YDSetupVC.m in Sources */,
-				150A679E27060758009EE4AF /* UINavigationController+YDHookStatusBar.m in Sources */,
 				150A67A8270608BB009EE4AF /* YDLoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1060,6 +1132,50 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"CYLTabBarController\"",
+					"-l\"FMDB\"",
+					"-l\"IQKeyboardManager\"",
+					"-l\"M80AttributedLabel\"",
+					"-l\"MJRefresh\"",
+					"-l\"Masonry\"",
+					"-l\"ReactiveObjC\"",
+					"-l\"SDWebImage\"",
+					"-l\"SVProgressHUD\"",
+					"-l\"YDAvoidCrashKit\"",
+					"-l\"YDNetworkManager\"",
+					"-l\"YDUtilKit\"",
+					"-l\"YTKNetwork\"",
+					"-l\"YYModel\"",
+					"-l\"c++\"",
+					"-l\"lottie-ios\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Bugly\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yd-general-ios-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1091,6 +1207,50 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"CYLTabBarController\"",
+					"-l\"FMDB\"",
+					"-l\"IQKeyboardManager\"",
+					"-l\"M80AttributedLabel\"",
+					"-l\"MJRefresh\"",
+					"-l\"Masonry\"",
+					"-l\"ReactiveObjC\"",
+					"-l\"SDWebImage\"",
+					"-l\"SVProgressHUD\"",
+					"-l\"YDAvoidCrashKit\"",
+					"-l\"YDNetworkManager\"",
+					"-l\"YDUtilKit\"",
+					"-l\"YTKNetwork\"",
+					"-l\"YYModel\"",
+					"-l\"c++\"",
+					"-l\"lottie-ios\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Bugly\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yd-general-ios-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

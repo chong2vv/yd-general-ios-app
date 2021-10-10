@@ -11,7 +11,9 @@
 // api
 #define kYDBaseURLString  @""
 #define kYDDataAcquisitionBaseURLString @""
+#define kYDOSSBaseURLString @""
 
 #define buglyKey @""
+
 
 #endif /* YDAppOnlineDefine_h */

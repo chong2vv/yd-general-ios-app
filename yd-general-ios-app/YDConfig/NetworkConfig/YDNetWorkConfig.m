@@ -17,6 +17,10 @@
     return kYDDataAcquisitionBaseURLString;
 }
 
++ (NSString *)configOSSBaseUrl {
+    return kYDOSSBaseURLString;
+}
+
 + (NSDictionary<NSString *,NSString *> *)configHeader {
     NSMutableDictionary *requestHeaders = [[NSMutableDictionary alloc] init];
     

@@ -6,14 +6,25 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "YDUser.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface YDUserConfig : NSObject
+@property (nonatomic, assign)BOOL isLogin;
 
 + (instancetype)shared;
 
-- (BOOL)isLogin;
+- (YDUser *)getCurrentUser;
+
+//保存 or 更新用户信息
+- (void)saveUser:(YDUser *)user;
+
+//用户退出
+- (void)userLogout;
+
+//用户登录
+- (void)userLoginWithUser:(YDUser *)user;
 
 @end
 

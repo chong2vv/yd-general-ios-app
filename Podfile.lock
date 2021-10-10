@@ -45,23 +45,23 @@ PODS:
     - SDWebImage/Core (= 5.8.4)
   - SDWebImage/Core (5.8.4)
   - SVProgressHUD (2.2.5)
-  - YDAvoidCrashKit (0.1.2):
-    - YDAvoidCrashKit/YDAvoidCrash (= 0.1.2)
-    - YDAvoidCrashKit/YDLogger (= 0.1.2)
-    - YDAvoidCrashKit/YDLoggerUI (= 0.1.2)
-    - YDAvoidCrashKit/YDMonitor (= 0.1.2)
-    - YDAvoidCrashKit/YDSafeThread (= 0.1.2)
-    - YDAvoidCrashKit/YDTimer (= 0.1.2)
-  - YDAvoidCrashKit/YDAvoidCrash (0.1.2):
+  - YDAvoidCrashKit (0.1.3):
+    - YDAvoidCrashKit/YDAvoidCrash (= 0.1.3)
+    - YDAvoidCrashKit/YDLogger (= 0.1.3)
+    - YDAvoidCrashKit/YDLoggerUI (= 0.1.3)
+    - YDAvoidCrashKit/YDMonitor (= 0.1.3)
+    - YDAvoidCrashKit/YDSafeThread (= 0.1.3)
+    - YDAvoidCrashKit/YDTimer (= 0.1.3)
+  - YDAvoidCrashKit/YDAvoidCrash (0.1.3):
     - YDAvoidCrashKit/YDLogger
     - YDAvoidCrashKit/YDSafeThread
-  - YDAvoidCrashKit/YDLogger (0.1.2)
-  - YDAvoidCrashKit/YDLoggerUI (0.1.2):
+  - YDAvoidCrashKit/YDLogger (0.1.3)
+  - YDAvoidCrashKit/YDLoggerUI (0.1.3):
     - YDAvoidCrashKit/YDLogger
-  - YDAvoidCrashKit/YDMonitor (0.1.2):
+  - YDAvoidCrashKit/YDMonitor (0.1.3):
     - YDAvoidCrashKit/YDLogger
-  - YDAvoidCrashKit/YDSafeThread (0.1.2)
-  - YDAvoidCrashKit/YDTimer (0.1.2):
+  - YDAvoidCrashKit/YDSafeThread (0.1.3)
+  - YDAvoidCrashKit/YDTimer (0.1.3):
     - YDAvoidCrashKit/YDSafeThread
   - YDNetworkManager (0.0.5):
     - YTKNetwork
@@ -94,7 +94,7 @@ DEPENDENCIES:
   - ReactiveObjC (~> 3.1.0)
   - SDWebImage (~> 5.8.4)
   - SVProgressHUD
-  - YDAvoidCrashKit (~> 0.1.2)
+  - YDAvoidCrashKit (~> 0.1.3)
   - YDNetworkManager (~> 0.0.5)
   - YDUtilKit (~> 0.0.5)
   - YYModel
@@ -138,12 +138,12 @@ SPEC CHECKSUMS:
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
   SDWebImage: cf6922231e95550934da2ada0f20f2becf2ceba9
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
-  YDAvoidCrashKit: 9b890aa13e3d62b1c8b3886f85339de8b74e1d31
+  YDAvoidCrashKit: 3940e7a5bde83b895e04cf8b0e247fa162639c83
   YDNetworkManager: e72ef7270229d9ccca89f572b3d0bcc3d7a59122
   YDUtilKit: 1dd8baea344517c0f6f3c61a266b8ff0b8eae950
   YTKNetwork: c16be90b06be003de9e9cd0d3b187cc8eaf35c04
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: e0d6deedc31c0e717d252b79bfb47553bf4977d7
+PODFILE CHECKSUM: 8389eb2d2196f04ab67cebed2841a954a4be2eb2
 
 COCOAPODS: 1.11.0.beta.2

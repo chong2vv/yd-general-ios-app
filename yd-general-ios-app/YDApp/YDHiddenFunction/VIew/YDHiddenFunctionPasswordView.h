@@ -9,7 +9,15 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@protocol YDHiddenFunctionPasswordInputDelegate <NSObject>
+
+- (void)checkPasswordInput:(NSString *)password;
+
+@end
+
 @interface YDHiddenFunctionPasswordView : UIView
+
+@property (nonatomic, weak)id<YDHiddenFunctionPasswordInputDelegate> delegate;
 
 @end
 
