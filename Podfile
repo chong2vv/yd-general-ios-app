@@ -20,7 +20,9 @@ def sharePods
   pod 'SVProgressHUD'
   pod 'SDWebImage', '~> 5.8.4'
   pod 'FMDB'
-#  pod 'SAMKeychain'
+  pod 'fishhook'
+  pod 'ZFPlayer', '~> 4.0'
+  pod 'WebViewJavascriptBridge', '~> 6.0'
   
   #YDKit
   pod 'YDAvoidCrashKit', '~> 0.1.3'

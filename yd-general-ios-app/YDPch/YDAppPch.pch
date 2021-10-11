@@ -37,6 +37,7 @@
 #import "YDBaseView.h"
 #import "YDPlistConst.h"
 #import "YDUserConfig.h"
+#import "YDAlertViewController.h"
 
 //YDFoundation
 #import "YDBaseVC.h"

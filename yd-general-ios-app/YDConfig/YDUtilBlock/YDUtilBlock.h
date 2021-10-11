@@ -21,4 +21,7 @@ typedef void (^YDSuccessData)(NSData *data);
 typedef void (^YDFailureHandler)(void);
 typedef void (^YDFailureError)(NSError *error);
 
+typedef void (^YDConfirmActionBlock)(void);
+typedef void (^YDCancelActionBlock)(void);
+
 #endif /* YDUtilBlock_h */

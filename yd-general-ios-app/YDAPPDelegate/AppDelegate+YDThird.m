@@ -7,7 +7,7 @@
 
 #import "AppDelegate+YDThird.h"
 
-#ifdef DEBUG
+#if kIosAppDev && DEBUG
 #import <DoraemonKit/DoraemonManager.h>
 #endif
 
@@ -17,7 +17,7 @@
     //开启bugly
     [Bugly startWithAppId:buglyKey];
     
-#ifdef DEBUG
+#if kIosAppDev && DEBUG
     //DEBUG下开启哆啦A梦
     [[DoraemonManager shareInstance] install];
 #endif

@@ -67,7 +67,7 @@ static char *CloseInteractivePopGestureRecognizerKey = "CloseInteractivePopGestu
 - (void)swizzling_viewWillAppear:(BOOL)animated {
     [self swizzling_viewWillAppear:animated];
     //全部设置delegate会导致三方SDK里使用系统ImagePickerController事件失效
-    if ([NSStringFromClass(self.class).lowercaseString hasPrefix:@"art"]) {
+    if ([NSStringFromClass(self.class).lowercaseString hasPrefix:@"YD"]) {
         self.navigationController.delegate = self;
     }
 }
