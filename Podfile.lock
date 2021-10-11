@@ -47,6 +47,20 @@ PODS:
   - SDWebImage/Core (5.8.4)
   - SVProgressHUD (2.2.5)
   - WebViewJavascriptBridge (6.0.3)
+  - WHCNetWorkKit (0.0.3):
+    - WHCNetWorkKit/NSURLConnection (= 0.0.3)
+    - WHCNetWorkKit/NSURLSession (= 0.0.3)
+    - WHCNetWorkKit/Reachability (= 0.0.3)
+    - WHCNetWorkKit/UIKit (= 0.0.3)
+    - WHCNetWorkKit/UtillKit (= 0.0.3)
+  - WHCNetWorkKit/NSURLConnection (0.0.3):
+    - WHCNetWorkKit/Reachability
+  - WHCNetWorkKit/NSURLSession (0.0.3):
+    - WHCNetWorkKit/NSURLConnection
+  - WHCNetWorkKit/Reachability (0.0.3)
+  - WHCNetWorkKit/UIKit (0.0.3):
+    - WHCNetWorkKit/NSURLConnection
+  - WHCNetWorkKit/UtillKit (0.0.3)
   - YDAvoidCrashKit (0.1.3):
     - YDAvoidCrashKit/YDAvoidCrash (= 0.1.3)
     - YDAvoidCrashKit/YDLogger (= 0.1.3)
@@ -101,6 +115,7 @@ DEPENDENCIES:
   - SDWebImage (~> 5.8.4)
   - SVProgressHUD
   - WebViewJavascriptBridge (~> 6.0)
+  - WHCNetWorkKit (~> 0.0.3)
   - YDAvoidCrashKit (~> 0.1.3)
   - YDNetworkManager (~> 0.0.5)
   - YDUtilKit (~> 0.0.5)
@@ -126,6 +141,7 @@ SPEC REPOS:
     - SDWebImage
     - SVProgressHUD
     - WebViewJavascriptBridge
+    - WHCNetWorkKit
     - YDAvoidCrashKit
     - YDNetworkManager
     - YDUtilKit
@@ -151,6 +167,7 @@ SPEC CHECKSUMS:
   SDWebImage: cf6922231e95550934da2ada0f20f2becf2ceba9
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
+  WHCNetWorkKit: 169c27c8b8008e8f8d679277929777083a2379b9
   YDAvoidCrashKit: 3940e7a5bde83b895e04cf8b0e247fa162639c83
   YDNetworkManager: e72ef7270229d9ccca89f572b3d0bcc3d7a59122
   YDUtilKit: 1dd8baea344517c0f6f3c61a266b8ff0b8eae950
@@ -158,6 +175,6 @@ SPEC CHECKSUMS:
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
   ZFPlayer: f88787c815f7b0801279c42f131a89e2823e669e
 
-PODFILE CHECKSUM: 0c4d3c5cd8b3d69b25706a5a28877658cf89edb6
+PODFILE CHECKSUM: 08afb17f9d744be4ad40fc14bb6fe9d38ab9eedc
 
 COCOAPODS: 1.10.0

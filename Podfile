@@ -23,6 +23,7 @@ def sharePods
   pod 'fishhook'
   pod 'ZFPlayer', '~> 4.0'
   pod 'WebViewJavascriptBridge', '~> 6.0'
+  pod "WHCNetWorkKit", "~> 0.0.3"
   
   #YDKit
   pod 'YDAvoidCrashKit', '~> 0.1.3'
