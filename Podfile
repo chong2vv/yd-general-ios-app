@@ -24,6 +24,7 @@ def sharePods
   pod 'ZFPlayer', '~> 4.0'
   pod 'WebViewJavascriptBridge', '~> 6.0'
   pod "WHCNetWorkKit", "~> 0.0.3"
+  pod 'SSZipArchive'
   
   #YDKit
   pod 'YDAvoidCrashKit', '~> 0.1.3'
@@ -38,6 +39,8 @@ def testPods
   pod 'DoraemonKit/WithLogger', '~> 3.0.4'
   pod 'DoraemonKit/WithGPS', '~> 3.0.4'
   pod 'DoraemonKit/WithLoad', '~> 3.0.4'
+  #内存检测工具
+  pod 'MLeaksFinder'
 end
 
 
