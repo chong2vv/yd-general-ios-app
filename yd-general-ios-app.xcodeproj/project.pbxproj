@@ -65,6 +65,8 @@
 		15850CEB2713E2CD002F79B5 /* YDClearCacheService.m in Sources */ = {isa = PBXBuildFile; fileRef = 15850CE92713E2CD002F79B5 /* YDClearCacheService.m */; };
 		15850CEE2713E92C002F79B5 /* YDClearCacheConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 15850CED2713E92C002F79B5 /* YDClearCacheConfig.m */; };
 		15850CEF2713E92C002F79B5 /* YDClearCacheConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 15850CED2713E92C002F79B5 /* YDClearCacheConfig.m */; };
+		15850CFD2715B7DE002F79B5 /* YDLoggerUploadService.m in Sources */ = {isa = PBXBuildFile; fileRef = 15850CFC2715B7DE002F79B5 /* YDLoggerUploadService.m */; };
+		15850CFE2715B7DF002F79B5 /* YDLoggerUploadService.m in Sources */ = {isa = PBXBuildFile; fileRef = 15850CFC2715B7DE002F79B5 /* YDLoggerUploadService.m */; };
 		158AF8C8270418F90095A3B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 158AF8C7270418F90095A3B1 /* AppDelegate.m */; };
 		158AF8D3270418FB0095A3B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 158AF8D2270418FB0095A3B1 /* Assets.xcassets */; };
 		158AF8D6270418FB0095A3B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 158AF8D4270418FB0095A3B1 /* LaunchScreen.storyboard */; };
@@ -175,6 +177,8 @@
 		15850CE92713E2CD002F79B5 /* YDClearCacheService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDClearCacheService.m; sourceTree = "<group>"; };
 		15850CEC2713E92B002F79B5 /* YDClearCacheConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDClearCacheConfig.h; sourceTree = "<group>"; };
 		15850CED2713E92C002F79B5 /* YDClearCacheConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDClearCacheConfig.m; sourceTree = "<group>"; };
+		15850CFB2715B7DE002F79B5 /* YDLoggerUploadService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDLoggerUploadService.h; sourceTree = "<group>"; };
+		15850CFC2715B7DE002F79B5 /* YDLoggerUploadService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDLoggerUploadService.m; sourceTree = "<group>"; };
 		158AF8C3270418F90095A3B1 /* yd-general-ios-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "yd-general-ios-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		158AF8C6270418F90095A3B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		158AF8C7270418F90095A3B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -483,6 +487,15 @@
 			path = YDClearCacheService;
 			sourceTree = "<group>";
 		};
+		15850CFA2715B7B5002F79B5 /* YDLoggerUploadService */ = {
+			isa = PBXGroup;
+			children = (
+				15850CFB2715B7DE002F79B5 /* YDLoggerUploadService.h */,
+				15850CFC2715B7DE002F79B5 /* YDLoggerUploadService.m */,
+			);
+			path = YDLoggerUploadService;
+			sourceTree = "<group>";
+		};
 		158AF8BA270418F90095A3B1 = {
 			isa = PBXGroup;
 			children = (
@@ -622,6 +635,7 @@
 		15BA9C2B27127A5A008019F4 /* YDService */ = {
 			isa = PBXGroup;
 			children = (
+				15850CFA2715B7B5002F79B5 /* YDLoggerUploadService */,
 				15850CDA2713DE5E002F79B5 /* YDClearCacheService */,
 				15BA9C2C27127A71008019F4 /* YDImageUploadService */,
 			);
@@ -935,6 +949,7 @@
 				150A67C527069437009EE4AF /* YDCameraPermissionUtil.m in Sources */,
 				150A677E2705FFEB009EE4AF /* YDNetWorkConfig.m in Sources */,
 				150A67EA27073A69009EE4AF /* YDTableView.m in Sources */,
+				15850CFD2715B7DE002F79B5 /* YDLoggerUploadService.m in Sources */,
 				150A67B327068414009EE4AF /* AppDelegate+YDAvoidCrash.m in Sources */,
 				15850CD82713DDE8002F79B5 /* YDAlertViewController.m in Sources */,
 				150A67F5270740B6009EE4AF /* YDView.m in Sources */,
@@ -996,6 +1011,7 @@
 				150A67C627069437009EE4AF /* YDCameraPermissionUtil.m in Sources */,
 				150A677F2705FFEF009EE4AF /* YDNetWorkConfig.m in Sources */,
 				150A67EB27073A69009EE4AF /* YDTableView.m in Sources */,
+				15850CFE2715B7DF002F79B5 /* YDLoggerUploadService.m in Sources */,
 				150A67B427068414009EE4AF /* AppDelegate+YDAvoidCrash.m in Sources */,
 				15850CD92713DDE8002F79B5 /* YDAlertViewController.m in Sources */,
 				150A67F6270740B6009EE4AF /* YDView.m in Sources */,

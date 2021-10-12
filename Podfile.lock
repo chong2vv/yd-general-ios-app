@@ -41,6 +41,9 @@ PODS:
   - M80AttributedLabel (1.9.9)
   - Masonry (1.1.0)
   - MJRefresh (3.7.2)
+  - MMKV (1.2.10):
+    - MMKVCore (~> 1.2.10)
+  - MMKVCore (1.2.10)
   - ReactiveObjC (3.1.1)
   - SDWebImage (5.8.4):
     - SDWebImage/Core (= 5.8.4)
@@ -62,23 +65,23 @@ PODS:
   - WHCNetWorkKit/UIKit (0.0.3):
     - WHCNetWorkKit/NSURLConnection
   - WHCNetWorkKit/UtillKit (0.0.3)
-  - YDAvoidCrashKit (0.1.3):
-    - YDAvoidCrashKit/YDAvoidCrash (= 0.1.3)
-    - YDAvoidCrashKit/YDLogger (= 0.1.3)
-    - YDAvoidCrashKit/YDLoggerUI (= 0.1.3)
-    - YDAvoidCrashKit/YDMonitor (= 0.1.3)
-    - YDAvoidCrashKit/YDSafeThread (= 0.1.3)
-    - YDAvoidCrashKit/YDTimer (= 0.1.3)
-  - YDAvoidCrashKit/YDAvoidCrash (0.1.3):
+  - YDAvoidCrashKit (0.1.5):
+    - YDAvoidCrashKit/YDAvoidCrash (= 0.1.5)
+    - YDAvoidCrashKit/YDLogger (= 0.1.5)
+    - YDAvoidCrashKit/YDLoggerUI (= 0.1.5)
+    - YDAvoidCrashKit/YDMonitor (= 0.1.5)
+    - YDAvoidCrashKit/YDSafeThread (= 0.1.5)
+    - YDAvoidCrashKit/YDTimer (= 0.1.5)
+  - YDAvoidCrashKit/YDAvoidCrash (0.1.5):
     - YDAvoidCrashKit/YDLogger
     - YDAvoidCrashKit/YDSafeThread
-  - YDAvoidCrashKit/YDLogger (0.1.3)
-  - YDAvoidCrashKit/YDLoggerUI (0.1.3):
+  - YDAvoidCrashKit/YDLogger (0.1.5)
+  - YDAvoidCrashKit/YDLoggerUI (0.1.5):
     - YDAvoidCrashKit/YDLogger
-  - YDAvoidCrashKit/YDMonitor (0.1.3):
+  - YDAvoidCrashKit/YDMonitor (0.1.5):
     - YDAvoidCrashKit/YDLogger
-  - YDAvoidCrashKit/YDSafeThread (0.1.3)
-  - YDAvoidCrashKit/YDTimer (0.1.3):
+  - YDAvoidCrashKit/YDSafeThread (0.1.5)
+  - YDAvoidCrashKit/YDTimer (0.1.5):
     - YDAvoidCrashKit/YDSafeThread
   - YDNetworkManager (0.0.5):
     - YTKNetwork
@@ -112,13 +115,14 @@ DEPENDENCIES:
   - M80AttributedLabel (~> 1.9.9)
   - Masonry
   - MJRefresh
+  - MMKV
   - ReactiveObjC (~> 3.1.0)
   - SDWebImage (~> 5.8.4)
   - SSZipArchive
   - SVProgressHUD
   - WebViewJavascriptBridge (~> 6.0)
   - WHCNetWorkKit (~> 0.0.3)
-  - YDAvoidCrashKit (~> 0.1.3)
+  - YDAvoidCrashKit (~> 0.1.5)
   - YDNetworkManager (~> 0.0.5)
   - YDUtilKit (~> 0.0.5)
   - YYModel
@@ -139,6 +143,8 @@ SPEC REPOS:
     - M80AttributedLabel
     - Masonry
     - MJRefresh
+    - MMKV
+    - MMKVCore
     - ReactiveObjC
     - SDWebImage
     - SSZipArchive
@@ -166,19 +172,21 @@ SPEC CHECKSUMS:
   M80AttributedLabel: 77fedfe63804c989a6de0fa4d400ea8cad3ab441
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: 30997d30b347c8e9508a4db11e3a690da0c9b85a
+  MMKV: 76033b9ace2006623308910a3afcc0e25eba3140
+  MMKVCore: b00e7a09ec77a1b916aef336eedd3b99ec249978
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
   SDWebImage: cf6922231e95550934da2ada0f20f2becf2ceba9
   SSZipArchive: e7b4f3d9e780c2acc1764cd88fbf2de28f26e5b2
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
   WHCNetWorkKit: 169c27c8b8008e8f8d679277929777083a2379b9
-  YDAvoidCrashKit: 3940e7a5bde83b895e04cf8b0e247fa162639c83
+  YDAvoidCrashKit: 1362dbe9eb85789de9ce8527686177a0280e0023
   YDNetworkManager: e72ef7270229d9ccca89f572b3d0bcc3d7a59122
   YDUtilKit: 1dd8baea344517c0f6f3c61a266b8ff0b8eae950
   YTKNetwork: c16be90b06be003de9e9cd0d3b187cc8eaf35c04
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
   ZFPlayer: f88787c815f7b0801279c42f131a89e2823e669e
 
-PODFILE CHECKSUM: e7928a534cc7ef1bdb7ebebdd7ba69893ff13cc7
+PODFILE CHECKSUM: b553529bc754f23d2066f9df2c15bf76b072a369
 
-COCOAPODS: 1.11.0.beta.2
+COCOAPODS: 1.10.0

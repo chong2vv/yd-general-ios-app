@@ -349,7 +349,7 @@ static NSString * const kYDLogSearchKey = @"YDLogSearch";
     
 // 判断文件名格式是否正确
 - (BOOL)_isValidFileName:(NSString *)fileName {
-    BOOL hasPrefix = [fileName hasPrefix:[[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleName"]];
+    BOOL hasPrefix = [fileName hasPrefix:@"YDLogger"];
     BOOL hasTime = [fileName componentsSeparatedByString:@"-"].count == 3 ? YES : NO;
     return (hasPrefix && hasTime);
 }

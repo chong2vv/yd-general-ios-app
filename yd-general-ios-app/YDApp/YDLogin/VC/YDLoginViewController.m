@@ -17,11 +17,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"登录";
-    
-    [self.navigationController.navigationBar whenFiveTapped:^{
-        YDHiddenFunctionViewController *vc = [[YDHiddenFunctionViewController alloc] init];
-        [self.navigationController pushViewController:vc animated:YES];
-    }];
 }
 
 - (void)login {

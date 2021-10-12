@@ -41,10 +41,6 @@ static char *CloseInteractivePopGestureRecognizerKey = "CloseInteractivePopGestu
 - (void)swizzling_viewDidDisappear:(BOOL)animated
 {
     [self swizzling_viewDidDisappear:animated];
-//    if ([self.nameForStatistics isKindOfClass:NSString.class] &&
-//        self.nameForStatistics.length > 0) {
-//        [ArtStatisticAnalysisService endLogPageView:self.nameForStatistics];
-//    }
 }
 - (void)swizzling_viewDidAppear:(BOOL)animated {
     [self swizzling_viewDidAppear:animated];
@@ -58,10 +54,6 @@ static char *CloseInteractivePopGestureRecognizerKey = "CloseInteractivePopGestu
         self.navigationController.interactivePopGestureRecognizer.enabled = self.navigationController.viewControllers.count != 1;
     }
     
-//    if ([self.nameForStatistics isKindOfClass:NSString.class] &&
-//        self.nameForStatistics.length > 0) {
-//        [ArtStatisticAnalysisService beginLogPageView:self.nameForStatistics];
-//    }
 }
 
 - (void)swizzling_viewWillAppear:(BOOL)animated {

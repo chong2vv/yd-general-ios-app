@@ -30,6 +30,7 @@
 #import <YYModel/YYModel.h>
 #import <SDWebImage.h>
 #import <ReactiveObjC/ReactiveObjC.h>
+#import <MMKV/MMKV.h>
 
 //src
 #import "YDAppDefine.h"

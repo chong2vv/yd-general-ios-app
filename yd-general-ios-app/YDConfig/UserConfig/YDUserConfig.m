@@ -26,7 +26,7 @@
 
 - (instancetype)init {
     if (self = [super init]) {
-        NSString *uid = [[NSUserDefaults standardUserDefaults] stringForKey:YDPlistCurrentUserUID];
+        NSString *uid = [[MMKV defaultMMKV] getStringForKey:YDPlistCurrentUserUID];
         if (uid.length > 0) {
             self.isLogin = YES;
             [[[YDDB shareInstance] selectUserWithUid:uid] subscribeNext:^(YDUser *x) {
@@ -57,7 +57,7 @@
 - (void)userLoginWithUser:(YDUser *)user {
     self.currentUser = user;
     self.isLogin = YES;
-    [[NSUserDefaults standardUserDefaults] setValue:user.uid forKey:YDPlistCurrentUserUID];
+    [[MMKV defaultMMKV] setString:user.uid forKey:YDPlistCurrentUserUID];
     [[NSNotificationCenter defaultCenter] postNotificationName:YDUserNotificationUserLogin object:nil];
     [[[YDDB shareInstance] insertWithUserModel:user] subscribeNext:^(NSString *x) {
         NSString *uid = x;

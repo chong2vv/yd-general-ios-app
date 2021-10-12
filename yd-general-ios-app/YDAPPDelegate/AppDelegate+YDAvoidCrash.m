@@ -6,6 +6,7 @@
 //
 
 #import "AppDelegate+YDAvoidCrash.h"
+#import "YDLoggerUploadService.h"
 
 @implementation AppDelegate (YDAvoidCrash)
 
@@ -17,6 +18,9 @@
     //开启防崩溃
     [YDAvoidCrash becomeAllEffectiveWithLogger:YES];
     
+    YDLogInfo(@"==== 开启防崩溃 ====");
+    
+    [[YDLoggerUploadService shared] uploadLoggerZIP];
 }
 
 @end

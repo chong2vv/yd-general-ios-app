@@ -28,7 +28,7 @@ def sharePods
   pod 'MMKV'
   
   #YDKit
-  pod 'YDAvoidCrashKit', '~> 0.1.4'
+  pod 'YDAvoidCrashKit', '~> 0.1.5'
   pod 'YDUtilKit', '~> 0.0.5'
   pod 'YDNetworkManager', '~> 0.0.5'
   

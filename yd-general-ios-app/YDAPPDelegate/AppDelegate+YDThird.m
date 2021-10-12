@@ -17,6 +17,8 @@
     //开启bugly
     [Bugly startWithAppId:buglyKey];
     
+    [MMKV initializeMMKV:nil];
+    
 #if kIosAppDev && DEBUG
     //DEBUG下开启哆啦A梦
     [[DoraemonManager shareInstance] install];
