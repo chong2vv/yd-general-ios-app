@@ -25,9 +25,10 @@ def sharePods
   pod 'WebViewJavascriptBridge', '~> 6.0'
   pod "WHCNetWorkKit", "~> 0.0.3"
   pod 'SSZipArchive'
+  pod 'MMKV'
   
   #YDKit
-  pod 'YDAvoidCrashKit', '~> 0.1.3'
+  pod 'YDAvoidCrashKit', '~> 0.1.4'
   pod 'YDUtilKit', '~> 0.0.5'
   pod 'YDNetworkManager', '~> 0.0.5'
   
