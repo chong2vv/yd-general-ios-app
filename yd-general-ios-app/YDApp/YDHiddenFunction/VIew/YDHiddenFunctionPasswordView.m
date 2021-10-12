@@ -58,7 +58,7 @@ static NSString *const KYDVerityRoomInputKeyDel          = @"删除";
     if (UI_IS_IPAD) {
         CGFloat inputHeight = 55. ;
         [self.inputLabelView mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.top.mas_equalTo(self).offset(84.);
+            make.top.mas_equalTo(self).offset(64.);
             make.width.mas_equalTo(400.);
             make.centerX.mas_equalTo(self);
             make.height.mas_equalTo(inputHeight);
@@ -84,7 +84,7 @@ static NSString *const KYDVerityRoomInputKeyDel          = @"删除";
     else {
         CGFloat inputHeight = 35. *KPhoneScale;
         [self.inputLabelView mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.top.mas_equalTo(self).offset(22.5 *KPhoneScale);
+            make.top.mas_equalTo(self).offset(64. *KPhoneScale);
             make.width.mas_equalTo([self Width]);
             make.centerX.mas_equalTo(self);
             make.height.mas_equalTo(inputHeight);

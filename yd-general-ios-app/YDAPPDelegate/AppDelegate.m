@@ -27,7 +27,7 @@
     [self becomeEffective];
     
     //注册推送
-    [self registerForRemoteNotifications:application];
+    [self registerForRemoteNotifications:application didFinishLaunchingWithOptions:launchOptions];
     
     //开启第三方配置，如bugly
     [self thirdPartyConfig:application];

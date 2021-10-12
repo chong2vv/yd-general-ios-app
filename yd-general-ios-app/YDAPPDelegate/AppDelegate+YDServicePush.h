@@ -11,7 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface AppDelegate (YDServicePush)
 
--(void)registerForRemoteNotifications:(UIApplication *)application;
+-(void)registerForRemoteNotifications:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions;
 
 @end
 

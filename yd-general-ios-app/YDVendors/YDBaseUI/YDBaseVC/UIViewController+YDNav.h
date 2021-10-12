@@ -17,6 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)uploadTitleType;
 
 - (void)back;
+
 - (void)backAnimated:(BOOL)animated;
 
 // 获取最近的导航控制器

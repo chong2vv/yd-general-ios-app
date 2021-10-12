@@ -11,6 +11,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface YDPlistConst : NSObject
 
+/**
+ 用户信息
+ */
+//用户uid
 extern NSString *const YDPlistCurrentUserUID;
 
 @end

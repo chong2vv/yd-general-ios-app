@@ -13,6 +13,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)configRootVC:(UIApplication *)application;
 
+- (UIViewController *)currentVC;
+
+- (UITabBarController *)rootTabBarController;
 @end
 
 NS_ASSUME_NONNULL_END

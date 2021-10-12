@@ -116,4 +116,41 @@
 }
 
 
+- (UIViewController *)currentVC{
+    UIViewController *vc = nil;
+    vc = [self getCurrentViewControllerFromRootVC:self.window.rootViewController];
+    return vc;
+}
+
+/// 获取当前显示的vc
+/// @param vc 传入rootVC
+- (UIViewController *)getCurrentViewControllerFromRootVC:(UIViewController *)vc{
+    if ([vc isKindOfClass:[UINavigationController class]]) {
+        return [self getCurrentViewControllerFromRootVC:[((UINavigationController *) vc) visibleViewController]];
+    } else if ([vc isKindOfClass:[UITabBarController class]]) {
+        return [self getCurrentViewControllerFromRootVC:[((UITabBarController *) vc) selectedViewController]];
+    } else {
+        if (vc.presentedViewController) {
+            return [self getCurrentViewControllerFromRootVC:vc.presentedViewController];
+        } else {
+            return vc;
+        }
+    }
+}
+
+- (UITabBarController *)rootTabBarController
+{
+    if([self.window.rootViewController isKindOfClass:[UITabBarController class]]){
+        return (UITabBarController*)self.window.rootViewController;
+    } else if([self.window.rootViewController isKindOfClass:[UITabBarController class]]){
+        UIViewController *tabBar = self.window.rootViewController ;
+        if ([tabBar isKindOfClass:[UITabBarController class]]) {
+            return (UITabBarController *)tabBar;
+        }
+        return nil;
+    }  else {
+        return nil;
+    }
+}
+
 @end
