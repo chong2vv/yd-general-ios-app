@@ -40,7 +40,6 @@ def testPods
   pod 'DoraemonKit/WithGPS', '~> 3.0.4'
   pod 'DoraemonKit/WithLoad', '~> 3.0.4'
   #内存检测工具
-  pod 'MLeaksFinder'
 end
 
 
