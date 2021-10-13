@@ -7,6 +7,7 @@
 
 #import "YDLoggerUploadService.h"
 #import <SSZipArchive/SSZipArchive.h>
+#import "YDUploadManager.h"
 
 #define PATH_OF_DOCUMENT    [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0]
 
@@ -27,7 +28,6 @@
     [[YDLogService shared] getAllLogFileData];
 
     // 获取zipDir下的所有zip文件
-    NSFileManager *fm = [NSFileManager defaultManager];
     NSMutableSet *zipSet = [NSMutableSet new];
     
     NSString *zipPath = [YDFileManager createDirectory:@"YDLoggerZip"];
@@ -60,14 +60,12 @@
                 NSString *path = [NSString stringWithFormat:@"%@/%@",zipPath,zipName];
                 // 查看是否已经压缩过，不要重复压缩
                 if ([zipSet containsObject:zipName]) {
-                    [fm removeItemAtPath:name error:nil];
                     YDLogInfo(@"删除已压缩过的日志文件:%@", name);
                     continue;
                 }
 
                 if ([SSZipArchive createZipFileAtPath:path withFilesAtPaths:@[name]]) {
                     [zipSet addObject:zipName];
-                    [fm removeItemAtPath:name error:nil];
                     YDLogInfo(@"====== 压缩成功 =======");
                 }else {
                     YDLogError(@"====== 压缩失败 =======");
@@ -76,10 +74,23 @@
         }
     }
     
+//    [self _uploadZip:zipSet];
 }
 
 - (void)_uploadZip:(NSMutableSet *)zipSet {
+    NSString *zipPath = [YDFileManager createDirectory:@"YDLoggerZip"];
+    [zipSet enumerateObjectsUsingBlock:^(id  _Nonnull obj, BOOL * _Nonnull stop) {
+        NSString *path = (NSString *)obj;
+        [[YDUploadManager shared] addUploadFile:[NSString stringWithFormat:@"%@/%@",zipPath,path] forKey:@"YDLogger"];
+    }];
     
+    [[YDUploadManager shared] upload:@"" param:@{} process:^(WHC_BaseOperation * _Nullable operation, uint64_t recvLength, uint64_t totalLength, NSString * _Nullable speed) {
+            
+        } didFinished:^(WHC_BaseOperation * _Nullable operation, NSData * _Nullable data, NSError * _Nullable error, BOOL isSuccess) {
+            if (isSuccess) {
+                
+            }
+        }];
 }
 
 // 创建文件夹
