@@ -25,16 +25,19 @@
     
     
     [[YDLogService shared] getAllLogFileData];
-    
+
     // 获取zipDir下的所有zip文件
     NSFileManager *fm = [NSFileManager defaultManager];
     NSMutableSet *zipSet = [NSMutableSet new];
-    NSArray *files = [[YDLogService shared] getAllLogFileData];
+    
+    NSString *zipPath = [YDFileManager createDirectory:@"YDLoggerZip"];
+    
+    NSArray *zipfiles = [YDFileManager subpathsOfDirectoryAtPath:zipPath];
     // 将zip文件添加到上传队列中
-    if (files) {
-        for (int i = 0; i < (NSInteger)files.count; ++i) {
+    if (zipfiles) {
+        for (int i = 0; i < (NSInteger)zipfiles.count; ++i) {
             @autoreleasepool {
-                NSString *name = files[i];
+                NSString *name = zipfiles[i];
                 if ([name hasSuffix:@".zip"]) {
                     [zipSet addObject:name];
                 }
@@ -42,34 +45,40 @@
         }
     }
     
-//    if (files) {
-//        for (NSString *name in files) {
-//            if ([name isEqualToString:[YDMmapLogService shared].filePath.lastPathComponent]) {
-//                continue;
-//            }
-//
-//            @autoreleasepool {
-//
-//                if (![name hasSuffix:@".zip"]) {
-//                    NSString *path = [NSString stringWithFormat:@"%@.zip",name];
-//
-//                    // 查看是否已经压缩过，不要重复压缩
-//                    if ([zipSet containsObject:path]) {
-//                        [fm removeItemAtPath:name error:nil];
-//                        YDLogInfo(@"删除已压缩过的日志文件:%@", name);
-//                        continue;
-//                    }
-//
-//                    if ([SSZipArchive createZipFileAtPath:path withFilesAtPaths:[[YDLogService shared] getAllLogFileData]]) {
-//                        [zipSet addObject:path];
-//                        YDLogError(@"====== 压缩成功 =======");
-//                    }else {
-//                        YDLogError(@"====== 压缩失败 =======");
-//                    }
-//                }
-//            }
-//        }
-//    }
+    NSArray *files = [[YDLogService shared] getAllLogFileData];
+    //删除
+    if (files) {
+        for (int i=0; i<files.count; i++){
+            NSLog(@"==== 循环第%d次 ====", i);
+            NSString *name = [files objectAtIndex:i];
+            if ([name isEqualToString:[YDMmapLogService shared].filePath.lastPathComponent]) {
+                continue;
+            }
+
+            @autoreleasepool {
+                NSString *zipName = [NSString stringWithFormat:@"%@.zip",[name componentsSeparatedByString:@"/"].lastObject];
+                NSString *path = [NSString stringWithFormat:@"%@/%@",zipPath,zipName];
+                // 查看是否已经压缩过，不要重复压缩
+                if ([zipSet containsObject:zipName]) {
+                    [fm removeItemAtPath:name error:nil];
+                    YDLogInfo(@"删除已压缩过的日志文件:%@", name);
+                    continue;
+                }
+
+                if ([SSZipArchive createZipFileAtPath:path withFilesAtPaths:@[name]]) {
+                    [zipSet addObject:zipName];
+                    [fm removeItemAtPath:name error:nil];
+                    YDLogInfo(@"====== 压缩成功 =======");
+                }else {
+                    YDLogError(@"====== 压缩失败 =======");
+                }
+            }
+        }
+    }
+    
+}
+
+- (void)_uploadZip:(NSMutableSet *)zipSet {
     
 }
 

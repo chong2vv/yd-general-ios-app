@@ -53,6 +53,10 @@
 		150A67FA270740D5009EE4AF /* YDHiddenFunctionPasswordInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67F8270740D5009EE4AF /* YDHiddenFunctionPasswordInputView.m */; };
 		150A67FD27074AB2009EE4AF /* YDHiddenFunctionPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67FC27074AB2009EE4AF /* YDHiddenFunctionPasswordView.m */; };
 		150A67FE27074AB4009EE4AF /* YDHiddenFunctionPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67FC27074AB2009EE4AF /* YDHiddenFunctionPasswordView.m */; };
+		157FFCA02716F75C0034946A /* YDFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 157FFC9F2716F75C0034946A /* YDFileManager.m */; };
+		157FFCA12716F75C0034946A /* YDFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 157FFC9F2716F75C0034946A /* YDFileManager.m */; };
+		157FFCA42716FBC30034946A /* YDUploadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 157FFCA32716FBC30034946A /* YDUploadManager.m */; };
+		157FFCA52716FBC30034946A /* YDUploadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 157FFCA32716FBC30034946A /* YDUploadManager.m */; };
 		15850CD82713DDE8002F79B5 /* YDAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15850CD72713DDE8002F79B5 /* YDAlertViewController.m */; };
 		15850CD92713DDE8002F79B5 /* YDAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15850CD72713DDE8002F79B5 /* YDAlertViewController.m */; };
 		15850CDD2713DFEF002F79B5 /* YDAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 15850CDC2713DFEF002F79B5 /* YDAlertAction.m */; };
@@ -164,6 +168,10 @@
 		150A67F8270740D5009EE4AF /* YDHiddenFunctionPasswordInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDHiddenFunctionPasswordInputView.m; sourceTree = "<group>"; };
 		150A67FB27074AB2009EE4AF /* YDHiddenFunctionPasswordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDHiddenFunctionPasswordView.h; sourceTree = "<group>"; };
 		150A67FC27074AB2009EE4AF /* YDHiddenFunctionPasswordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDHiddenFunctionPasswordView.m; sourceTree = "<group>"; };
+		157FFC9E2716F75C0034946A /* YDFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDFileManager.h; sourceTree = "<group>"; };
+		157FFC9F2716F75C0034946A /* YDFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDFileManager.m; sourceTree = "<group>"; };
+		157FFCA22716FBC30034946A /* YDUploadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDUploadManager.h; sourceTree = "<group>"; };
+		157FFCA32716FBC30034946A /* YDUploadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDUploadManager.m; sourceTree = "<group>"; };
 		15850CD62713DDE8002F79B5 /* YDAlertViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDAlertViewController.h; sourceTree = "<group>"; };
 		15850CD72713DDE8002F79B5 /* YDAlertViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDAlertViewController.m; sourceTree = "<group>"; };
 		15850CDB2713DFEF002F79B5 /* YDAlertAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDAlertAction.h; sourceTree = "<group>"; };
@@ -460,6 +468,15 @@
 			path = VIew;
 			sourceTree = "<group>";
 		};
+		157FFC9D2716F7400034946A /* YDFileManager */ = {
+			isa = PBXGroup;
+			children = (
+				157FFC9E2716F75C0034946A /* YDFileManager.h */,
+				157FFC9F2716F75C0034946A /* YDFileManager.m */,
+			);
+			path = YDFileManager;
+			sourceTree = "<group>";
+		};
 		15850CD52713DD2E002F79B5 /* YDAlertView */ = {
 			isa = PBXGroup;
 			children = (
@@ -635,20 +652,23 @@
 		15BA9C2B27127A5A008019F4 /* YDService */ = {
 			isa = PBXGroup;
 			children = (
+				157FFC9D2716F7400034946A /* YDFileManager */,
 				15850CFA2715B7B5002F79B5 /* YDLoggerUploadService */,
 				15850CDA2713DE5E002F79B5 /* YDClearCacheService */,
-				15BA9C2C27127A71008019F4 /* YDImageUploadService */,
+				15BA9C2C27127A71008019F4 /* YDUploadService */,
 			);
 			path = YDService;
 			sourceTree = "<group>";
 		};
-		15BA9C2C27127A71008019F4 /* YDImageUploadService */ = {
+		15BA9C2C27127A71008019F4 /* YDUploadService */ = {
 			isa = PBXGroup;
 			children = (
 				15BA9C2D27127AA2008019F4 /* YDImageUploadService.h */,
 				15BA9C2E27127AA2008019F4 /* YDImageUploadService.m */,
+				157FFCA22716FBC30034946A /* YDUploadManager.h */,
+				157FFCA32716FBC30034946A /* YDUploadManager.m */,
 			);
-			path = YDImageUploadService;
+			path = YDUploadService;
 			sourceTree = "<group>";
 		};
 		15BA9C312712887B008019F4 /* Command */ = {
@@ -968,6 +988,7 @@
 				15850CE52713E118002F79B5 /* YDAlertView.m in Sources */,
 				15850CDD2713DFEF002F79B5 /* YDAlertAction.m in Sources */,
 				15850CEA2713E2CD002F79B5 /* YDClearCacheService.m in Sources */,
+				157FFCA02716F75C0034946A /* YDFileManager.m in Sources */,
 				150A67E627073642009EE4AF /* YDImageView.m in Sources */,
 				158AF91E2704455C0095A3B1 /* YDTestViewController.m in Sources */,
 				150A678D27060308009EE4AF /* YDBaseViewController.m in Sources */,
@@ -976,6 +997,7 @@
 				150A67D227069855009EE4AF /* YDButton.m in Sources */,
 				158AF919270443250095A3B1 /* AppDelegate+YDServicePush.m in Sources */,
 				158AF8D9270418FB0095A3B1 /* main.m in Sources */,
+				157FFCA42716FBC30034946A /* YDUploadManager.m in Sources */,
 				150A67CA27069690009EE4AF /* YDDB.m in Sources */,
 				150A67E227073557009EE4AF /* YDStyle.m in Sources */,
 				15850CE12713E067002F79B5 /* YDAlertViewConfig.m in Sources */,
@@ -1030,6 +1052,7 @@
 				15850CE62713E118002F79B5 /* YDAlertView.m in Sources */,
 				15850CDE2713DFEF002F79B5 /* YDAlertAction.m in Sources */,
 				15850CEB2713E2CD002F79B5 /* YDClearCacheService.m in Sources */,
+				157FFCA12716F75C0034946A /* YDFileManager.m in Sources */,
 				150A67E727073642009EE4AF /* YDImageView.m in Sources */,
 				158AF91F2704455C0095A3B1 /* YDTestViewController.m in Sources */,
 				150A678E27060308009EE4AF /* YDBaseViewController.m in Sources */,
@@ -1038,6 +1061,7 @@
 				150A67D327069855009EE4AF /* YDButton.m in Sources */,
 				158AF91A270443250095A3B1 /* AppDelegate+YDServicePush.m in Sources */,
 				158AF8FF2704193B0095A3B1 /* main.m in Sources */,
+				157FFCA52716FBC30034946A /* YDUploadManager.m in Sources */,
 				150A67CB27069690009EE4AF /* YDDB.m in Sources */,
 				150A67E327073557009EE4AF /* YDStyle.m in Sources */,
 				15850CE22713E067002F79B5 /* YDAlertViewConfig.m in Sources */,

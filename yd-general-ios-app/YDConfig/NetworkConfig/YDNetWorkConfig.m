@@ -28,5 +28,11 @@
     return requestHeaders;
 }
 
++ (void)configRequestCompleteFilter:(YDCommand *)command {
+    YDLogInfo(@"请求成功%@_%@",command.requestUrl,command.requestArgument);
+}
 
++ (void)configRequestFailedFilter:(YDCommand *)command {
+    YDLogInfo(@"请求失败%@_%@_Error:%@",command.requestUrl,command.requestArgument, command.error.localizedDescription);
+}
 @end
