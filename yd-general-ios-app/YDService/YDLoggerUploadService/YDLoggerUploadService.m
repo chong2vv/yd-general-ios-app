@@ -22,8 +22,11 @@
     return shared;
 }
 
-- (void)uploadLoggerZIP {
+- (void)uploadLoggerZIP:(BOOL)upload {
     
+    if (!upload) {
+        return;
+    }
     
     [[YDLogService shared] getAllLogFileData];
 
@@ -74,7 +77,7 @@
         }
     }
     
-//    [self _uploadZip:zipSet];
+    [self _uploadZip:zipSet];
 }
 
 - (void)_uploadZip:(NSMutableSet *)zipSet {
@@ -88,7 +91,12 @@
             
         } didFinished:^(WHC_BaseOperation * _Nullable operation, NSData * _Nullable data, NSError * _Nullable error, BOOL isSuccess) {
             if (isSuccess) {
-                
+                NSError *error;
+                if ([[NSFileManager defaultManager] removeItemAtPath:zipPath error:&error]) {
+                    YDLogInfo(@"上传日志成功，清除本地zip文件夹");
+                }
+            }else {
+                YDLogInfo(@"上传日志失败，%@", error);
             }
         }];
 }

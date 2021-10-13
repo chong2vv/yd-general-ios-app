@@ -20,7 +20,7 @@
     
     YDLogInfo(@"==== 开启防崩溃 ====");
     [[YDSafeThreadPool shared] creatThread:@"com.yd.loggerzip" Task:^{
-        [[YDLoggerUploadService shared] uploadLoggerZIP];
+        [[YDLoggerUploadService shared] uploadLoggerZIP:NO];
     }];
 }
 

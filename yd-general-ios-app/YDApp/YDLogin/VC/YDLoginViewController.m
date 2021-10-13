@@ -7,7 +7,6 @@
 
 #import "YDLoginViewController.h"
 #import "YDHiddenFunctionViewController.h"
-#import "YDLoginCommand.h"
 @interface YDLoginViewController ()
 
 @end
@@ -19,23 +18,6 @@
     self.title = @"登录";
     
     [self oppenHiddenFunctionVC];
-}
-
-- (void)login {
-    
-    [SVProgressHUD show];
-    [YDLoginCommand ydCommandSetParame:^(__kindof YDLoginCommand * _Nonnull request) {
-            
-        } completion:^(__kindof YDLoginCommand * _Nonnull request) {
-            [SVProgressHUD dismiss];
-            if (request.error) {
-                YDLogError(@"登录失败：%@", request.error);
-            }else{
-                YDUser *user = request.user;
-                [[YDUserConfig shared] userLoginWithUser:user];
-            }
-            
-        }];
 }
 
 - (void)oppenHiddenFunctionVC {

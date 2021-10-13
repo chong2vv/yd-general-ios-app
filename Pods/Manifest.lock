@@ -97,9 +97,9 @@ PODS:
   - YTKNetwork (3.0.6):
     - AFNetworking/NSURLSession (~> 4.0)
   - YYModel (1.0.4)
-  - ZFPlayer (4.0.1):
-    - ZFPlayer/Core (= 4.0.1)
-  - ZFPlayer/Core (4.0.1)
+  - ZFPlayer (4.0.2):
+    - ZFPlayer/Core (= 4.0.2)
+  - ZFPlayer/Core (4.0.2)
 
 DEPENDENCIES:
   - Bugly (= 2.5.0)
@@ -185,8 +185,8 @@ SPEC CHECKSUMS:
   YDUtilKit: 1dd8baea344517c0f6f3c61a266b8ff0b8eae950
   YTKNetwork: c16be90b06be003de9e9cd0d3b187cc8eaf35c04
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
-  ZFPlayer: f88787c815f7b0801279c42f131a89e2823e669e
+  ZFPlayer: ffa31fb470d0634eb9e65efeca0296b1d742a524
 
 PODFILE CHECKSUM: 2b243449c9635d85c6f6e1551607837a68b16a1b
 
-COCOAPODS: 1.10.0
+COCOAPODS: 1.11.0.beta.2

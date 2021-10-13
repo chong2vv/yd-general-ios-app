@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (instancetype)shared;
 
-- (void)uploadLoggerZIP;
+- (void)uploadLoggerZIP:(BOOL) upload;
 @end
 
 NS_ASSUME_NONNULL_END

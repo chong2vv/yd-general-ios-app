@@ -19,6 +19,7 @@ typedef void (^YDSuccessLongLong)(long long result);
 typedef void (^YDSuccessData)(NSData *data);
 
 typedef void (^YDFailureHandler)(void);
+typedef void (^YDFailureString)(NSString *error);
 typedef void (^YDFailureError)(NSError *error);
 
 typedef void (^YDConfirmActionBlock)(void);

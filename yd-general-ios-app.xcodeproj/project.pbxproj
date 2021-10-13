@@ -98,6 +98,8 @@
 		15BA9C3027127AA2008019F4 /* YDImageUploadService.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BA9C2E27127AA2008019F4 /* YDImageUploadService.m */; };
 		15BA9C38271288D2008019F4 /* YDLoginCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BA9C37271288D2008019F4 /* YDLoginCommand.m */; };
 		15BA9C39271288D2008019F4 /* YDLoginCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BA9C37271288D2008019F4 /* YDLoginCommand.m */; };
+		15DEA22A271735360011705A /* YDRegisterCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DEA229271735360011705A /* YDRegisterCommand.m */; };
+		15DEA22B271735360011705A /* YDRegisterCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DEA229271735360011705A /* YDRegisterCommand.m */; };
 		21035A6C219FA3AB9D49D6B0 /* libPods-yd-general-ios-app.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38246749678BFA03C80151BE /* libPods-yd-general-ios-app.a */; };
 		3306CEEFBDBA79D3E4794172 /* libPods-yd-general-ios-app-dev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E27A2D3BDC72AB5C3E16729 /* libPods-yd-general-ios-app-dev.a */; };
 /* End PBXBuildFile section */
@@ -219,6 +221,8 @@
 		15BA9C2E27127AA2008019F4 /* YDImageUploadService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDImageUploadService.m; sourceTree = "<group>"; };
 		15BA9C36271288D2008019F4 /* YDLoginCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDLoginCommand.h; sourceTree = "<group>"; };
 		15BA9C37271288D2008019F4 /* YDLoginCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDLoginCommand.m; sourceTree = "<group>"; };
+		15DEA228271735360011705A /* YDRegisterCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDRegisterCommand.h; sourceTree = "<group>"; };
+		15DEA229271735360011705A /* YDRegisterCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDRegisterCommand.m; sourceTree = "<group>"; };
 		38246749678BFA03C80151BE /* libPods-yd-general-ios-app.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-yd-general-ios-app.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E27A2D3BDC72AB5C3E16729 /* libPods-yd-general-ios-app-dev.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-yd-general-ios-app-dev.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87A3397D9D276E34E025EA8D /* Pods-yd-general-ios-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yd-general-ios-app.release.xcconfig"; path = "Target Support Files/Pods-yd-general-ios-app/Pods-yd-general-ios-app.release.xcconfig"; sourceTree = "<group>"; };
@@ -273,6 +277,7 @@
 		150A67802706007C009EE4AF /* UserConfig */ = {
 			isa = PBXGroup;
 			children = (
+				15DEA227271732A60011705A /* Command */,
 				15BA9C222711E4EA008019F4 /* YDUserModel */,
 				150A678127060117009EE4AF /* YDUserConfig.h */,
 				150A678227060117009EE4AF /* YDUserConfig.m */,
@@ -294,7 +299,6 @@
 		150A67862706013C009EE4AF /* YDLogin */ = {
 			isa = PBXGroup;
 			children = (
-				15BA9C312712887B008019F4 /* Command */,
 				150A67A4270608AF009EE4AF /* VC */,
 			);
 			path = YDLogin;
@@ -671,11 +675,13 @@
 			path = YDUploadService;
 			sourceTree = "<group>";
 		};
-		15BA9C312712887B008019F4 /* Command */ = {
+		15DEA227271732A60011705A /* Command */ = {
 			isa = PBXGroup;
 			children = (
 				15BA9C36271288D2008019F4 /* YDLoginCommand.h */,
 				15BA9C37271288D2008019F4 /* YDLoginCommand.m */,
+				15DEA228271735360011705A /* YDRegisterCommand.h */,
+				15DEA229271735360011705A /* YDRegisterCommand.m */,
 			);
 			path = Command;
 			sourceTree = "<group>";
@@ -964,6 +970,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15DEA22A271735360011705A /* YDRegisterCommand.m in Sources */,
 				15BA9C38271288D2008019F4 /* YDLoginCommand.m in Sources */,
 				15BA9C292711E930008019F4 /* YDDB+YDUser.m in Sources */,
 				150A67C527069437009EE4AF /* YDCameraPermissionUtil.m in Sources */,
@@ -1028,6 +1035,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15DEA22B271735360011705A /* YDRegisterCommand.m in Sources */,
 				15BA9C39271288D2008019F4 /* YDLoginCommand.m in Sources */,
 				15BA9C2A2711E930008019F4 /* YDDB+YDUser.m in Sources */,
 				150A67C627069437009EE4AF /* YDCameraPermissionUtil.m in Sources */,
