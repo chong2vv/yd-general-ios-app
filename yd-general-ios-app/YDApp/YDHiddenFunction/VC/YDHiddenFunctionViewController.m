@@ -7,6 +7,7 @@
 
 #import "YDHiddenFunctionViewController.h"
 #import "YDHiddenFunctionPasswordView.h"
+#import "YDClearCacheService.h"
 
 static NSString *hiddenFunctionlistViewControllerCellIdentifier = @"hiddenFunctionlistViewControllerCell";
 
@@ -34,8 +35,8 @@ typedef NS_ENUM(NSInteger,YDHiddenCellStyle) {
     [super viewDidLoad];
     self.title = @"隐藏功能";
     
-    self.titleListData = @[@"Logger", @"BundleName", @"Version", @"BundleVersion"];
-    self.valueListData = @[@"点击查看日志", [self getString:[[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleName"]], [self getString:[[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"]], [self getString:[[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleVersion"]]];
+    self.titleListData = @[@"Logger", @"clearCache", @"BundleName", @"Version", @"BundleVersion"];
+    self.valueListData = @[@"点击查看日志", @"点击清除缓存", [self getString:[[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleName"]], [self getString:[[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"]], [self getString:[[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleVersion"]]];
     [self configUI];
     [self configPasswordView];
 }
@@ -44,7 +45,7 @@ typedef NS_ENUM(NSInteger,YDHiddenCellStyle) {
 }
 
 - (YDHiddenCellStyle)getCellStyle:(NSString *)title {
-    if ([title isEqualToString:@"Logger"]) {
+    if ([title isEqualToString:@"Logger"] || [title isEqualToString:@"clearCache"]) {
         return YDHiddenCellStyleNext;
     }
     return YDHiddenCellStyleDefault;
@@ -133,6 +134,14 @@ typedef NS_ENUM(NSInteger,YDHiddenCellStyle) {
     if ([tStr isEqualToString:@"Logger"]) {
         YDLogListViewController *vc = [[YDLogListViewController alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
+    }else if ([tStr isEqualToString:@"clearCache"]) {
+        [YDAlertViewController  showAlertWithTitle:@"提示" message:@"是否清除全部缓存" cancelButtonTitle:@"取消" otherButtonTitles:@[@"确定"] didSelectBlock:^(YDAlertAction * _Nullable action, NSUInteger index) {
+            [[YDClearCacheService shared] clearAllDiskOnCompletion:^{
+                YDLogInfo(@"清除全部缓存");
+            }];
+                } didCancelBlock:^{
+                    
+                }];
     }
 }
 

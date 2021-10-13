@@ -13,14 +13,15 @@
 - (void)becomeEffective {
     //设置防崩溃回调
     [YDAvoidCrash setupBlock:^(NSException *exception, NSString *defaultToDo, BOOL upload) {
-            
+        YDLogInfo(@"==== 防崩溃回调 ====");
     }];
     //开启防崩溃
     [YDAvoidCrash becomeAllEffectiveWithLogger:YES];
     
     YDLogInfo(@"==== 开启防崩溃 ====");
-    
-    [[YDLoggerUploadService shared] uploadLoggerZIP];
+    [[YDSafeThreadPool shared] creatThread:@"com.yd.loggerzip" Task:^{
+        [[YDLoggerUploadService shared] uploadLoggerZIP];
+    }];
 }
 
 @end

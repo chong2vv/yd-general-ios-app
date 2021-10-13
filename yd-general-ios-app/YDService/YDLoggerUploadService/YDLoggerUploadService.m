@@ -22,6 +22,8 @@
 }
 
 - (void)uploadLoggerZIP {
+    
+    
     [[YDLogService shared] getAllLogFileData];
     
     // 获取zipDir下的所有zip文件
@@ -40,32 +42,34 @@
         }
     }
     
-    if (files) {
-        for (NSString *name in files) {
-            if ([name isEqualToString:[YDMmapLogService shared].filePath.lastPathComponent]) {
-                continue;
-            }
-            
-            @autoreleasepool {
-                NSString *path = [NSString stringWithFormat:@"%@.zip",name];
-                
-//                // 查看是否已经压缩过，不要重复压缩
-//                if ([zipSet containsObject:path]) {
-//                    [fm removeItemAtPath:name error:nil];
-//                    [zipSet removeObject:path];
-//                    YDLogInfo(@"删除已压缩过的日志文件:%@", name);
-//                    continue;
+//    if (files) {
+//        for (NSString *name in files) {
+//            if ([name isEqualToString:[YDMmapLogService shared].filePath.lastPathComponent]) {
+//                continue;
+//            }
+//
+//            @autoreleasepool {
+//
+//                if (![name hasSuffix:@".zip"]) {
+//                    NSString *path = [NSString stringWithFormat:@"%@.zip",name];
+//
+//                    // 查看是否已经压缩过，不要重复压缩
+//                    if ([zipSet containsObject:path]) {
+//                        [fm removeItemAtPath:name error:nil];
+//                        YDLogInfo(@"删除已压缩过的日志文件:%@", name);
+//                        continue;
+//                    }
+//
+//                    if ([SSZipArchive createZipFileAtPath:path withFilesAtPaths:[[YDLogService shared] getAllLogFileData]]) {
+//                        [zipSet addObject:path];
+//                        YDLogError(@"====== 压缩成功 =======");
+//                    }else {
+//                        YDLogError(@"====== 压缩失败 =======");
+//                    }
 //                }
-//                
-//                if ([SSZipArchive createZipFileAtPath:path withFilesAtPaths:[[YDLogService shared] getAllLogFileData]]) {
-//                    YDLogError(@"====== 压缩成功 =======");
-//                }else {
-//                    YDLogError(@"====== 压缩失败 =======");
-//                }
-                
-            }
-        }
-    }
+//            }
+//        }
+//    }
     
 }
 

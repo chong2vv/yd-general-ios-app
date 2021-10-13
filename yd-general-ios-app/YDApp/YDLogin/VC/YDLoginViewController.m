@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"登录";
+    
+    [self oppenHiddenFunctionVC];
 }
 
 - (void)login {
@@ -34,6 +36,16 @@
             }
             
         }];
+}
+
+- (void)oppenHiddenFunctionVC {
+    [self.navigationController.navigationBar whenFiveTapped:^{
+        yd_dispatch_async_main_safe(^{
+            YDHiddenFunctionViewController *vc = [[YDHiddenFunctionViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+            YDLogInfo(@"==== 进入隐藏功能 ====");
+        });
+    }];
 }
 
 @end

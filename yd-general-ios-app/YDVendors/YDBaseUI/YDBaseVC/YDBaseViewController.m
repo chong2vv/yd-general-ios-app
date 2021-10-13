@@ -41,15 +41,6 @@
         self.navigationController.navigationBar.translucent = NO;
         //navigation控件颜色
         self.navigationController.navigationBar.tintColor = [UIColor blackColor];
-    
-    [self oppenHiddenFunctionVC];
-}
-
-- (void)oppenHiddenFunctionVC {
-    [self.navigationController.navigationBar whenFiveTapped:^{
-        YDHiddenFunctionViewController *vc = [[YDHiddenFunctionViewController alloc] init];
-        [self.navigationController pushViewController:vc animated:YES];
-    }];
 }
 
 - (void)makeBackBt {
