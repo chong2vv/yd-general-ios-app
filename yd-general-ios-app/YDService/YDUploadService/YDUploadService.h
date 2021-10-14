@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface YDImageUploadService : NSObject
+@interface YDUploadService : NSObject
 
 + (instancetype)shared;
 

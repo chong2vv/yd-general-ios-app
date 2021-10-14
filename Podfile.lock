@@ -48,6 +48,7 @@ PODS:
   - SDWebImage (5.8.4):
     - SDWebImage/Core (= 5.8.4)
   - SDWebImage/Core (5.8.4)
+  - SGQRCode (3.5.1)
   - SSZipArchive (2.4.2)
   - SVProgressHUD (2.2.5)
   - WebViewJavascriptBridge (6.0.3)
@@ -118,6 +119,7 @@ DEPENDENCIES:
   - MMKV
   - ReactiveObjC (~> 3.1.0)
   - SDWebImage (~> 5.8.4)
+  - SGQRCode (~> 3.5.1)
   - SSZipArchive
   - SVProgressHUD
   - WebViewJavascriptBridge (~> 6.0)
@@ -126,7 +128,7 @@ DEPENDENCIES:
   - YDNetworkManager (~> 0.0.5)
   - YDUtilKit (~> 0.0.5)
   - YYModel
-  - ZFPlayer (~> 4.0)
+  - ZFPlayer (~> 4.0.2)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -147,6 +149,7 @@ SPEC REPOS:
     - MMKVCore
     - ReactiveObjC
     - SDWebImage
+    - SGQRCode
     - SSZipArchive
     - SVProgressHUD
     - WebViewJavascriptBridge
@@ -176,6 +179,7 @@ SPEC CHECKSUMS:
   MMKVCore: b00e7a09ec77a1b916aef336eedd3b99ec249978
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
   SDWebImage: cf6922231e95550934da2ada0f20f2becf2ceba9
+  SGQRCode: 65d6170ddcf3feecc6e2f3601aac78ad93e56589
   SSZipArchive: e7b4f3d9e780c2acc1764cd88fbf2de28f26e5b2
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
@@ -187,6 +191,6 @@ SPEC CHECKSUMS:
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
   ZFPlayer: ffa31fb470d0634eb9e65efeca0296b1d742a524
 
-PODFILE CHECKSUM: 2b243449c9635d85c6f6e1551607837a68b16a1b
+PODFILE CHECKSUM: 32c7219a4f8b9a7910ecdb45d8327ccbb8b8f4f6
 
-COCOAPODS: 1.11.0.beta.2
+COCOAPODS: 1.10.0

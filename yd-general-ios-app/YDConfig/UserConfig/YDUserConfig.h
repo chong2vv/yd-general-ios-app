@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface YDUserConfig : NSObject
 @property (nonatomic, assign)BOOL isLogin;
+//用户登录前需要先传用户登录必须字段
 @property (nonatomic, copy)NSString *userAccount;
 @property (nonatomic, copy)NSString *userPassword;
 @property (nonatomic, copy)NSString *userCode;
@@ -20,8 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (YDUser *)getCurrentUser;
 
-//保存 or 更新用户信息
-- (void)saveUser:(YDUser *)user;
+- (NSString *)currentUserId;
 
 //用户注册
 - (void)userRegister:(YDSuccessHandler) success failure:(YDFailureString)failure;
@@ -29,8 +29,14 @@ NS_ASSUME_NONNULL_BEGIN
 //用户登录
 - (void)userLogin:(YDSuccessHandler) success failure:(YDFailureString)failure;
 
+//发送验证码
+- (void)userSendCaptcha:(YDSuccessHandler)success failure:(YDFailureString)failure;
+
 //用户退出
 - (void)userLogout;
+
+//更新用户信息
+- (void)updateUser:(YDUser *)user success:(YDSuccessHandler)success failure:(YDFailureString)failure;
 
 @end
 

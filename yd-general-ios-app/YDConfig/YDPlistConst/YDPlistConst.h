@@ -17,6 +17,9 @@ NS_ASSUME_NONNULL_BEGIN
 //用户uid
 extern NSString *const YDPlistCurrentUserUID;
 
+//用户名（上一次登录账号）
+extern NSString *const YDPlistCurrentUserAccount;
+
 @end
 
 NS_ASSUME_NONNULL_END

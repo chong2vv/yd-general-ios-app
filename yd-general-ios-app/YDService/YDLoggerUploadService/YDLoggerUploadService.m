@@ -8,6 +8,8 @@
 #import "YDLoggerUploadService.h"
 #import <SSZipArchive/SSZipArchive.h>
 #import "YDUploadManager.h"
+#import "UpApiHelper.h"
+#import <AFNetworking/AFHTTPSessionManager.h>
 
 #define PATH_OF_DOCUMENT    [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0]
 
@@ -84,19 +86,38 @@
     NSString *zipPath = [YDFileManager createDirectory:@"YDLoggerZip"];
     [zipSet enumerateObjectsUsingBlock:^(id  _Nonnull obj, BOOL * _Nonnull stop) {
         NSString *path = (NSString *)obj;
-        [[YDUploadManager shared] addUploadFile:[NSString stringWithFormat:@"%@/%@",zipPath,path] forKey:@"YDLogger"];
+        
+        [self uploadLogger:path filePath:[NSString stringWithFormat:@"%@/%@",zipPath,path] progress:^(NSProgress * progress) {
+                    
+                } success:^{
+                    YDLogInfo(@"=== 日志上传成功 === %@", path);
+                } failure:^{
+                    YDLogError(@"=== 日志上传失败 ==== %@", path);
+                }];
     }];
     
-    [[YDUploadManager shared] upload:@"" param:@{} process:^(WHC_BaseOperation * _Nullable operation, uint64_t recvLength, uint64_t totalLength, NSString * _Nullable speed) {
-            
-        } didFinished:^(WHC_BaseOperation * _Nullable operation, NSData * _Nullable data, NSError * _Nullable error, BOOL isSuccess) {
-            if (isSuccess) {
-                NSError *error;
-                if ([[NSFileManager defaultManager] removeItemAtPath:zipPath error:&error]) {
-                    YDLogInfo(@"上传日志成功，清除本地zip文件夹");
-                }
-            }else {
-                YDLogInfo(@"上传日志失败，%@", error);
+}
+
+- (void)uploadLogger:(NSString *)fileName filePath:(NSString *)filePath progress:(void (^)(NSProgress *))progress success:(YDSuccessHandler)success failure:(YDFailureHandler)failure {
+    UpUploadModel *model = [UpApiHelper getUpUploadModel:[NSData dataWithContentsOfFile:filePath] fileName:fileName];
+    
+    AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
+    [manager POST:[YDNetWorkConfig configOSSBaseUrl] parameters:model.parameters headers:nil constructingBodyWithBlock:^(id<AFMultipartFormData>  _Nonnull formData) {
+        //这个就是参数
+        [formData appendPartWithFileData:[NSData dataWithContentsOfFile:filePath] name:@"zip" fileName:fileName mimeType:@"image/png"];
+        
+        } progress:^(NSProgress * _Nonnull uploadProgress) {
+            if (progress) {
+                progress(uploadProgress);
+            }
+        } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+            if (success) {
+                success();
+            }
+        } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+            if (failure) {
+                YDLogError(@"上传图片失败： %@", error);
+                failure();
             }
         }];
 }

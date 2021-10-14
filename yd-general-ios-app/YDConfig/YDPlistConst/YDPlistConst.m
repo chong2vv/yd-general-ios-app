@@ -11,4 +11,5 @@
 
 NSString *const YDPlistCurrentUserUID = @"YDPlistCurrentUserUID";
 
+NSString *const YDPlistCurrentUserAccount = @"YDPlistCurrentUserAccount";
 @end

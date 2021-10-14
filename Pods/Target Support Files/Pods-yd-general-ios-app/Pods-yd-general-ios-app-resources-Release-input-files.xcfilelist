@@ -1,3 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-yd-general-ios-app/Pods-yd-general-ios-app-resources.sh
 ${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle
+${PODS_ROOT}/SGQRCode/SGQRCode/SGQRCode.bundle
 ${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle

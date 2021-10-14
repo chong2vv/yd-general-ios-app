@@ -32,7 +32,7 @@
 
 + (BOOL)deleteDirectory:(NSString *)dirName {
     NSURL *documentDir = [[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask].firstObject;
-    NSString *fileDir = [[documentDir path] stringByAppendingFormat:@"%@", dirName];
+    NSString *fileDir = [[documentDir path] stringByAppendingFormat:@"/%@", dirName];
     
     NSFileManager *fm = [NSFileManager defaultManager];
     return [fm removeItemAtPath:fileDir error:nil];

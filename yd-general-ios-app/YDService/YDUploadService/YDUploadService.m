@@ -5,10 +5,10 @@
 //  Created by 王远东 on 2021/10/10.
 //
 
-#import "YDImageUploadService.h"
+#import "YDUploadService.h"
 #import <AFNetworking/AFHTTPSessionManager.h>
 
-@implementation YDImageUploadService
+@implementation YDUploadService
 
 + (instancetype)shared {
     static dispatch_once_t onceToken;

@@ -21,11 +21,12 @@ def sharePods
   pod 'SDWebImage', '~> 5.8.4'
   pod 'FMDB'
   pod 'fishhook'
-  pod 'ZFPlayer', '~> 4.0'
+  pod 'ZFPlayer', '~> 4.0.2'
   pod 'WebViewJavascriptBridge', '~> 6.0'
   pod "WHCNetWorkKit", "~> 0.0.3"
   pod 'SSZipArchive'
   pod 'MMKV'
+  pod 'SGQRCode', '~> 3.5.1'
   
   #YDKit
   pod 'YDAvoidCrashKit', '~> 0.1.6'

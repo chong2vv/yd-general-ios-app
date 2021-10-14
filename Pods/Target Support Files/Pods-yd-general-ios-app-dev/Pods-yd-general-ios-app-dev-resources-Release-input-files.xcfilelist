@@ -1,5 +1,6 @@
 ${PODS_ROOT}/Target Support Files/Pods-yd-general-ios-app-dev/Pods-yd-general-ios-app-dev-resources.sh
 ${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle
+${PODS_ROOT}/SGQRCode/SGQRCode/SGQRCode.bundle
 ${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle
 ${PODS_CONFIGURATION_BUILD_DIR}/DoraemonKit/DoraemonKit.bundle
 ${PODS_ROOT}/GCDWebServer/GCDWebUploader/GCDWebUploader.bundle

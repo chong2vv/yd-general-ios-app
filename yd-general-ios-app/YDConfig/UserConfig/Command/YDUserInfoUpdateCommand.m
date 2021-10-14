@@ -1,20 +1,20 @@
 //
-//  YDRegisterCommand.m
+//  YDUserInfoUpdateCommand.m
 //  yd-general-ios-app
 //
-//  Created by 王远东 on 2021/10/13.
+//  Created by wangyuandong on 2021/10/14.
 //
 
-#import "YDRegisterCommand.h"
+#import "YDUserInfoUpdateCommand.h"
 
-@implementation YDRegisterCommand
+@implementation YDUserInfoUpdateCommand
 
 - (NSString *)baseUrl {
     return [YDNetWorkConfig configBaseUrl];
 }
 
 - (NSString *)requestUrl {
-    return @"/user/register";
+    return @"/user/update";
 }
 
 - (YTKRequestMethod)requestMethod {
@@ -22,7 +22,7 @@
 }
 
 - (void)requestSuccess:(NSDictionary *)aDic {
-    YDLogInfo(@"wyd - 注册成功 info:%@",aDic);
+    YDLogInfo(@"wyd - 更新用户信息成功 info:%@",aDic);
     NSDictionary *dic = [aDic objectForKey:@"data"];
     self.user = [[YDUser alloc] init];
     [self.user yy_modelSetWithDictionary:dic];
