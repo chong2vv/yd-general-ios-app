@@ -69,6 +69,14 @@
 		157FFD0027184CFC0034946A /* UpApiHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 157FFCFE27184CFC0034946A /* UpApiHelper.m */; };
 		157FFD0327184D5E0034946A /* UpUploadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 157FFD0227184D5E0034946A /* UpUploadModel.m */; };
 		157FFD0427184D5E0034946A /* UpUploadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 157FFD0227184D5E0034946A /* UpUploadModel.m */; };
+		157FFD0827191EE30034946A /* YDWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157FFD0727191EE30034946A /* YDWebViewController.m */; };
+		157FFD0927191EE30034946A /* YDWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157FFD0727191EE30034946A /* YDWebViewController.m */; };
+		157FFD0D271967A90034946A /* YDAppCheckUpdateService.m in Sources */ = {isa = PBXBuildFile; fileRef = 157FFD0C271967A90034946A /* YDAppCheckUpdateService.m */; };
+		157FFD0E271967A90034946A /* YDAppCheckUpdateService.m in Sources */ = {isa = PBXBuildFile; fileRef = 157FFD0C271967A90034946A /* YDAppCheckUpdateService.m */; };
+		157FFD12271967FB0034946A /* YDAppCheckUpdateCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 157FFD11271967FB0034946A /* YDAppCheckUpdateCommand.m */; };
+		157FFD13271967FB0034946A /* YDAppCheckUpdateCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 157FFD11271967FB0034946A /* YDAppCheckUpdateCommand.m */; };
+		157FFD17271968EF0034946A /* YDAppUpdateTostView.m in Sources */ = {isa = PBXBuildFile; fileRef = 157FFD16271968EF0034946A /* YDAppUpdateTostView.m */; };
+		157FFD18271968EF0034946A /* YDAppUpdateTostView.m in Sources */ = {isa = PBXBuildFile; fileRef = 157FFD16271968EF0034946A /* YDAppUpdateTostView.m */; };
 		15850CD82713DDE8002F79B5 /* YDAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15850CD72713DDE8002F79B5 /* YDAlertViewController.m */; };
 		15850CD92713DDE8002F79B5 /* YDAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15850CD72713DDE8002F79B5 /* YDAlertViewController.m */; };
 		15850CDD2713DFEF002F79B5 /* YDAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 15850CDC2713DFEF002F79B5 /* YDAlertAction.m */; };
@@ -198,6 +206,14 @@
 		157FFCFE27184CFC0034946A /* UpApiHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UpApiHelper.m; sourceTree = "<group>"; };
 		157FFD0127184D5E0034946A /* UpUploadModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UpUploadModel.h; sourceTree = "<group>"; };
 		157FFD0227184D5E0034946A /* UpUploadModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UpUploadModel.m; sourceTree = "<group>"; };
+		157FFD0627191EE30034946A /* YDWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDWebViewController.h; sourceTree = "<group>"; };
+		157FFD0727191EE30034946A /* YDWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDWebViewController.m; sourceTree = "<group>"; };
+		157FFD0B271967A90034946A /* YDAppCheckUpdateService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDAppCheckUpdateService.h; sourceTree = "<group>"; };
+		157FFD0C271967A90034946A /* YDAppCheckUpdateService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDAppCheckUpdateService.m; sourceTree = "<group>"; };
+		157FFD10271967FB0034946A /* YDAppCheckUpdateCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDAppCheckUpdateCommand.h; sourceTree = "<group>"; };
+		157FFD11271967FB0034946A /* YDAppCheckUpdateCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDAppCheckUpdateCommand.m; sourceTree = "<group>"; };
+		157FFD15271968EF0034946A /* YDAppUpdateTostView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDAppUpdateTostView.h; sourceTree = "<group>"; };
+		157FFD16271968EF0034946A /* YDAppUpdateTostView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDAppUpdateTostView.m; sourceTree = "<group>"; };
 		15850CD62713DDE8002F79B5 /* YDAlertViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDAlertViewController.h; sourceTree = "<group>"; };
 		15850CD72713DDE8002F79B5 /* YDAlertViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDAlertViewController.m; sourceTree = "<group>"; };
 		15850CDB2713DFEF002F79B5 /* YDAlertAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDAlertAction.h; sourceTree = "<group>"; };
@@ -348,6 +364,7 @@
 		150A678927060275009EE4AF /* YDVendors */ = {
 			isa = PBXGroup;
 			children = (
+				157FFD0527191EC10034946A /* YDWebViewController */,
 				15850CD52713DD2E002F79B5 /* YDAlertView */,
 				150A67CE27069830009EE4AF /* YDBaseUI */,
 				150A67C2270693F3009EE4AF /* YDPermissionUtil */,
@@ -527,6 +544,44 @@
 			path = YPUtil;
 			sourceTree = "<group>";
 		};
+		157FFD0527191EC10034946A /* YDWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				157FFD0627191EE30034946A /* YDWebViewController.h */,
+				157FFD0727191EE30034946A /* YDWebViewController.m */,
+			);
+			path = YDWebViewController;
+			sourceTree = "<group>";
+		};
+		157FFD0A271967820034946A /* YDAppCheckUpdateService */ = {
+			isa = PBXGroup;
+			children = (
+				157FFD14271968C80034946A /* View */,
+				157FFD0F271967E00034946A /* Command */,
+				157FFD0B271967A90034946A /* YDAppCheckUpdateService.h */,
+				157FFD0C271967A90034946A /* YDAppCheckUpdateService.m */,
+			);
+			path = YDAppCheckUpdateService;
+			sourceTree = "<group>";
+		};
+		157FFD0F271967E00034946A /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				157FFD10271967FB0034946A /* YDAppCheckUpdateCommand.h */,
+				157FFD11271967FB0034946A /* YDAppCheckUpdateCommand.m */,
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
+		157FFD14271968C80034946A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				157FFD15271968EF0034946A /* YDAppUpdateTostView.h */,
+				157FFD16271968EF0034946A /* YDAppUpdateTostView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		15850CD52713DD2E002F79B5 /* YDAlertView */ = {
 			isa = PBXGroup;
 			children = (
@@ -703,6 +758,7 @@
 		15BA9C2B27127A5A008019F4 /* YDService */ = {
 			isa = PBXGroup;
 			children = (
+				157FFD0A271967820034946A /* YDAppCheckUpdateService */,
 				157FFCAA2717DE2C0034946A /* YDNumberSenderService */,
 				157FFC9D2716F7400034946A /* YDFileManager */,
 				15850CFA2715B7B5002F79B5 /* YDLoggerUploadService */,
@@ -1032,6 +1088,7 @@
 				15850CFD2715B7DE002F79B5 /* YDLoggerUploadService.m in Sources */,
 				150A67B327068414009EE4AF /* AppDelegate+YDAvoidCrash.m in Sources */,
 				15850CD82713DDE8002F79B5 /* YDAlertViewController.m in Sources */,
+				157FFD0827191EE30034946A /* YDWebViewController.m in Sources */,
 				150A67F5270740B6009EE4AF /* YDView.m in Sources */,
 				157FFCFF27184CFC0034946A /* UpApiHelper.m in Sources */,
 				150A679927060446009EE4AF /* UIViewController+YDNav.m in Sources */,
@@ -1043,10 +1100,12 @@
 				15BA9C202711DEFB008019F4 /* YDPlistConst.m in Sources */,
 				158AF8C8270418F90095A3B1 /* AppDelegate.m in Sources */,
 				150A6791270603AE009EE4AF /* UIViewController+YDHook.m in Sources */,
+				157FFD12271967FB0034946A /* YDAppCheckUpdateCommand.m in Sources */,
 				150A67BC270691EB009EE4AF /* YDMineViewController.m in Sources */,
 				150A67A2270608A9009EE4AF /* YDHomePageViewController.m in Sources */,
 				150A67F027074092009EE4AF /* YDHiddenFunctionViewController.m in Sources */,
 				157FFCFB27184C760034946A /* UpApiUtils.m in Sources */,
+				157FFD17271968EF0034946A /* YDAppUpdateTostView.m in Sources */,
 				15850CEE2713E92C002F79B5 /* YDClearCacheConfig.m in Sources */,
 				15850CE52713E118002F79B5 /* YDAlertView.m in Sources */,
 				15850CDD2713DFEF002F79B5 /* YDAlertAction.m in Sources */,
@@ -1066,6 +1125,7 @@
 				150A67CA27069690009EE4AF /* YDDB.m in Sources */,
 				150A67E227073557009EE4AF /* YDStyle.m in Sources */,
 				15850CE12713E067002F79B5 /* YDAlertViewConfig.m in Sources */,
+				157FFD0D271967A90034946A /* YDAppCheckUpdateService.m in Sources */,
 				15BA9C252711E4FB008019F4 /* YDUser.m in Sources */,
 				150A67D72706A128009EE4AF /* AppDelegate+YDSetupVC.m in Sources */,
 				150A67A7270608BB009EE4AF /* YDLoginViewController.m in Sources */,
@@ -1103,6 +1163,7 @@
 				15850CFE2715B7DF002F79B5 /* YDLoggerUploadService.m in Sources */,
 				150A67B427068414009EE4AF /* AppDelegate+YDAvoidCrash.m in Sources */,
 				15850CD92713DDE8002F79B5 /* YDAlertViewController.m in Sources */,
+				157FFD0927191EE30034946A /* YDWebViewController.m in Sources */,
 				150A67F6270740B6009EE4AF /* YDView.m in Sources */,
 				157FFD0027184CFC0034946A /* UpApiHelper.m in Sources */,
 				150A679A27060446009EE4AF /* UIViewController+YDNav.m in Sources */,
@@ -1114,10 +1175,12 @@
 				15BA9C212711DEFB008019F4 /* YDPlistConst.m in Sources */,
 				158AF8FE2704193B0095A3B1 /* AppDelegate.m in Sources */,
 				150A6792270603AE009EE4AF /* UIViewController+YDHook.m in Sources */,
+				157FFD13271967FB0034946A /* YDAppCheckUpdateCommand.m in Sources */,
 				150A67BD270691EB009EE4AF /* YDMineViewController.m in Sources */,
 				150A67A3270608A9009EE4AF /* YDHomePageViewController.m in Sources */,
 				150A67F127074092009EE4AF /* YDHiddenFunctionViewController.m in Sources */,
 				157FFCFC27184C760034946A /* UpApiUtils.m in Sources */,
+				157FFD18271968EF0034946A /* YDAppUpdateTostView.m in Sources */,
 				15850CEF2713E92C002F79B5 /* YDClearCacheConfig.m in Sources */,
 				15850CE62713E118002F79B5 /* YDAlertView.m in Sources */,
 				15850CDE2713DFEF002F79B5 /* YDAlertAction.m in Sources */,
@@ -1137,6 +1200,7 @@
 				150A67CB27069690009EE4AF /* YDDB.m in Sources */,
 				150A67E327073557009EE4AF /* YDStyle.m in Sources */,
 				15850CE22713E067002F79B5 /* YDAlertViewConfig.m in Sources */,
+				157FFD0E271967A90034946A /* YDAppCheckUpdateService.m in Sources */,
 				15BA9C262711E4FB008019F4 /* YDUser.m in Sources */,
 				150A67D82706A128009EE4AF /* AppDelegate+YDSetupVC.m in Sources */,
 				150A67A8270608BB009EE4AF /* YDLoginViewController.m in Sources */,

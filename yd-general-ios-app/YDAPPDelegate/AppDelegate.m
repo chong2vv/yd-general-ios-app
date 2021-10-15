@@ -32,6 +32,8 @@
     //开启第三方配置，如bugly
     [self thirdPartyConfig:application];
     
+    
+    
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     [self.window makeKeyAndVisible];
     //常规写法，同一界面响应时的排他性

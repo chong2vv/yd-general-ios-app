@@ -13,13 +13,21 @@
 #import "YDMineViewController.h"
 #import "CYLTabBarController.h"
 
+//app启动进入首页是否需要登录
+BOOL const YDAppStartNeedLogin = YES;
+
 @implementation AppDelegate (YDSetupVC)
 
 - (void)configRootVC:(UIApplication *)application {
-    if ([[YDUserConfig shared] isLogin]) {
-        [self configTabVC];
+    
+    if (YDAppStartNeedLogin) {
+        if ([[YDUserConfig shared] isLogin]) {
+            [self configTabVC];
+        }else{
+            [self configLoginVC];
+        }
     }else{
-        [self configLoginVC];
+        [self configTabVC];
     }
     [self loadUserLoginNotification];
 }
@@ -46,11 +54,15 @@
 }
 
 - (void)_userLogin {
-    [self configTabVC];
+    if (YDAppStartNeedLogin) {
+        [self configTabVC];
+    }
 }
 
 - (void)_userLogout {
-    [self configLoginVC];
+    if (YDAppStartNeedLogin) {
+        [self configLoginVC];
+    }
 }
 
 #pragma mark ------- init window root view controller

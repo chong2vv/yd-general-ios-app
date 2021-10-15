@@ -27,6 +27,7 @@ def sharePods
   pod 'SSZipArchive'
   pod 'MMKV'
   pod 'SGQRCode', '~> 3.5.1'
+  pod 'WMDragView', '~> 1.0.1'
   
   #YDKit
   pod 'YDAvoidCrashKit', '~> 0.1.6'

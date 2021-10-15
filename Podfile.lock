@@ -66,6 +66,7 @@ PODS:
   - WHCNetWorkKit/UIKit (0.0.3):
     - WHCNetWorkKit/NSURLConnection
   - WHCNetWorkKit/UtillKit (0.0.3)
+  - WMDragView (1.0.1)
   - YDAvoidCrashKit (0.1.6):
     - YDAvoidCrashKit/YDAvoidCrash (= 0.1.6)
     - YDAvoidCrashKit/YDLogger (= 0.1.6)
@@ -124,6 +125,7 @@ DEPENDENCIES:
   - SVProgressHUD
   - WebViewJavascriptBridge (~> 6.0)
   - WHCNetWorkKit (~> 0.0.3)
+  - WMDragView (~> 1.0.1)
   - YDAvoidCrashKit (~> 0.1.6)
   - YDNetworkManager (~> 0.0.5)
   - YDUtilKit (~> 0.0.5)
@@ -154,6 +156,7 @@ SPEC REPOS:
     - SVProgressHUD
     - WebViewJavascriptBridge
     - WHCNetWorkKit
+    - WMDragView
     - YDAvoidCrashKit
     - YDNetworkManager
     - YDUtilKit
@@ -184,6 +187,7 @@ SPEC CHECKSUMS:
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
   WHCNetWorkKit: 169c27c8b8008e8f8d679277929777083a2379b9
+  WMDragView: 18f2c5d18c350ea4b0ac1cc64066abfe5caea443
   YDAvoidCrashKit: 7630c639f04d67afc356fc4874a28c69716c97c7
   YDNetworkManager: e72ef7270229d9ccca89f572b3d0bcc3d7a59122
   YDUtilKit: 1dd8baea344517c0f6f3c61a266b8ff0b8eae950
@@ -191,6 +195,6 @@ SPEC CHECKSUMS:
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
   ZFPlayer: ffa31fb470d0634eb9e65efeca0296b1d742a524
 
-PODFILE CHECKSUM: 32c7219a4f8b9a7910ecdb45d8327ccbb8b8f4f6
+PODFILE CHECKSUM: 32874f2618e88af409997056d3d250985c749161
 
 COCOAPODS: 1.10.0

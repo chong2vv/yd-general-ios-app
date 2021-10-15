@@ -9,6 +9,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+/**
+ 开启第三方库相关
+ */
 @interface AppDelegate (YDThird)
 
 - (void)thirdPartyConfig:(UIApplication *)application;
