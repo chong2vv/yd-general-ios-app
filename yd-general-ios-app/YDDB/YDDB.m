@@ -31,7 +31,7 @@
             FMDatabase *db = [FMDatabase databaseWithPath:_userDBPath];
             if ([db open]) {
                 /*
-                 
+                 创建user存储表
                  */
                 NSString *createUserSql = @"create table user (uid text NOT NULL, userName text, userPic text, userDesc text, userAccount text, userPhone text, userEmail text, userGender integer, userBirthday integer, ext text)";
                 [db executeUpdate:createUserSql];

@@ -27,8 +27,8 @@
 		150A67B827068977009EE4AF /* AppDelegate+YDThird.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67B627068977009EE4AF /* AppDelegate+YDThird.m */; };
 		150A67BC270691EB009EE4AF /* YDMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67BB270691EB009EE4AF /* YDMineViewController.m */; };
 		150A67BD270691EB009EE4AF /* YDMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67BB270691EB009EE4AF /* YDMineViewController.m */; };
-		150A67C527069437009EE4AF /* YDCameraPermissionUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67C427069437009EE4AF /* YDCameraPermissionUtil.m */; };
-		150A67C627069437009EE4AF /* YDCameraPermissionUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67C427069437009EE4AF /* YDCameraPermissionUtil.m */; };
+		150A67C527069437009EE4AF /* YDAuthorizationUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67C427069437009EE4AF /* YDAuthorizationUtil.m */; };
+		150A67C627069437009EE4AF /* YDAuthorizationUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67C427069437009EE4AF /* YDAuthorizationUtil.m */; };
 		150A67CA27069690009EE4AF /* YDDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67C927069690009EE4AF /* YDDB.m */; };
 		150A67CB27069690009EE4AF /* YDDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67C927069690009EE4AF /* YDDB.m */; };
 		150A67D227069855009EE4AF /* YDButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67D127069855009EE4AF /* YDButton.m */; };
@@ -53,6 +53,14 @@
 		150A67FA270740D5009EE4AF /* YDHiddenFunctionPasswordInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67F8270740D5009EE4AF /* YDHiddenFunctionPasswordInputView.m */; };
 		150A67FD27074AB2009EE4AF /* YDHiddenFunctionPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67FC27074AB2009EE4AF /* YDHiddenFunctionPasswordView.m */; };
 		150A67FE27074AB4009EE4AF /* YDHiddenFunctionPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67FC27074AB2009EE4AF /* YDHiddenFunctionPasswordView.m */; };
+		1532D2AC2723EF1800F58ED1 /* YDEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1532D2AB2723EF1800F58ED1 /* YDEmptyView.m */; };
+		1532D2AD2723EF1800F58ED1 /* YDEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1532D2AB2723EF1800F58ED1 /* YDEmptyView.m */; };
+		1532D2B02723F02C00F58ED1 /* YDEmptyViewConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1532D2AF2723F02C00F58ED1 /* YDEmptyViewConfig.m */; };
+		1532D2B12723F02C00F58ED1 /* YDEmptyViewConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1532D2AF2723F02C00F58ED1 /* YDEmptyViewConfig.m */; };
+		1532D2B32723F20500F58ED1 /* YDEmptyAsset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1532D2B22723F20500F58ED1 /* YDEmptyAsset.xcassets */; };
+		1532D2B42723F20500F58ED1 /* YDEmptyAsset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1532D2B22723F20500F58ED1 /* YDEmptyAsset.xcassets */; };
+		1532D2B72723F31800F58ED1 /* UIViewController+YDEmptyViewShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1532D2B62723F31800F58ED1 /* UIViewController+YDEmptyViewShow.m */; };
+		1532D2B82723F31800F58ED1 /* UIViewController+YDEmptyViewShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1532D2B62723F31800F58ED1 /* UIViewController+YDEmptyViewShow.m */; };
 		157FFCA02716F75C0034946A /* YDFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 157FFC9F2716F75C0034946A /* YDFileManager.m */; };
 		157FFCA12716F75C0034946A /* YDFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 157FFC9F2716F75C0034946A /* YDFileManager.m */; };
 		157FFCA42716FBC30034946A /* YDUploadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 157FFCA32716FBC30034946A /* YDUploadManager.m */; };
@@ -121,7 +129,7 @@
 		15DEA22A271735360011705A /* YDRegisterCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DEA229271735360011705A /* YDRegisterCommand.m */; };
 		15DEA22B271735360011705A /* YDRegisterCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DEA229271735360011705A /* YDRegisterCommand.m */; };
 		21035A6C219FA3AB9D49D6B0 /* libPods-yd-general-ios-app.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38246749678BFA03C80151BE /* libPods-yd-general-ios-app.a */; };
-		3306CEEFBDBA79D3E4794172 /* libPods-yd-general-ios-app-dev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E27A2D3BDC72AB5C3E16729 /* libPods-yd-general-ios-app-dev.a */; };
+		9F411837E47BDA5B40D7A9AA /* libPods-yd-general-ios-app-dev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E27A2D3BDC72AB5C3E16729 /* libPods-yd-general-ios-app-dev.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -164,8 +172,8 @@
 		150A67BA270691EB009EE4AF /* YDMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDMineViewController.h; sourceTree = "<group>"; };
 		150A67BB270691EB009EE4AF /* YDMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDMineViewController.m; sourceTree = "<group>"; };
 		150A67C0270692D1009EE4AF /* YDUtilBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDUtilBlock.h; sourceTree = "<group>"; };
-		150A67C327069437009EE4AF /* YDCameraPermissionUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDCameraPermissionUtil.h; sourceTree = "<group>"; };
-		150A67C427069437009EE4AF /* YDCameraPermissionUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDCameraPermissionUtil.m; sourceTree = "<group>"; };
+		150A67C327069437009EE4AF /* YDAuthorizationUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDAuthorizationUtil.h; sourceTree = "<group>"; };
+		150A67C427069437009EE4AF /* YDAuthorizationUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDAuthorizationUtil.m; sourceTree = "<group>"; };
 		150A67C827069690009EE4AF /* YDDB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDDB.h; sourceTree = "<group>"; };
 		150A67C927069690009EE4AF /* YDDB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDDB.m; sourceTree = "<group>"; };
 		150A67CD270696E6009EE4AF /* YDNotificationConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDNotificationConst.h; sourceTree = "<group>"; };
@@ -190,6 +198,13 @@
 		150A67F8270740D5009EE4AF /* YDHiddenFunctionPasswordInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDHiddenFunctionPasswordInputView.m; sourceTree = "<group>"; };
 		150A67FB27074AB2009EE4AF /* YDHiddenFunctionPasswordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDHiddenFunctionPasswordView.h; sourceTree = "<group>"; };
 		150A67FC27074AB2009EE4AF /* YDHiddenFunctionPasswordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDHiddenFunctionPasswordView.m; sourceTree = "<group>"; };
+		1532D2AA2723EF1800F58ED1 /* YDEmptyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDEmptyView.h; sourceTree = "<group>"; };
+		1532D2AB2723EF1800F58ED1 /* YDEmptyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDEmptyView.m; sourceTree = "<group>"; };
+		1532D2AE2723F02C00F58ED1 /* YDEmptyViewConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDEmptyViewConfig.h; sourceTree = "<group>"; };
+		1532D2AF2723F02C00F58ED1 /* YDEmptyViewConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDEmptyViewConfig.m; sourceTree = "<group>"; };
+		1532D2B22723F20500F58ED1 /* YDEmptyAsset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = YDEmptyAsset.xcassets; sourceTree = "<group>"; };
+		1532D2B52723F31800F58ED1 /* UIViewController+YDEmptyViewShow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+YDEmptyViewShow.h"; sourceTree = "<group>"; };
+		1532D2B62723F31800F58ED1 /* UIViewController+YDEmptyViewShow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+YDEmptyViewShow.m"; sourceTree = "<group>"; };
 		157FFC9E2716F75C0034946A /* YDFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDFileManager.h; sourceTree = "<group>"; };
 		157FFC9F2716F75C0034946A /* YDFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDFileManager.m; sourceTree = "<group>"; };
 		157FFCA22716FBC30034946A /* YDUploadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDUploadManager.h; sourceTree = "<group>"; };
@@ -298,7 +313,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3306CEEFBDBA79D3E4794172 /* libPods-yd-general-ios-app-dev.a in Frameworks */,
+				9F411837E47BDA5B40D7A9AA /* libPods-yd-general-ios-app-dev.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,8 +438,8 @@
 		150A67C2270693F3009EE4AF /* YDPermissionUtil */ = {
 			isa = PBXGroup;
 			children = (
-				150A67C327069437009EE4AF /* YDCameraPermissionUtil.h */,
-				150A67C427069437009EE4AF /* YDCameraPermissionUtil.m */,
+				150A67C327069437009EE4AF /* YDAuthorizationUtil.h */,
+				150A67C427069437009EE4AF /* YDAuthorizationUtil.m */,
 			);
 			path = YDPermissionUtil;
 			sourceTree = "<group>";
@@ -452,6 +467,7 @@
 		150A67CE27069830009EE4AF /* YDBaseUI */ = {
 			isa = PBXGroup;
 			children = (
+				1532D2A92723EF0200F58ED1 /* YDEmptyView */,
 				150A67DF27073546009EE4AF /* YDStyle */,
 				150A67CF27069840009EE4AF /* YDBaseVIew */,
 				150A678A270602C0009EE4AF /* YDBaseVC */,
@@ -511,6 +527,20 @@
 				150A67FC27074AB2009EE4AF /* YDHiddenFunctionPasswordView.m */,
 			);
 			path = VIew;
+			sourceTree = "<group>";
+		};
+		1532D2A92723EF0200F58ED1 /* YDEmptyView */ = {
+			isa = PBXGroup;
+			children = (
+				1532D2B22723F20500F58ED1 /* YDEmptyAsset.xcassets */,
+				1532D2B52723F31800F58ED1 /* UIViewController+YDEmptyViewShow.h */,
+				1532D2B62723F31800F58ED1 /* UIViewController+YDEmptyViewShow.m */,
+				1532D2AA2723EF1800F58ED1 /* YDEmptyView.h */,
+				1532D2AB2723EF1800F58ED1 /* YDEmptyView.m */,
+				1532D2AE2723F02C00F58ED1 /* YDEmptyViewConfig.h */,
+				1532D2AF2723F02C00F58ED1 /* YDEmptyViewConfig.m */,
+			);
+			path = YDEmptyView;
 			sourceTree = "<group>";
 		};
 		157FFC9D2716F7400034946A /* YDFileManager */ = {
@@ -942,6 +972,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				150A67DA27070F86009EE4AF /* YDConfigImage.xcassets in Resources */,
+				1532D2B32723F20500F58ED1 /* YDEmptyAsset.xcassets in Resources */,
 				158AF8D6270418FB0095A3B1 /* LaunchScreen.storyboard in Resources */,
 				158AF8D3270418FB0095A3B1 /* Assets.xcassets in Resources */,
 				158AF91027043BC20095A3B1 /* yd-general-ios-app-Info.plist in Resources */,
@@ -967,6 +998,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				150A67DB27070F86009EE4AF /* YDConfigImage.xcassets in Resources */,
+				1532D2B42723F20500F58ED1 /* YDEmptyAsset.xcassets in Resources */,
 				158AF9032704193B0095A3B1 /* LaunchScreen.storyboard in Resources */,
 				158AF9042704193B0095A3B1 /* Assets.xcassets in Resources */,
 				158AF90F27043BBF0095A3B1 /* yd-general-ios-app-dev-Info.plist in Resources */,
@@ -1078,11 +1110,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1532D2B02723F02C00F58ED1 /* YDEmptyViewConfig.m in Sources */,
 				157FFCAD2717DE610034946A /* YDNumberSenderService.m in Sources */,
 				15DEA22A271735360011705A /* YDRegisterCommand.m in Sources */,
+				1532D2B72723F31800F58ED1 /* UIViewController+YDEmptyViewShow.m in Sources */,
 				15BA9C38271288D2008019F4 /* YDLoginCommand.m in Sources */,
 				15BA9C292711E930008019F4 /* YDDB+YDUser.m in Sources */,
-				150A67C527069437009EE4AF /* YDCameraPermissionUtil.m in Sources */,
+				150A67C527069437009EE4AF /* YDAuthorizationUtil.m in Sources */,
 				150A677E2705FFEB009EE4AF /* YDNetWorkConfig.m in Sources */,
 				150A67EA27073A69009EE4AF /* YDTableView.m in Sources */,
 				15850CFD2715B7DE002F79B5 /* YDLoggerUploadService.m in Sources */,
@@ -1129,6 +1163,7 @@
 				15BA9C252711E4FB008019F4 /* YDUser.m in Sources */,
 				150A67D72706A128009EE4AF /* AppDelegate+YDSetupVC.m in Sources */,
 				150A67A7270608BB009EE4AF /* YDLoginViewController.m in Sources */,
+				1532D2AC2723EF1800F58ED1 /* YDEmptyView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1153,11 +1188,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1532D2B12723F02C00F58ED1 /* YDEmptyViewConfig.m in Sources */,
 				157FFCAE2717DE610034946A /* YDNumberSenderService.m in Sources */,
 				15DEA22B271735360011705A /* YDRegisterCommand.m in Sources */,
+				1532D2B82723F31800F58ED1 /* UIViewController+YDEmptyViewShow.m in Sources */,
 				15BA9C39271288D2008019F4 /* YDLoginCommand.m in Sources */,
 				15BA9C2A2711E930008019F4 /* YDDB+YDUser.m in Sources */,
-				150A67C627069437009EE4AF /* YDCameraPermissionUtil.m in Sources */,
+				150A67C627069437009EE4AF /* YDAuthorizationUtil.m in Sources */,
 				150A677F2705FFEF009EE4AF /* YDNetWorkConfig.m in Sources */,
 				150A67EB27073A69009EE4AF /* YDTableView.m in Sources */,
 				15850CFE2715B7DF002F79B5 /* YDLoggerUploadService.m in Sources */,
@@ -1204,6 +1241,7 @@
 				15BA9C262711E4FB008019F4 /* YDUser.m in Sources */,
 				150A67D82706A128009EE4AF /* AppDelegate+YDSetupVC.m in Sources */,
 				150A67A8270608BB009EE4AF /* YDLoginViewController.m in Sources */,
+				1532D2AD2723EF1800F58ED1 /* YDEmptyView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
