@@ -28,6 +28,7 @@ def sharePods
   pod 'MMKV'
   pod 'SGQRCode', '~> 3.5.1'
   pod 'WMDragView', '~> 1.0.1'
+  pod 'KSMediaPlayerService', '~> 1.0.4'
   
   #YDKit
   pod 'YDAvoidCrashKit', '~> 0.1.8'
