@@ -67,23 +67,23 @@ PODS:
     - WHCNetWorkKit/NSURLConnection
   - WHCNetWorkKit/UtillKit (0.0.3)
   - WMDragView (1.0.1)
-  - YDAvoidCrashKit (0.1.6):
-    - YDAvoidCrashKit/YDAvoidCrash (= 0.1.6)
-    - YDAvoidCrashKit/YDLogger (= 0.1.6)
-    - YDAvoidCrashKit/YDLoggerUI (= 0.1.6)
-    - YDAvoidCrashKit/YDMonitor (= 0.1.6)
-    - YDAvoidCrashKit/YDSafeThread (= 0.1.6)
-    - YDAvoidCrashKit/YDTimer (= 0.1.6)
-  - YDAvoidCrashKit/YDAvoidCrash (0.1.6):
+  - YDAvoidCrashKit (0.1.8):
+    - YDAvoidCrashKit/YDAvoidCrash (= 0.1.8)
+    - YDAvoidCrashKit/YDLogger (= 0.1.8)
+    - YDAvoidCrashKit/YDLoggerUI (= 0.1.8)
+    - YDAvoidCrashKit/YDMonitor (= 0.1.8)
+    - YDAvoidCrashKit/YDSafeThread (= 0.1.8)
+    - YDAvoidCrashKit/YDTimer (= 0.1.8)
+  - YDAvoidCrashKit/YDAvoidCrash (0.1.8):
     - YDAvoidCrashKit/YDLogger
     - YDAvoidCrashKit/YDSafeThread
-  - YDAvoidCrashKit/YDLogger (0.1.6)
-  - YDAvoidCrashKit/YDLoggerUI (0.1.6):
+  - YDAvoidCrashKit/YDLogger (0.1.8)
+  - YDAvoidCrashKit/YDLoggerUI (0.1.8):
     - YDAvoidCrashKit/YDLogger
-  - YDAvoidCrashKit/YDMonitor (0.1.6):
+  - YDAvoidCrashKit/YDMonitor (0.1.8):
     - YDAvoidCrashKit/YDLogger
-  - YDAvoidCrashKit/YDSafeThread (0.1.6)
-  - YDAvoidCrashKit/YDTimer (0.1.6):
+  - YDAvoidCrashKit/YDSafeThread (0.1.8)
+  - YDAvoidCrashKit/YDTimer (0.1.8):
     - YDAvoidCrashKit/YDSafeThread
   - YDNetworkManager (0.0.5):
     - YTKNetwork
@@ -126,7 +126,7 @@ DEPENDENCIES:
   - WebViewJavascriptBridge (~> 6.0)
   - WHCNetWorkKit (~> 0.0.3)
   - WMDragView (~> 1.0.1)
-  - YDAvoidCrashKit (~> 0.1.6)
+  - YDAvoidCrashKit (~> 0.1.8)
   - YDNetworkManager (~> 0.0.5)
   - YDUtilKit (~> 0.0.5)
   - YYModel
@@ -188,13 +188,13 @@ SPEC CHECKSUMS:
   WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
   WHCNetWorkKit: 169c27c8b8008e8f8d679277929777083a2379b9
   WMDragView: 18f2c5d18c350ea4b0ac1cc64066abfe5caea443
-  YDAvoidCrashKit: 7630c639f04d67afc356fc4874a28c69716c97c7
+  YDAvoidCrashKit: 801ee4425eb6918c22bf73eb0a0afcce4be452cd
   YDNetworkManager: e72ef7270229d9ccca89f572b3d0bcc3d7a59122
   YDUtilKit: 1dd8baea344517c0f6f3c61a266b8ff0b8eae950
   YTKNetwork: c16be90b06be003de9e9cd0d3b187cc8eaf35c04
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
   ZFPlayer: ffa31fb470d0634eb9e65efeca0296b1d742a524
 
-PODFILE CHECKSUM: 32874f2618e88af409997056d3d250985c749161
+PODFILE CHECKSUM: 78648bb1fc230b7b782ed9fd0ab6248157013bdc
 
-COCOAPODS: 1.10.0
+COCOAPODS: 1.11.2

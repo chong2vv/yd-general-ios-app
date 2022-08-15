@@ -71,6 +71,7 @@ typedef NS_ENUM(NSInteger,YDHiddenCellStyle) {
     if ([password isEqualToString:@"888888"]) {
         self.passwordView.hidden = YES;
     }else {
+        
         [SVProgressHUD showErrorWithStatus:@"秘钥输入错误"];
     }
 }

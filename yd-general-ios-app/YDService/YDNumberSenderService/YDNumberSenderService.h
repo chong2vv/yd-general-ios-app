@@ -9,6 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+//本地简易发号器
 @interface YDNumberSenderService : NSObject
 
 + (NSString *)getSenderNumber;

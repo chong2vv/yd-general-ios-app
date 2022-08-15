@@ -138,6 +138,10 @@ static NSString *const KYDVerityRoomInputKeyDel          = @"删除";
     self.inputkey = @"";
 }
 
+- (void)clearPassword {
+    self.inputkey = @"";
+}
+
 #pragma mark - setter
 - (void)setInputkey:(NSString *)inputkey {
     if (inputkey.length > KYDVerityRoomInputKeyCount) {

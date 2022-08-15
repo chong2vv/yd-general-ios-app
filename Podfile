@@ -30,7 +30,7 @@ def sharePods
   pod 'WMDragView', '~> 1.0.1'
   
   #YDKit
-  pod 'YDAvoidCrashKit', '~> 0.1.6'
+  pod 'YDAvoidCrashKit', '~> 0.1.8'
   pod 'YDUtilKit', '~> 0.0.5'
   pod 'YDNetworkManager', '~> 0.0.5'
   

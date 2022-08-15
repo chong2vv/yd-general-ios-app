@@ -23,8 +23,10 @@ static NSInteger _upNumber = 0;
     NSString *numberStr = @"";
     numberStr = [numberStr stringByAppendingFormat:@"%@", [NSDate getNowTimeTimestamp]];
     numberStr = [numberStr stringByAppendingFormat:@"%ld", (long)YDNumberSenderService.upNumber];
+    int randomNumber = (arc4random() % 10);
+    numberStr = [numberStr stringByAppendingFormat:@"%ld", (long)randomNumber];
     YDNumberSenderService.upNumber ++;
-    if (YDNumberSenderService.upNumber == 9999) {
+    if (YDNumberSenderService.upNumber == 9) {
         YDNumberSenderService.upNumber = 0;
     }
     

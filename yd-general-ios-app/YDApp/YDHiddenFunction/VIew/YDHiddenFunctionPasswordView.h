@@ -19,6 +19,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, weak)id<YDHiddenFunctionPasswordInputDelegate> delegate;
 
+- (void)clearPassword;
+
 @end
 
 NS_ASSUME_NONNULL_END
