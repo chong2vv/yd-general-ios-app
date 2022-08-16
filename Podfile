@@ -43,7 +43,8 @@ def sharePods
   #缓存清理
   pod 'YDClearCacheService', '~> 0.1.0'
   #金山云播放器二次封装
-  pod 'KSMediaPlayerService', '~> 1.0.4'
+  # Pods for SIMULATOR: , :configurations => 'Release'
+  pod 'KSMediaPlayerService', '~> 1.0.4', :configurations => 'Release'
   
 end
 
