@@ -27,8 +27,6 @@
 		150A67B827068977009EE4AF /* AppDelegate+YDThird.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67B627068977009EE4AF /* AppDelegate+YDThird.m */; };
 		150A67BC270691EB009EE4AF /* YDMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67BB270691EB009EE4AF /* YDMineViewController.m */; };
 		150A67BD270691EB009EE4AF /* YDMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67BB270691EB009EE4AF /* YDMineViewController.m */; };
-		150A67C527069437009EE4AF /* YDAuthorizationUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67C427069437009EE4AF /* YDAuthorizationUtil.m */; };
-		150A67C627069437009EE4AF /* YDAuthorizationUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67C427069437009EE4AF /* YDAuthorizationUtil.m */; };
 		150A67CA27069690009EE4AF /* YDDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67C927069690009EE4AF /* YDDB.m */; };
 		150A67CB27069690009EE4AF /* YDDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67C927069690009EE4AF /* YDDB.m */; };
 		150A67D227069855009EE4AF /* YDButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 150A67D127069855009EE4AF /* YDButton.m */; };
@@ -65,8 +63,6 @@
 		1574EE7228AA2B950071963A /* YDViewReusePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1574EE7028AA2B950071963A /* YDViewReusePool.m */; };
 		157DCF7228AA3D2A00D6986A /* YDMediaPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 157DCF7128AA3D2A00D6986A /* YDMediaPlayerManager.m */; };
 		157DCF7328AA3D2A00D6986A /* YDMediaPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 157DCF7128AA3D2A00D6986A /* YDMediaPlayerManager.m */; };
-		157FFCA02716F75C0034946A /* YDFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 157FFC9F2716F75C0034946A /* YDFileManager.m */; };
-		157FFCA12716F75C0034946A /* YDFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 157FFC9F2716F75C0034946A /* YDFileManager.m */; };
 		157FFCA42716FBC30034946A /* YDUploadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 157FFCA32716FBC30034946A /* YDUploadManager.m */; };
 		157FFCA52716FBC30034946A /* YDUploadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 157FFCA32716FBC30034946A /* YDUploadManager.m */; };
 		157FFCA82717D7EE0034946A /* YDUserInfoUpdateCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 157FFCA72717D7EE0034946A /* YDUserInfoUpdateCommand.m */; };
@@ -97,10 +93,6 @@
 		15850CE22713E067002F79B5 /* YDAlertViewConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 15850CE02713E067002F79B5 /* YDAlertViewConfig.m */; };
 		15850CE52713E118002F79B5 /* YDAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15850CE42713E118002F79B5 /* YDAlertView.m */; };
 		15850CE62713E118002F79B5 /* YDAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15850CE42713E118002F79B5 /* YDAlertView.m */; };
-		15850CEA2713E2CD002F79B5 /* YDClearCacheService.m in Sources */ = {isa = PBXBuildFile; fileRef = 15850CE92713E2CD002F79B5 /* YDClearCacheService.m */; };
-		15850CEB2713E2CD002F79B5 /* YDClearCacheService.m in Sources */ = {isa = PBXBuildFile; fileRef = 15850CE92713E2CD002F79B5 /* YDClearCacheService.m */; };
-		15850CEE2713E92C002F79B5 /* YDClearCacheConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 15850CED2713E92C002F79B5 /* YDClearCacheConfig.m */; };
-		15850CEF2713E92C002F79B5 /* YDClearCacheConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 15850CED2713E92C002F79B5 /* YDClearCacheConfig.m */; };
 		15850CFD2715B7DE002F79B5 /* YDLoggerUploadService.m in Sources */ = {isa = PBXBuildFile; fileRef = 15850CFC2715B7DE002F79B5 /* YDLoggerUploadService.m */; };
 		15850CFE2715B7DF002F79B5 /* YDLoggerUploadService.m in Sources */ = {isa = PBXBuildFile; fileRef = 15850CFC2715B7DE002F79B5 /* YDLoggerUploadService.m */; };
 		158AF8C8270418F90095A3B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 158AF8C7270418F90095A3B1 /* AppDelegate.m */; };
@@ -176,8 +168,6 @@
 		150A67BA270691EB009EE4AF /* YDMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDMineViewController.h; sourceTree = "<group>"; };
 		150A67BB270691EB009EE4AF /* YDMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDMineViewController.m; sourceTree = "<group>"; };
 		150A67C0270692D1009EE4AF /* YDUtilBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDUtilBlock.h; sourceTree = "<group>"; };
-		150A67C327069437009EE4AF /* YDAuthorizationUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDAuthorizationUtil.h; sourceTree = "<group>"; };
-		150A67C427069437009EE4AF /* YDAuthorizationUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDAuthorizationUtil.m; sourceTree = "<group>"; };
 		150A67C827069690009EE4AF /* YDDB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDDB.h; sourceTree = "<group>"; };
 		150A67C927069690009EE4AF /* YDDB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDDB.m; sourceTree = "<group>"; };
 		150A67CD270696E6009EE4AF /* YDNotificationConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDNotificationConst.h; sourceTree = "<group>"; };
@@ -213,8 +203,6 @@
 		1574EE7028AA2B950071963A /* YDViewReusePool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDViewReusePool.m; sourceTree = "<group>"; };
 		157DCF7028AA3D2A00D6986A /* YDMediaPlayerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDMediaPlayerManager.h; sourceTree = "<group>"; };
 		157DCF7128AA3D2A00D6986A /* YDMediaPlayerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDMediaPlayerManager.m; sourceTree = "<group>"; };
-		157FFC9E2716F75C0034946A /* YDFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDFileManager.h; sourceTree = "<group>"; };
-		157FFC9F2716F75C0034946A /* YDFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDFileManager.m; sourceTree = "<group>"; };
 		157FFCA22716FBC30034946A /* YDUploadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDUploadManager.h; sourceTree = "<group>"; };
 		157FFCA32716FBC30034946A /* YDUploadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDUploadManager.m; sourceTree = "<group>"; };
 		157FFCA62717D7EE0034946A /* YDUserInfoUpdateCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDUserInfoUpdateCommand.h; sourceTree = "<group>"; };
@@ -245,11 +233,6 @@
 		15850CE02713E067002F79B5 /* YDAlertViewConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDAlertViewConfig.m; sourceTree = "<group>"; };
 		15850CE32713E118002F79B5 /* YDAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDAlertView.h; sourceTree = "<group>"; };
 		15850CE42713E118002F79B5 /* YDAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDAlertView.m; sourceTree = "<group>"; };
-		15850CE72713E297002F79B5 /* YDClearCacheProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDClearCacheProtocol.h; sourceTree = "<group>"; };
-		15850CE82713E2CD002F79B5 /* YDClearCacheService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDClearCacheService.h; sourceTree = "<group>"; };
-		15850CE92713E2CD002F79B5 /* YDClearCacheService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDClearCacheService.m; sourceTree = "<group>"; };
-		15850CEC2713E92B002F79B5 /* YDClearCacheConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDClearCacheConfig.h; sourceTree = "<group>"; };
-		15850CED2713E92C002F79B5 /* YDClearCacheConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDClearCacheConfig.m; sourceTree = "<group>"; };
 		15850CFB2715B7DE002F79B5 /* YDLoggerUploadService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDLoggerUploadService.h; sourceTree = "<group>"; };
 		15850CFC2715B7DE002F79B5 /* YDLoggerUploadService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDLoggerUploadService.m; sourceTree = "<group>"; };
 		158AF8C3270418F90095A3B1 /* yd-general-ios-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "yd-general-ios-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -390,7 +373,6 @@
 				157FFD0527191EC10034946A /* YDWebViewController */,
 				15850CD52713DD2E002F79B5 /* YDAlertView */,
 				150A67CE27069830009EE4AF /* YDBaseUI */,
-				150A67C2270693F3009EE4AF /* YDPermissionUtil */,
 			);
 			path = YDVendors;
 			sourceTree = "<group>";
@@ -441,15 +423,6 @@
 				150A67C0270692D1009EE4AF /* YDUtilBlock.h */,
 			);
 			path = YDUtilBlock;
-			sourceTree = "<group>";
-		};
-		150A67C2270693F3009EE4AF /* YDPermissionUtil */ = {
-			isa = PBXGroup;
-			children = (
-				150A67C327069437009EE4AF /* YDAuthorizationUtil.h */,
-				150A67C427069437009EE4AF /* YDAuthorizationUtil.m */,
-			);
-			path = YDPermissionUtil;
 			sourceTree = "<group>";
 		};
 		150A67C72706955E009EE4AF /* YDDB */ = {
@@ -570,15 +543,6 @@
 			path = YDMediaPlayer;
 			sourceTree = "<group>";
 		};
-		157FFC9D2716F7400034946A /* YDFileManager */ = {
-			isa = PBXGroup;
-			children = (
-				157FFC9E2716F75C0034946A /* YDFileManager.h */,
-				157FFC9F2716F75C0034946A /* YDFileManager.m */,
-			);
-			path = YDFileManager;
-			sourceTree = "<group>";
-		};
 		157FFCAA2717DE2C0034946A /* YDNumberSenderService */ = {
 			isa = PBXGroup;
 			children = (
@@ -652,18 +616,6 @@
 				15850CE02713E067002F79B5 /* YDAlertViewConfig.m */,
 			);
 			path = YDAlertView;
-			sourceTree = "<group>";
-		};
-		15850CDA2713DE5E002F79B5 /* YDClearCacheService */ = {
-			isa = PBXGroup;
-			children = (
-				15850CE72713E297002F79B5 /* YDClearCacheProtocol.h */,
-				15850CE82713E2CD002F79B5 /* YDClearCacheService.h */,
-				15850CE92713E2CD002F79B5 /* YDClearCacheService.m */,
-				15850CEC2713E92B002F79B5 /* YDClearCacheConfig.h */,
-				15850CED2713E92C002F79B5 /* YDClearCacheConfig.m */,
-			);
-			path = YDClearCacheService;
 			sourceTree = "<group>";
 		};
 		15850CFA2715B7B5002F79B5 /* YDLoggerUploadService */ = {
@@ -818,9 +770,7 @@
 				157DCF6F28AA3CFA00D6986A /* YDMediaPlayer */,
 				157FFD0A271967820034946A /* YDAppCheckUpdateService */,
 				157FFCAA2717DE2C0034946A /* YDNumberSenderService */,
-				157FFC9D2716F7400034946A /* YDFileManager */,
 				15850CFA2715B7B5002F79B5 /* YDLoggerUploadService */,
-				15850CDA2713DE5E002F79B5 /* YDClearCacheService */,
 				15BA9C2C27127A71008019F4 /* YDUploadService */,
 			);
 			path = YDService;
@@ -1162,7 +1112,6 @@
 				1532D2B72723F31800F58ED1 /* UIViewController+YDEmptyViewShow.m in Sources */,
 				15BA9C38271288D2008019F4 /* YDLoginCommand.m in Sources */,
 				15BA9C292711E930008019F4 /* YDDB+YDUser.m in Sources */,
-				150A67C527069437009EE4AF /* YDAuthorizationUtil.m in Sources */,
 				150A677E2705FFEB009EE4AF /* YDNetWorkConfig.m in Sources */,
 				150A67EA27073A69009EE4AF /* YDTableView.m in Sources */,
 				15850CFD2715B7DE002F79B5 /* YDLoggerUploadService.m in Sources */,
@@ -1187,13 +1136,10 @@
 				157FFCFB27184C760034946A /* UpApiUtils.m in Sources */,
 				157FFD17271968EF0034946A /* YDAppUpdateTostView.m in Sources */,
 				157DCF7228AA3D2A00D6986A /* YDMediaPlayerManager.m in Sources */,
-				15850CEE2713E92C002F79B5 /* YDClearCacheConfig.m in Sources */,
 				15850CE52713E118002F79B5 /* YDAlertView.m in Sources */,
 				15850CDD2713DFEF002F79B5 /* YDAlertAction.m in Sources */,
 				157FFCA82717D7EE0034946A /* YDUserInfoUpdateCommand.m in Sources */,
 				1574EE7128AA2B950071963A /* YDViewReusePool.m in Sources */,
-				15850CEA2713E2CD002F79B5 /* YDClearCacheService.m in Sources */,
-				157FFCA02716F75C0034946A /* YDFileManager.m in Sources */,
 				150A67E627073642009EE4AF /* YDImageView.m in Sources */,
 				158AF91E2704455C0095A3B1 /* YDTestViewController.m in Sources */,
 				150A678D27060308009EE4AF /* YDBaseViewController.m in Sources */,
@@ -1242,7 +1188,6 @@
 				1532D2B82723F31800F58ED1 /* UIViewController+YDEmptyViewShow.m in Sources */,
 				15BA9C39271288D2008019F4 /* YDLoginCommand.m in Sources */,
 				15BA9C2A2711E930008019F4 /* YDDB+YDUser.m in Sources */,
-				150A67C627069437009EE4AF /* YDAuthorizationUtil.m in Sources */,
 				150A677F2705FFEF009EE4AF /* YDNetWorkConfig.m in Sources */,
 				150A67EB27073A69009EE4AF /* YDTableView.m in Sources */,
 				15850CFE2715B7DF002F79B5 /* YDLoggerUploadService.m in Sources */,
@@ -1267,13 +1212,10 @@
 				157FFCFC27184C760034946A /* UpApiUtils.m in Sources */,
 				157FFD18271968EF0034946A /* YDAppUpdateTostView.m in Sources */,
 				157DCF7328AA3D2A00D6986A /* YDMediaPlayerManager.m in Sources */,
-				15850CEF2713E92C002F79B5 /* YDClearCacheConfig.m in Sources */,
 				15850CE62713E118002F79B5 /* YDAlertView.m in Sources */,
 				15850CDE2713DFEF002F79B5 /* YDAlertAction.m in Sources */,
 				157FFCA92717D7EE0034946A /* YDUserInfoUpdateCommand.m in Sources */,
 				1574EE7228AA2B950071963A /* YDViewReusePool.m in Sources */,
-				15850CEB2713E2CD002F79B5 /* YDClearCacheService.m in Sources */,
-				157FFCA12716F75C0034946A /* YDFileManager.m in Sources */,
 				150A67E727073642009EE4AF /* YDImageView.m in Sources */,
 				158AF91F2704455C0095A3B1 /* YDTestViewController.m in Sources */,
 				150A678E27060308009EE4AF /* YDBaseViewController.m in Sources */,

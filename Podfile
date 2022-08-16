@@ -28,12 +28,22 @@ def sharePods
   pod 'MMKV'
   pod 'SGQRCode', '~> 3.5.1'
   pod 'WMDragView', '~> 1.0.1'
-  pod 'KSMediaPlayerService', '~> 1.0.4'
   
   #YDKit
+  #防崩溃、日志、安全线程库
   pod 'YDAvoidCrashKit', '~> 0.1.8'
+  #工具类
   pod 'YDUtilKit', '~> 0.0.5'
+  #网络请求库
   pod 'YDNetworkManager', '~> 0.0.5'
+  #权限申请库
+  pod 'YDAuthorizationUtil', '~> 0.1.0'
+  #文件管理器
+  pod 'YDFileManager', '~> 0.1.3'
+  #缓存清理
+  pod 'YDClearCacheService', '~> 0.1.0'
+  #金山云播放器二次封装
+  pod 'KSMediaPlayerService', '~> 1.0.4'
   
 end
 

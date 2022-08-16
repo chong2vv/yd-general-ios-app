@@ -68,6 +68,7 @@ PODS:
     - WHCNetWorkKit/NSURLConnection
   - WHCNetWorkKit/UtillKit (0.0.3)
   - WMDragView (1.0.1)
+  - YDAuthorizationUtil (0.1.0)
   - YDAvoidCrashKit (0.1.8):
     - YDAvoidCrashKit/YDAvoidCrash (= 0.1.8)
     - YDAvoidCrashKit/YDLogger (= 0.1.8)
@@ -86,6 +87,8 @@ PODS:
   - YDAvoidCrashKit/YDSafeThread (0.1.8)
   - YDAvoidCrashKit/YDTimer (0.1.8):
     - YDAvoidCrashKit/YDSafeThread
+  - YDClearCacheService (0.1.0)
+  - YDFileManager (0.1.3)
   - YDNetworkManager (0.0.5):
     - YTKNetwork
   - YDUtilKit (0.0.5):
@@ -128,7 +131,10 @@ DEPENDENCIES:
   - WebViewJavascriptBridge (~> 6.0)
   - WHCNetWorkKit (~> 0.0.3)
   - WMDragView (~> 1.0.1)
+  - YDAuthorizationUtil (~> 0.1.0)
   - YDAvoidCrashKit (~> 0.1.8)
+  - YDClearCacheService (~> 0.1.0)
+  - YDFileManager (~> 0.1.3)
   - YDNetworkManager (~> 0.0.5)
   - YDUtilKit (~> 0.0.5)
   - YYModel
@@ -160,7 +166,10 @@ SPEC REPOS:
     - WebViewJavascriptBridge
     - WHCNetWorkKit
     - WMDragView
+    - YDAuthorizationUtil
     - YDAvoidCrashKit
+    - YDClearCacheService
+    - YDFileManager
     - YDNetworkManager
     - YDUtilKit
     - YTKNetwork
@@ -192,13 +201,16 @@ SPEC CHECKSUMS:
   WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
   WHCNetWorkKit: 169c27c8b8008e8f8d679277929777083a2379b9
   WMDragView: 18f2c5d18c350ea4b0ac1cc64066abfe5caea443
+  YDAuthorizationUtil: 6ac326f1c75fd82b222d5d9decda532123d4654f
   YDAvoidCrashKit: 801ee4425eb6918c22bf73eb0a0afcce4be452cd
+  YDClearCacheService: 3b5d31652e5297db49c1f7169600c6deb863bc7e
+  YDFileManager: 249fdae72b418c82d815763bc5bc32a4661ebc83
   YDNetworkManager: e72ef7270229d9ccca89f572b3d0bcc3d7a59122
   YDUtilKit: 1dd8baea344517c0f6f3c61a266b8ff0b8eae950
   YTKNetwork: c16be90b06be003de9e9cd0d3b187cc8eaf35c04
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
   ZFPlayer: ffa31fb470d0634eb9e65efeca0296b1d742a524
 
-PODFILE CHECKSUM: cb279b4228c5f518396ff15dec525482a125cba9
+PODFILE CHECKSUM: d63656a193d4004c75c565d78d5f011d1c1b948b
 
 COCOAPODS: 1.11.2
