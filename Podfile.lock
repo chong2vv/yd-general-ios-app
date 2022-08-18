@@ -107,6 +107,7 @@ PODS:
     - YDClearCacheService
   - YDNetworkManager (0.0.5):
     - YTKNetwork
+  - YDRouter (0.1.0)
   - YDUtilKit (0.0.6):
     - YDUtilKit/YDBaseUI (= 0.0.6)
     - YDUtilKit/YDFoundation (= 0.0.6)
@@ -166,6 +167,7 @@ DEPENDENCIES:
   - YDImageService (~> 0.1.2)
   - YDMediator (~> 0.1.1)
   - YDNetworkManager (~> 0.0.5)
+  - YDRouter (~> 0.1.0)
   - YDUtilKit (~> 0.0.6)
   - YYImage
   - YYModel
@@ -206,6 +208,7 @@ SPEC REPOS:
     - YDImageService
     - YDMediator
     - YDNetworkManager
+    - YDRouter
     - YDUtilKit
     - YTKNetwork
     - YYCache
@@ -247,6 +250,7 @@ SPEC CHECKSUMS:
   YDImageService: b8c4af18c31e94550778f825092f91210b917458
   YDMediator: aac16f02a878e7f149a320d3cc0028611c9707f1
   YDNetworkManager: e72ef7270229d9ccca89f572b3d0bcc3d7a59122
+  YDRouter: 0682d0b7ec3d4c7e4ad6954dbd965fa3ce8f9052
   YDUtilKit: e9755d2a4d3be146cf46ff52a185ef032694b708
   YTKNetwork: c16be90b06be003de9e9cd0d3b187cc8eaf35c04
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
@@ -255,6 +259,6 @@ SPEC CHECKSUMS:
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
   ZFPlayer: ffa31fb470d0634eb9e65efeca0296b1d742a524
 
-PODFILE CHECKSUM: bef1e20f1f0120166b7cf1c81ac75eb2c9e44029
+PODFILE CHECKSUM: 28689aff5b81fcc5469e0a60078ecc4e69549363
 
 COCOAPODS: 1.11.2

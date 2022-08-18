@@ -10,6 +10,7 @@
 #import "YDWebViewController.h"
 #import "YDWebViewController+JS.h"
 #import "YDMiniProService.h"
+#import <YDRouter/YDRouter.h>
 
 typedef NS_ENUM(NSInteger, EYDAPPLinkType) {
     EYDAPPLinkTypeWebUrl,        //跳转webview
@@ -53,10 +54,10 @@ typedef NS_ENUM(NSInteger, EYDAPPLinkType) {
 
 // url 会拼接 islogin 参数
 - (BOOL)checkLoginWithUrl:(NSString *)str{
-//    ArtURLHelper *urlHelper = [ArtURLHelper URLWithString:str];
-//    if ([[urlHelper.params objectForKey:@"islogin"] integerValue] == 1) {
-//        return YES;
-//    }
+    YDURLHelper *urlHelper = [YDURLHelper URLWithString:str];
+    if ([[urlHelper.params objectForKey:@"islogin"] integerValue] == 1) {
+        return YES;
+    }
     return NO;
 }
 
@@ -76,20 +77,20 @@ typedef NS_ENUM(NSInteger, EYDAPPLinkType) {
 // 目前只能跳转到
 - (void)pushToVc:(NSString *)linkUrl
 {
-//    ArtURLHelper *urlHelper = [ArtURLHelper URLWithString:linkUrl];
-//    if (urlHelper.host && [urlHelper.host.lowercaseString isEqualToString:@"chong2vv.com"]) {
-//        UIViewController *vc = nil;
-//        if ([urlHelper.path.lowercaseString containsString:@"other_page"]) {
-//            
-//        }else {
+    YDURLHelper *urlHelper = [YDURLHelper URLWithString:linkUrl];
+    if (urlHelper.host && [urlHelper.host.lowercaseString isEqualToString:@"chong2vv.com"]) {
+        UIViewController *vc = nil;
+        if ([urlHelper.path.lowercaseString containsString:@"other_page"]) {
+            
+        }else {
 //            [UIViewController showText:[NSString stringWithFormat:@"错误跳转%@",linkUrl]];
-//            
-//        }
-//        if (vc) {
-//            [self showViewController:vc showType:EYDMediatorShowTypePush animated:YES completion:nil];
-//        }
-//
-//    }
+            
+        }
+        if (vc) {
+            [self showViewController:vc showType:EYDMediatorShowTypePush animated:YES completion:nil];
+        }
+
+    }
 }
 
 - (BOOL)isRepeatUrlTo:(NSString *)url{

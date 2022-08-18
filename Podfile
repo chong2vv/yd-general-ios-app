@@ -13,7 +13,7 @@ def sharePods
   pod 'ReactiveObjC', '~> 3.1.0'
   pod 'MJRefresh'
   pod 'IQKeyboardManager'
-  pod 'lottie-ios', '~> 2.5.2'
+  pod 'lottie-ios', '~> 3.2.3'
   pod 'CYLTabBarController'
   pod 'M80AttributedLabel', '~> 1.9.9'
   pod 'YYModel'
@@ -46,6 +46,7 @@ def sharePods
   #缓存清理
   pod 'YDClearCacheService', '~> 0.1.0'
   #路由
+  pod 'YDRouter', '~> 0.1.0'
   pod 'YDMediator', '~> 0.1.1'
   #图片服务
   pod 'YDImageService', '~> 0.1.2'
