@@ -1,4 +1,10 @@
 PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
   - AFNetworking/NSURLSession (4.0.1):
     - AFNetworking/Reachability
     - AFNetworking/Security
@@ -6,6 +12,8 @@ PODS:
   - AFNetworking/Reachability (4.0.1)
   - AFNetworking/Security (4.0.1)
   - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
   - Bugly (2.5.0)
   - CocoaLumberjack (3.7.2):
     - CocoaLumberjack/Core (= 3.7.2)
@@ -37,6 +45,7 @@ PODS:
   - GCDWebServer/WebUploader (3.5.4):
     - GCDWebServer/Core
   - IQKeyboardManager (6.5.6)
+  - JXCategoryView (1.6.1)
   - KSMediaPlayerService (1.0.4)
   - lottie-ios (2.5.3)
   - M80AttributedLabel (1.9.9)
@@ -89,20 +98,34 @@ PODS:
     - YDAvoidCrashKit/YDSafeThread
   - YDClearCacheService (0.1.0)
   - YDFileManager (0.1.3)
+  - YDMediator (0.1.1):
+    - YDAvoidCrashKit
+    - YDClearCacheService
   - YDNetworkManager (0.0.5):
     - YTKNetwork
-  - YDUtilKit (0.0.5):
-    - YDUtilKit/YDBaseUI (= 0.0.5)
-    - YDUtilKit/YDFoundation (= 0.0.5)
-    - YDUtilKit/YDUIKit (= 0.0.5)
-  - YDUtilKit/YDBaseUI (0.0.5)
-  - YDUtilKit/YDFoundation (0.0.5)
-  - YDUtilKit/YDUIKit (0.0.5):
+  - YDUtilKit (0.0.6):
+    - YDUtilKit/YDBaseUI (= 0.0.6)
+    - YDUtilKit/YDFoundation (= 0.0.6)
+    - YDUtilKit/YDTools (= 0.0.6)
+    - YDUtilKit/YDUIKit (= 0.0.6)
+  - YDUtilKit/YDBaseUI (0.0.6)
+  - YDUtilKit/YDFoundation (0.0.6)
+  - YDUtilKit/YDTools (0.0.6):
+    - AFNetworking
+    - YDUtilKit/YDFoundation
+  - YDUtilKit/YDUIKit (0.0.6):
     - YDUtilKit/YDBaseUI
     - YDUtilKit/YDFoundation
   - YTKNetwork (3.0.6):
     - AFNetworking/NSURLSession (~> 4.0)
+  - YYCache (1.0.4)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
   - YYModel (1.0.4)
+  - YYWebImage (1.0.5):
+    - YYCache
+    - YYImage
   - ZFPlayer (4.0.2):
     - ZFPlayer/Core (= 4.0.2)
   - ZFPlayer/Core (4.0.2)
@@ -117,6 +140,7 @@ DEPENDENCIES:
   - fishhook
   - FMDB
   - IQKeyboardManager
+  - JXCategoryView (= 1.6.1)
   - KSMediaPlayerService (~> 1.0.4)
   - lottie-ios (~> 2.5.2)
   - M80AttributedLabel (~> 1.9.9)
@@ -135,9 +159,12 @@ DEPENDENCIES:
   - YDAvoidCrashKit (~> 0.1.8)
   - YDClearCacheService (~> 0.1.0)
   - YDFileManager (~> 0.1.3)
+  - YDMediator (~> 0.1.1)
   - YDNetworkManager (~> 0.0.5)
-  - YDUtilKit (~> 0.0.5)
+  - YDUtilKit (~> 0.0.6)
+  - YYImage
   - YYModel
+  - YYWebImage
   - ZFPlayer (~> 4.0.2)
 
 SPEC REPOS:
@@ -151,6 +178,7 @@ SPEC REPOS:
     - FMDB
     - GCDWebServer
     - IQKeyboardManager
+    - JXCategoryView
     - KSMediaPlayerService
     - lottie-ios
     - M80AttributedLabel
@@ -170,10 +198,14 @@ SPEC REPOS:
     - YDAvoidCrashKit
     - YDClearCacheService
     - YDFileManager
+    - YDMediator
     - YDNetworkManager
     - YDUtilKit
     - YTKNetwork
+    - YYCache
+    - YYImage
     - YYModel
+    - YYWebImage
     - ZFPlayer
 
 SPEC CHECKSUMS:
@@ -186,6 +218,7 @@ SPEC CHECKSUMS:
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
   IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
+  JXCategoryView: 7b1ee69ede4843c581688afe84d0f047723262f2
   KSMediaPlayerService: fabd9e4cdb4e1516a081369d549e709e06bf43c0
   lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
   M80AttributedLabel: 77fedfe63804c989a6de0fa4d400ea8cad3ab441
@@ -205,12 +238,16 @@ SPEC CHECKSUMS:
   YDAvoidCrashKit: 801ee4425eb6918c22bf73eb0a0afcce4be452cd
   YDClearCacheService: 3b5d31652e5297db49c1f7169600c6deb863bc7e
   YDFileManager: 249fdae72b418c82d815763bc5bc32a4661ebc83
+  YDMediator: aac16f02a878e7f149a320d3cc0028611c9707f1
   YDNetworkManager: e72ef7270229d9ccca89f572b3d0bcc3d7a59122
-  YDUtilKit: 1dd8baea344517c0f6f3c61a266b8ff0b8eae950
+  YDUtilKit: e9755d2a4d3be146cf46ff52a185ef032694b708
   YTKNetwork: c16be90b06be003de9e9cd0d3b187cc8eaf35c04
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+  YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
   ZFPlayer: ffa31fb470d0634eb9e65efeca0296b1d742a524
 
-PODFILE CHECKSUM: 9c87303e182d877a918e18b76336cab01344ea14
+PODFILE CHECKSUM: 001ec4aa5b5abc62181076ed899a876a2c2bf388
 
-COCOAPODS: 1.11.0.beta.2
+COCOAPODS: 1.11.2

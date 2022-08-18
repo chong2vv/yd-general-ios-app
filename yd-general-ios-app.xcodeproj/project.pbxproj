@@ -67,8 +67,6 @@
 		157FFCA52716FBC30034946A /* YDUploadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 157FFCA32716FBC30034946A /* YDUploadManager.m */; };
 		157FFCA82717D7EE0034946A /* YDUserInfoUpdateCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 157FFCA72717D7EE0034946A /* YDUserInfoUpdateCommand.m */; };
 		157FFCA92717D7EE0034946A /* YDUserInfoUpdateCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 157FFCA72717D7EE0034946A /* YDUserInfoUpdateCommand.m */; };
-		157FFCAD2717DE610034946A /* YDNumberSenderService.m in Sources */ = {isa = PBXBuildFile; fileRef = 157FFCAC2717DE610034946A /* YDNumberSenderService.m */; };
-		157FFCAE2717DE610034946A /* YDNumberSenderService.m in Sources */ = {isa = PBXBuildFile; fileRef = 157FFCAC2717DE610034946A /* YDNumberSenderService.m */; };
 		157FFCB127180F830034946A /* YDSendCodeCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 157FFCB027180F830034946A /* YDSendCodeCommand.m */; };
 		157FFCB227180F830034946A /* YDSendCodeCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 157FFCB027180F830034946A /* YDSendCodeCommand.m */; };
 		157FFCFB27184C760034946A /* UpApiUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 157FFCFA27184C760034946A /* UpApiUtils.m */; };
@@ -122,6 +120,10 @@
 		15BA9C3027127AA2008019F4 /* YDUploadService.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BA9C2E27127AA2008019F4 /* YDUploadService.m */; };
 		15BA9C38271288D2008019F4 /* YDLoginCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BA9C37271288D2008019F4 /* YDLoginCommand.m */; };
 		15BA9C39271288D2008019F4 /* YDLoginCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BA9C37271288D2008019F4 /* YDLoginCommand.m */; };
+		15C5BD7128ACDA2800E5B1EC /* YDMiniProService.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C5BD7028ACDA2800E5B1EC /* YDMiniProService.m */; };
+		15C5BD7228ACDA2800E5B1EC /* YDMiniProService.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C5BD7028ACDA2800E5B1EC /* YDMiniProService.m */; };
+		15C5BD7528ADE06100E5B1EC /* YDWebViewController+JS.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C5BD7428ADE06100E5B1EC /* YDWebViewController+JS.m */; };
+		15C5BD7628ADE06100E5B1EC /* YDWebViewController+JS.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C5BD7428ADE06100E5B1EC /* YDWebViewController+JS.m */; };
 		15DEA22A271735360011705A /* YDRegisterCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DEA229271735360011705A /* YDRegisterCommand.m */; };
 		15DEA22B271735360011705A /* YDRegisterCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DEA229271735360011705A /* YDRegisterCommand.m */; };
 		21035A6C219FA3AB9D49D6B0 /* libPods-yd-general-ios-app.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38246749678BFA03C80151BE /* libPods-yd-general-ios-app.a */; };
@@ -207,8 +209,6 @@
 		157FFCA32716FBC30034946A /* YDUploadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDUploadManager.m; sourceTree = "<group>"; };
 		157FFCA62717D7EE0034946A /* YDUserInfoUpdateCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDUserInfoUpdateCommand.h; sourceTree = "<group>"; };
 		157FFCA72717D7EE0034946A /* YDUserInfoUpdateCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDUserInfoUpdateCommand.m; sourceTree = "<group>"; };
-		157FFCAB2717DE610034946A /* YDNumberSenderService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDNumberSenderService.h; sourceTree = "<group>"; };
-		157FFCAC2717DE610034946A /* YDNumberSenderService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDNumberSenderService.m; sourceTree = "<group>"; };
 		157FFCAF27180F830034946A /* YDSendCodeCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDSendCodeCommand.h; sourceTree = "<group>"; };
 		157FFCB027180F830034946A /* YDSendCodeCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDSendCodeCommand.m; sourceTree = "<group>"; };
 		157FFCF927184C750034946A /* UpApiUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpApiUtils.h; sourceTree = "<group>"; };
@@ -267,6 +267,10 @@
 		15BA9C2E27127AA2008019F4 /* YDUploadService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDUploadService.m; sourceTree = "<group>"; };
 		15BA9C36271288D2008019F4 /* YDLoginCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDLoginCommand.h; sourceTree = "<group>"; };
 		15BA9C37271288D2008019F4 /* YDLoginCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDLoginCommand.m; sourceTree = "<group>"; };
+		15C5BD6F28ACDA2800E5B1EC /* YDMiniProService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDMiniProService.h; sourceTree = "<group>"; };
+		15C5BD7028ACDA2800E5B1EC /* YDMiniProService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDMiniProService.m; sourceTree = "<group>"; };
+		15C5BD7328ADE06100E5B1EC /* YDWebViewController+JS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YDWebViewController+JS.h"; sourceTree = "<group>"; };
+		15C5BD7428ADE06100E5B1EC /* YDWebViewController+JS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YDWebViewController+JS.m"; sourceTree = "<group>"; };
 		15DEA228271735360011705A /* YDRegisterCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDRegisterCommand.h; sourceTree = "<group>"; };
 		15DEA229271735360011705A /* YDRegisterCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDRegisterCommand.m; sourceTree = "<group>"; };
 		38246749678BFA03C80151BE /* libPods-yd-general-ios-app.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-yd-general-ios-app.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -370,7 +374,7 @@
 		150A678927060275009EE4AF /* YDVendors */ = {
 			isa = PBXGroup;
 			children = (
-				157FFD0527191EC10034946A /* YDWebViewController */,
+				157FFD0527191EC10034946A /* YDWebView */,
 				15850CD52713DD2E002F79B5 /* YDAlertView */,
 				150A67CE27069830009EE4AF /* YDBaseUI */,
 			);
@@ -543,15 +547,6 @@
 			path = YDMediaPlayer;
 			sourceTree = "<group>";
 		};
-		157FFCAA2717DE2C0034946A /* YDNumberSenderService */ = {
-			isa = PBXGroup;
-			children = (
-				157FFCAB2717DE610034946A /* YDNumberSenderService.h */,
-				157FFCAC2717DE610034946A /* YDNumberSenderService.m */,
-			);
-			path = YDNumberSenderService;
-			sourceTree = "<group>";
-		};
 		157FFCF827184C360034946A /* YPUtil */ = {
 			isa = PBXGroup;
 			children = (
@@ -565,13 +560,14 @@
 			path = YPUtil;
 			sourceTree = "<group>";
 		};
-		157FFD0527191EC10034946A /* YDWebViewController */ = {
+		157FFD0527191EC10034946A /* YDWebView */ = {
 			isa = PBXGroup;
 			children = (
-				157FFD0627191EE30034946A /* YDWebViewController.h */,
-				157FFD0727191EE30034946A /* YDWebViewController.m */,
+				15C5BD6E28ACD9D000E5B1EC /* Service */,
+				15C5BD6D28ACD9C900E5B1EC /* App */,
+				15C5BD6C28ACD9BA00E5B1EC /* UI */,
 			);
-			path = YDWebViewController;
+			path = YDWebView;
 			sourceTree = "<group>";
 		};
 		157FFD0A271967820034946A /* YDAppCheckUpdateService */ = {
@@ -769,7 +765,6 @@
 			children = (
 				157DCF6F28AA3CFA00D6986A /* YDMediaPlayer */,
 				157FFD0A271967820034946A /* YDAppCheckUpdateService */,
-				157FFCAA2717DE2C0034946A /* YDNumberSenderService */,
 				15850CFA2715B7B5002F79B5 /* YDLoggerUploadService */,
 				15BA9C2C27127A71008019F4 /* YDUploadService */,
 			);
@@ -785,6 +780,33 @@
 				157FFCA32716FBC30034946A /* YDUploadManager.m */,
 			);
 			path = YDUploadService;
+			sourceTree = "<group>";
+		};
+		15C5BD6C28ACD9BA00E5B1EC /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				157FFD0627191EE30034946A /* YDWebViewController.h */,
+				157FFD0727191EE30034946A /* YDWebViewController.m */,
+				15C5BD7328ADE06100E5B1EC /* YDWebViewController+JS.h */,
+				15C5BD7428ADE06100E5B1EC /* YDWebViewController+JS.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		15C5BD6D28ACD9C900E5B1EC /* App */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		15C5BD6E28ACD9D000E5B1EC /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				15C5BD6F28ACDA2800E5B1EC /* YDMiniProService.h */,
+				15C5BD7028ACDA2800E5B1EC /* YDMiniProService.m */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 		15DEA227271732A60011705A /* Command */ = {
@@ -1107,7 +1129,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1532D2B02723F02C00F58ED1 /* YDEmptyViewConfig.m in Sources */,
-				157FFCAD2717DE610034946A /* YDNumberSenderService.m in Sources */,
 				15DEA22A271735360011705A /* YDRegisterCommand.m in Sources */,
 				1532D2B72723F31800F58ED1 /* UIViewController+YDEmptyViewShow.m in Sources */,
 				15BA9C38271288D2008019F4 /* YDLoginCommand.m in Sources */,
@@ -1137,6 +1158,7 @@
 				157FFD17271968EF0034946A /* YDAppUpdateTostView.m in Sources */,
 				157DCF7228AA3D2A00D6986A /* YDMediaPlayerManager.m in Sources */,
 				15850CE52713E118002F79B5 /* YDAlertView.m in Sources */,
+				15C5BD7528ADE06100E5B1EC /* YDWebViewController+JS.m in Sources */,
 				15850CDD2713DFEF002F79B5 /* YDAlertAction.m in Sources */,
 				157FFCA82717D7EE0034946A /* YDUserInfoUpdateCommand.m in Sources */,
 				1574EE7128AA2B950071963A /* YDViewReusePool.m in Sources */,
@@ -1156,6 +1178,7 @@
 				157FFD0D271967A90034946A /* YDAppCheckUpdateService.m in Sources */,
 				15BA9C252711E4FB008019F4 /* YDUser.m in Sources */,
 				150A67D72706A128009EE4AF /* AppDelegate+YDSetupVC.m in Sources */,
+				15C5BD7128ACDA2800E5B1EC /* YDMiniProService.m in Sources */,
 				150A67A7270608BB009EE4AF /* YDLoginViewController.m in Sources */,
 				1532D2AC2723EF1800F58ED1 /* YDEmptyView.m in Sources */,
 			);
@@ -1183,7 +1206,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1532D2B12723F02C00F58ED1 /* YDEmptyViewConfig.m in Sources */,
-				157FFCAE2717DE610034946A /* YDNumberSenderService.m in Sources */,
 				15DEA22B271735360011705A /* YDRegisterCommand.m in Sources */,
 				1532D2B82723F31800F58ED1 /* UIViewController+YDEmptyViewShow.m in Sources */,
 				15BA9C39271288D2008019F4 /* YDLoginCommand.m in Sources */,
@@ -1213,6 +1235,7 @@
 				157FFD18271968EF0034946A /* YDAppUpdateTostView.m in Sources */,
 				157DCF7328AA3D2A00D6986A /* YDMediaPlayerManager.m in Sources */,
 				15850CE62713E118002F79B5 /* YDAlertView.m in Sources */,
+				15C5BD7628ADE06100E5B1EC /* YDWebViewController+JS.m in Sources */,
 				15850CDE2713DFEF002F79B5 /* YDAlertAction.m in Sources */,
 				157FFCA92717D7EE0034946A /* YDUserInfoUpdateCommand.m in Sources */,
 				1574EE7228AA2B950071963A /* YDViewReusePool.m in Sources */,
@@ -1232,6 +1255,7 @@
 				157FFD0E271967A90034946A /* YDAppCheckUpdateService.m in Sources */,
 				15BA9C262711E4FB008019F4 /* YDUser.m in Sources */,
 				150A67D82706A128009EE4AF /* AppDelegate+YDSetupVC.m in Sources */,
+				15C5BD7228ACDA2800E5B1EC /* YDMiniProService.m in Sources */,
 				150A67A8270608BB009EE4AF /* YDLoginViewController.m in Sources */,
 				1532D2AD2723EF1800F58ED1 /* YDEmptyView.m in Sources */,
 			);

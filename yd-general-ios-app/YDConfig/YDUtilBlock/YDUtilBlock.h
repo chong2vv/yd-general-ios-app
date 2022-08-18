@@ -18,8 +18,11 @@ typedef void (^YDSuccessInt)(int result);
 typedef void (^YDSuccessLongLong)(long long result);
 typedef void (^YDSuccessData)(NSData *data);
 
+//错误无返回回调
 typedef void (^YDFailureHandler)(void);
+//错误信息返回
 typedef void (^YDFailureString)(NSString *error);
+//错误error返回
 typedef void (^YDFailureError)(NSError *error);
 
 typedef void (^YDConfirmActionBlock)(void);

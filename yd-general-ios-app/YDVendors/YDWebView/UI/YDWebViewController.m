@@ -8,10 +8,6 @@
 #import "YDWebViewController.h"
 
 @interface YDWebViewController ()
-//<WKNavigationDelegate,
-//WKUIDelegate,
-//WKScriptMessageHandler
-//>
 
 @property (nonatomic, strong) WKWebView *webView;
 @property (nonatomic, strong) WKWebView *tmpWebView;//只用来获取UA

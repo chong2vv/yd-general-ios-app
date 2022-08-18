@@ -17,6 +17,8 @@ def sharePods
   pod 'CYLTabBarController'
   pod 'M80AttributedLabel', '~> 1.9.9'
   pod 'YYModel'
+  pod 'YYImage'
+  pod 'YYWebImage'
   pod 'SVProgressHUD'
   pod 'SDWebImage', '~> 5.8.4'
   pod 'FMDB'
@@ -28,12 +30,13 @@ def sharePods
   pod 'MMKV'
   pod 'SGQRCode', '~> 3.5.1'
   pod 'WMDragView', '~> 1.0.1'
+  pod 'JXCategoryView', '1.6.1', :modular_headers => false
   
   #YDKit
   #防崩溃、日志、安全线程库
   pod 'YDAvoidCrashKit', '~> 0.1.8'
   #工具类
-  pod 'YDUtilKit', '~> 0.0.5'
+  pod 'YDUtilKit', '~> 0.0.6'
   #网络请求库
   pod 'YDNetworkManager', '~> 0.0.5'
   #权限申请库
@@ -42,6 +45,8 @@ def sharePods
   pod 'YDFileManager', '~> 0.1.3'
   #缓存清理
   pod 'YDClearCacheService', '~> 0.1.0'
+  #路由
+  pod 'YDMediator', '~> 0.1.1'
   #金山云播放器二次封装
   # Pods for SIMULATOR: , :configurations => 'Release'
   pod 'KSMediaPlayerService', '~> 1.0.4', :configurations => 'Release'
