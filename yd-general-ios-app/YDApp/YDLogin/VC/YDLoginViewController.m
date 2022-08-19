@@ -7,6 +7,7 @@
 
 #import "YDLoginViewController.h"
 #import "YDHiddenFunctionViewController.h"
+
 @interface YDLoginViewController ()
 
 @end
@@ -26,6 +27,7 @@
             YDHiddenFunctionViewController *vc = [[YDHiddenFunctionViewController alloc] init];
             [self.navigationController pushViewController:vc animated:YES];
             YDLogInfo(@"==== 进入隐藏功能 ====");
+            NSLog(@"隐藏功能");
         });
     }];
 }

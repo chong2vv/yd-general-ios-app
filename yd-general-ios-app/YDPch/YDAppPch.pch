@@ -38,6 +38,7 @@
 #import "YDBaseView.h"
 #import "YDPlistConst.h"
 #import "YDUserConfig.h"
+#import "YDUIConfig.h"
 #import "YDAlertViewController.h"
 #import "YDFileManager.h"
 #import "UIViewController+YDEmptyViewShow.h"
@@ -48,6 +49,9 @@
 #import <YDUtilKit/YDUtilKit.h>
 #import <YDNetworkManager/YDNetworkManager.h>
 #import <YDAvoidCrashKit/YDAvoidCrashKit.h>
+#import <YDAuthorizationUtil/YDAuthorizationUtil.h>
+#import <YDImageService/YDImageService.h>
+#import <YDSVProgressHUD/YDProgressHUD.h>
 #endif
 
 

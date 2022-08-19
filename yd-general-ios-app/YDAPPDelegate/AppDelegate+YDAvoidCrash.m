@@ -7,6 +7,7 @@
 
 #import "AppDelegate+YDAvoidCrash.h"
 #import "YDLoggerUploadService.h"
+#import <fishhook/fishhook.h>
 
 @implementation AppDelegate (YDAvoidCrash)
 
@@ -22,6 +23,9 @@
     [[YDSafeThreadPool shared] creatThread:@"com.yd.loggerzip" Task:^{
         [[YDLoggerUploadService shared] uploadLoggerZIP:NO];
     }];
+    
+//    [self fishHook];
 }
+
 
 @end

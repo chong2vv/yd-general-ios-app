@@ -130,6 +130,8 @@
 		15C5BD8E28AE11D200E5B1EC /* YDAppWeb.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C5BD8C28AE11D200E5B1EC /* YDAppWeb.m */; };
 		15C5BD9128AE123100E5B1EC /* YDMediator+YDWeb.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C5BD9028AE123100E5B1EC /* YDMediator+YDWeb.m */; };
 		15C5BD9228AE123100E5B1EC /* YDMediator+YDWeb.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C5BD9028AE123100E5B1EC /* YDMediator+YDWeb.m */; };
+		15C6477028AF7E3C00D94631 /* YDUIConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C6476F28AF7E3C00D94631 /* YDUIConfig.m */; };
+		15C6477128AF7E3C00D94631 /* YDUIConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C6476F28AF7E3C00D94631 /* YDUIConfig.m */; };
 		15DEA22A271735360011705A /* YDRegisterCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DEA229271735360011705A /* YDRegisterCommand.m */; };
 		15DEA22B271735360011705A /* YDRegisterCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DEA229271735360011705A /* YDRegisterCommand.m */; };
 		21035A6C219FA3AB9D49D6B0 /* libPods-yd-general-ios-app.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38246749678BFA03C80151BE /* libPods-yd-general-ios-app.a */; };
@@ -284,6 +286,8 @@
 		15C5BD8C28AE11D200E5B1EC /* YDAppWeb.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDAppWeb.m; sourceTree = "<group>"; };
 		15C5BD8F28AE123100E5B1EC /* YDMediator+YDWeb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YDMediator+YDWeb.h"; sourceTree = "<group>"; };
 		15C5BD9028AE123100E5B1EC /* YDMediator+YDWeb.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YDMediator+YDWeb.m"; sourceTree = "<group>"; };
+		15C6476E28AF7E3C00D94631 /* YDUIConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDUIConfig.h; sourceTree = "<group>"; };
+		15C6476F28AF7E3C00D94631 /* YDUIConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDUIConfig.m; sourceTree = "<group>"; };
 		15DEA228271735360011705A /* YDRegisterCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDRegisterCommand.h; sourceTree = "<group>"; };
 		15DEA229271735360011705A /* YDRegisterCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDRegisterCommand.m; sourceTree = "<group>"; };
 		38246749678BFA03C80151BE /* libPods-yd-general-ios-app.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-yd-general-ios-app.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -698,6 +702,7 @@
 		158AF90B27043B440095A3B1 /* YDConfig */ = {
 			isa = PBXGroup;
 			children = (
+				15C6476D28AF7E1000D94631 /* YDUIConfig */,
 				15C5BD8528AE0FBD00E5B1EC /* YDWebImageConfig */,
 				15BA9C1D2711DEDB008019F4 /* YDPlistConst */,
 				150A67CC270696C8009EE4AF /* YDNotificationConst */,
@@ -835,6 +840,15 @@
 				15C5BD8728AE0FFD00E5B1EC /* YDWebImageConfig.m */,
 			);
 			path = YDWebImageConfig;
+			sourceTree = "<group>";
+		};
+		15C6476D28AF7E1000D94631 /* YDUIConfig */ = {
+			isa = PBXGroup;
+			children = (
+				15C6476E28AF7E3C00D94631 /* YDUIConfig.h */,
+				15C6476F28AF7E3C00D94631 /* YDUIConfig.m */,
+			);
+			path = YDUIConfig;
 			sourceTree = "<group>";
 		};
 		15DEA227271732A60011705A /* Command */ = {
@@ -1200,6 +1214,7 @@
 				150A67D227069855009EE4AF /* YDButton.m in Sources */,
 				157FFD0327184D5E0034946A /* UpUploadModel.m in Sources */,
 				158AF919270443250095A3B1 /* AppDelegate+YDServicePush.m in Sources */,
+				15C6477028AF7E3C00D94631 /* YDUIConfig.m in Sources */,
 				158AF8D9270418FB0095A3B1 /* main.m in Sources */,
 				157FFCA42716FBC30034946A /* YDUploadManager.m in Sources */,
 				150A67CA27069690009EE4AF /* YDDB.m in Sources */,
@@ -1280,6 +1295,7 @@
 				150A67D327069855009EE4AF /* YDButton.m in Sources */,
 				157FFD0427184D5E0034946A /* UpUploadModel.m in Sources */,
 				158AF91A270443250095A3B1 /* AppDelegate+YDServicePush.m in Sources */,
+				15C6477128AF7E3C00D94631 /* YDUIConfig.m in Sources */,
 				158AF8FF2704193B0095A3B1 /* main.m in Sources */,
 				157FFCA52716FBC30034946A /* YDUploadManager.m in Sources */,
 				150A67CB27069690009EE4AF /* YDDB.m in Sources */,
