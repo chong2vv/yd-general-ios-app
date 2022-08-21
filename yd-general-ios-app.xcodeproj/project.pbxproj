@@ -81,6 +81,8 @@
 		1522556028B2884600ED20FC /* YDUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1522555E28B2884600ED20FC /* YDUserViewController.m */; };
 		1522556828B2893600ED20FC /* YDUserShowService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1522556728B2893600ED20FC /* YDUserShowService.m */; };
 		1522556928B2893600ED20FC /* YDUserShowService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1522556728B2893600ED20FC /* YDUserShowService.m */; };
+		1522557328B28BB100ED20FC /* YDAVPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1522557228B28BB100ED20FC /* YDAVPlayerViewController.m */; };
+		1522557428B28BB100ED20FC /* YDAVPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1522557228B28BB100ED20FC /* YDAVPlayerViewController.m */; };
 		1532D2AC2723EF1800F58ED1 /* YDEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1532D2AB2723EF1800F58ED1 /* YDEmptyView.m */; };
 		1532D2AD2723EF1800F58ED1 /* YDEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1532D2AB2723EF1800F58ED1 /* YDEmptyView.m */; };
 		1532D2B02723F02C00F58ED1 /* YDEmptyViewConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1532D2AF2723F02C00F58ED1 /* YDEmptyViewConfig.m */; };
@@ -262,6 +264,8 @@
 		1522556628B2893600ED20FC /* YDUserShowService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDUserShowService.h; sourceTree = "<group>"; };
 		1522556728B2893600ED20FC /* YDUserShowService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDUserShowService.m; sourceTree = "<group>"; };
 		1522556A28B2897200ED20FC /* YDUserShowConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDUserShowConfig.h; sourceTree = "<group>"; };
+		1522557128B28BB100ED20FC /* YDAVPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDAVPlayerViewController.h; sourceTree = "<group>"; };
+		1522557228B28BB100ED20FC /* YDAVPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDAVPlayerViewController.m; sourceTree = "<group>"; };
 		1532D2AA2723EF1800F58ED1 /* YDEmptyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDEmptyView.h; sourceTree = "<group>"; };
 		1532D2AB2723EF1800F58ED1 /* YDEmptyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDEmptyView.m; sourceTree = "<group>"; };
 		1532D2AE2723F02C00F58ED1 /* YDEmptyViewConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDEmptyViewConfig.h; sourceTree = "<group>"; };
@@ -603,10 +607,8 @@
 		152254C328AFDD4900ED20FC /* YDPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				152254C428AFDD7D00ED20FC /* YDPlayerView.h */,
-				152254C528AFDD7D00ED20FC /* YDPlayerView.m */,
-				1522555828B2845400ED20FC /* YDPlayerControlView.h */,
-				1522555928B2845400ED20FC /* YDPlayerControlView.m */,
+				1522556C28B28B4D00ED20FC /* VC */,
+				1522556B28B28B3D00ED20FC /* View */,
 			);
 			path = YDPlayer;
 			sourceTree = "<group>";
@@ -705,6 +707,26 @@
 				1522556A28B2897200ED20FC /* YDUserShowConfig.h */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		1522556B28B28B3D00ED20FC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				152254C428AFDD7D00ED20FC /* YDPlayerView.h */,
+				152254C528AFDD7D00ED20FC /* YDPlayerView.m */,
+				1522555828B2845400ED20FC /* YDPlayerControlView.h */,
+				1522555928B2845400ED20FC /* YDPlayerControlView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1522556C28B28B4D00ED20FC /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				1522557128B28BB100ED20FC /* YDAVPlayerViewController.h */,
+				1522557228B28BB100ED20FC /* YDAVPlayerViewController.m */,
+			);
+			path = VC;
 			sourceTree = "<group>";
 		};
 		1532D2A92723EF0200F58ED1 /* YDEmptyView */ = {
@@ -1389,6 +1411,7 @@
 				157FFCFB27184C760034946A /* UpApiUtils.m in Sources */,
 				157FFD17271968EF0034946A /* YDAppUpdateTostView.m in Sources */,
 				157DCF7228AA3D2A00D6986A /* YDMediaPlayerManager.m in Sources */,
+				1522557328B28BB100ED20FC /* YDAVPlayerViewController.m in Sources */,
 				15850CE52713E118002F79B5 /* YDAlertView.m in Sources */,
 				15C5BD7528ADE06100E5B1EC /* YDWebViewController+JS.m in Sources */,
 				152254DE28B0CF2A00ED20FC /* YDImagePickerViewController.m in Sources */,
@@ -1483,6 +1506,7 @@
 				157FFCFC27184C760034946A /* UpApiUtils.m in Sources */,
 				157FFD18271968EF0034946A /* YDAppUpdateTostView.m in Sources */,
 				157DCF7328AA3D2A00D6986A /* YDMediaPlayerManager.m in Sources */,
+				1522557428B28BB100ED20FC /* YDAVPlayerViewController.m in Sources */,
 				15850CE62713E118002F79B5 /* YDAlertView.m in Sources */,
 				15C5BD7628ADE06100E5B1EC /* YDWebViewController+JS.m in Sources */,
 				152254DF28B0CF2A00ED20FC /* YDImagePickerViewController.m in Sources */,
