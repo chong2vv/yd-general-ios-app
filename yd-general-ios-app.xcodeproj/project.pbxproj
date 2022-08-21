@@ -73,6 +73,8 @@
 		1522554F28B2611A00ED20FC /* YDMineAsset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1522554D28B2611A00ED20FC /* YDMineAsset.xcassets */; };
 		1522555128B2613100ED20FC /* YDHomePageAsset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1522555028B2613100ED20FC /* YDHomePageAsset.xcassets */; };
 		1522555228B2613100ED20FC /* YDHomePageAsset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1522555028B2613100ED20FC /* YDHomePageAsset.xcassets */; };
+		1522555628B26F6800ED20FC /* YDImagePickerService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1522555528B26F6800ED20FC /* YDImagePickerService.m */; };
+		1522555728B26F6800ED20FC /* YDImagePickerService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1522555528B26F6800ED20FC /* YDImagePickerService.m */; };
 		1532D2AC2723EF1800F58ED1 /* YDEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1532D2AB2723EF1800F58ED1 /* YDEmptyView.m */; };
 		1532D2AD2723EF1800F58ED1 /* YDEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1532D2AB2723EF1800F58ED1 /* YDEmptyView.m */; };
 		1532D2B02723F02C00F58ED1 /* YDEmptyViewConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1532D2AF2723F02C00F58ED1 /* YDEmptyViewConfig.m */; };
@@ -245,6 +247,8 @@
 		152254F628B0DCB300ED20FC /* YDLoginService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDLoginService.m; sourceTree = "<group>"; };
 		1522554D28B2611A00ED20FC /* YDMineAsset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = YDMineAsset.xcassets; sourceTree = "<group>"; };
 		1522555028B2613100ED20FC /* YDHomePageAsset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = YDHomePageAsset.xcassets; sourceTree = "<group>"; };
+		1522555428B26F6800ED20FC /* YDImagePickerService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDImagePickerService.h; sourceTree = "<group>"; };
+		1522555528B26F6800ED20FC /* YDImagePickerService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDImagePickerService.m; sourceTree = "<group>"; };
 		1532D2AA2723EF1800F58ED1 /* YDEmptyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDEmptyView.h; sourceTree = "<group>"; };
 		1532D2AB2723EF1800F58ED1 /* YDEmptyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDEmptyView.m; sourceTree = "<group>"; };
 		1532D2AE2723F02C00F58ED1 /* YDEmptyViewConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDEmptyViewConfig.h; sourceTree = "<group>"; };
@@ -642,6 +646,15 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
+		1522555328B26F4500ED20FC /* YDImagePickerService */ = {
+			isa = PBXGroup;
+			children = (
+				1522555428B26F6800ED20FC /* YDImagePickerService.h */,
+				1522555528B26F6800ED20FC /* YDImagePickerService.m */,
+			);
+			path = YDImagePickerService;
+			sourceTree = "<group>";
+		};
 		1532D2A92723EF0200F58ED1 /* YDEmptyView */ = {
 			isa = PBXGroup;
 			children = (
@@ -897,6 +910,7 @@
 				157DCF6F28AA3CFA00D6986A /* YDMediaPlayer */,
 				157FFD0A271967820034946A /* YDAppCheckUpdateService */,
 				15850CFA2715B7B5002F79B5 /* YDLoggerUploadService */,
+				1522555328B26F4500ED20FC /* YDImagePickerService */,
 				15BA9C2C27127A71008019F4 /* YDUploadService */,
 			);
 			path = YDService;
@@ -1308,6 +1322,7 @@
 				15BA9C2F27127AA2008019F4 /* YDUploadService.m in Sources */,
 				157FFCB127180F830034946A /* YDSendCodeCommand.m in Sources */,
 				150A67B727068977009EE4AF /* AppDelegate+YDThird.m in Sources */,
+				1522555628B26F6800ED20FC /* YDImagePickerService.m in Sources */,
 				15BA9C202711DEFB008019F4 /* YDPlistConst.m in Sources */,
 				158AF8C8270418F90095A3B1 /* AppDelegate.m in Sources */,
 				15C5BD8828AE0FFD00E5B1EC /* YDWebImageConfig.m in Sources */,
@@ -1398,6 +1413,7 @@
 				15BA9C3027127AA2008019F4 /* YDUploadService.m in Sources */,
 				157FFCB227180F830034946A /* YDSendCodeCommand.m in Sources */,
 				150A67B827068977009EE4AF /* AppDelegate+YDThird.m in Sources */,
+				1522555728B26F6800ED20FC /* YDImagePickerService.m in Sources */,
 				15BA9C212711DEFB008019F4 /* YDPlistConst.m in Sources */,
 				158AF8FE2704193B0095A3B1 /* AppDelegate.m in Sources */,
 				15C5BD8928AE0FFD00E5B1EC /* YDWebImageConfig.m in Sources */,
