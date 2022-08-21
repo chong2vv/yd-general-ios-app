@@ -27,6 +27,7 @@ typedef NS_ENUM(NSUInteger, YDGender) {
 @property (nonatomic, assign)YDGender userGender; //用户性别
 @property (nonatomic, assign)NSInteger userBirthday; //用户生日 秒级时间戳
 @property (nonatomic, copy)NSString *ext; //扩展字段，json字符串，例如签名等
+@property (nonatomic, copy)NSString *authorization;
 @end
 
 NS_ASSUME_NONNULL_END

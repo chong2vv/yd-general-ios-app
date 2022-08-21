@@ -50,9 +50,11 @@ def sharePods
   pod 'YDRouter', '~> 0.1.0'
   pod 'YDMediator', '~> 0.1.1'
   #加载loading库
-  pod 'YDSVProgressHUD', '~> 0.1.4'
+  pod 'YDSVProgressHUD', '~> 0.1.5'
   #图片服务
   pod 'YDImageService', '~> 0.1.2'
+  #block分类库
+  pod 'YDBlockKit', '~> 0.1.0'
   #金山云播放器二次封装
   # Pods for SIMULATOR: , :configurations => 'Release'
   pod 'KSMediaPlayerService', '~> 1.0.4', :configurations => 'Release'

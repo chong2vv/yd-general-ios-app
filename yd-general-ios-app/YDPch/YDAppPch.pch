@@ -55,6 +55,7 @@
 #import <YDAuthorizationUtil/YDAuthorizationUtil.h>
 #import <YDImageService/YDImageService.h>
 #import <YDSVProgressHUD/YDProgressHUD.h>
+#import <YDBlockKit/BlocksKit.h>
 
 #endif
 

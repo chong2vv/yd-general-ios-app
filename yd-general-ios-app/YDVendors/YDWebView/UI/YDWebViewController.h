@@ -17,7 +17,12 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong, readonly) WKWebViewJavascriptBridge *bridge;
 @property (nonatomic, copy) NSString *outterLinkShareId;
 @property (nonatomic, strong) NSDictionary *shareDic;
+@property (nonatomic, assign) BOOL isClose;//点返回和X都是直接返回控制器
+@property (nonatomic, assign) BOOL isClosePopGesture;//点返回和X都是直接返回控制器
+@property (nonatomic, assign) BOOL didAppear;
+@property (nonatomic, assign) BOOL animated;
 
+- (void)closeAction;
 
 @end
 

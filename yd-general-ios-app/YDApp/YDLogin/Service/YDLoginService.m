@@ -39,6 +39,12 @@
             return;
         }
         
+        YDUser *user = [[YDUserConfig shared] getCurrentUser];
+        if ([user isEmpty]) {
+            if (completion)  completion(NO);
+        }else {
+            if (completion)  completion(YES);
+        }
         
     };
     

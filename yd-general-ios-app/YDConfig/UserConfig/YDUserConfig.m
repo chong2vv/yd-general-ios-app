@@ -212,8 +212,20 @@
         }];
 }
 
+- (void)getUserInfo:(YDSuccessHandler)success failure:(YDFailureString)failure {
+    
+}
+
 - (NSString *)currentUserId {
     return self.currentUser.uid;
+}
+
+- (NSString *)authorization {
+    return self.currentUser.uid;
+}
+
+- (NSString *)userAgent {
+    return @"";
 }
 
 - (YDUser *)getCurrentUser {

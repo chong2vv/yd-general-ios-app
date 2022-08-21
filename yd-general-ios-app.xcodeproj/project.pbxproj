@@ -69,6 +69,10 @@
 		152254F328B0DB5500ED20FC /* YDMediator+YDLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 152254F128B0DB5500ED20FC /* YDMediator+YDLogin.m */; };
 		152254F728B0DCB300ED20FC /* YDLoginService.m in Sources */ = {isa = PBXBuildFile; fileRef = 152254F628B0DCB300ED20FC /* YDLoginService.m */; };
 		152254F828B0DCB300ED20FC /* YDLoginService.m in Sources */ = {isa = PBXBuildFile; fileRef = 152254F628B0DCB300ED20FC /* YDLoginService.m */; };
+		1522554E28B2611A00ED20FC /* YDMineAsset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1522554D28B2611A00ED20FC /* YDMineAsset.xcassets */; };
+		1522554F28B2611A00ED20FC /* YDMineAsset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1522554D28B2611A00ED20FC /* YDMineAsset.xcassets */; };
+		1522555128B2613100ED20FC /* YDHomePageAsset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1522555028B2613100ED20FC /* YDHomePageAsset.xcassets */; };
+		1522555228B2613100ED20FC /* YDHomePageAsset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1522555028B2613100ED20FC /* YDHomePageAsset.xcassets */; };
 		1532D2AC2723EF1800F58ED1 /* YDEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1532D2AB2723EF1800F58ED1 /* YDEmptyView.m */; };
 		1532D2AD2723EF1800F58ED1 /* YDEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1532D2AB2723EF1800F58ED1 /* YDEmptyView.m */; };
 		1532D2B02723F02C00F58ED1 /* YDEmptyViewConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1532D2AF2723F02C00F58ED1 /* YDEmptyViewConfig.m */; };
@@ -239,6 +243,8 @@
 		152254F128B0DB5500ED20FC /* YDMediator+YDLogin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YDMediator+YDLogin.m"; sourceTree = "<group>"; };
 		152254F528B0DCB300ED20FC /* YDLoginService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDLoginService.h; sourceTree = "<group>"; };
 		152254F628B0DCB300ED20FC /* YDLoginService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDLoginService.m; sourceTree = "<group>"; };
+		1522554D28B2611A00ED20FC /* YDMineAsset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = YDMineAsset.xcassets; sourceTree = "<group>"; };
+		1522555028B2613100ED20FC /* YDHomePageAsset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = YDHomePageAsset.xcassets; sourceTree = "<group>"; };
 		1532D2AA2723EF1800F58ED1 /* YDEmptyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDEmptyView.h; sourceTree = "<group>"; };
 		1532D2AB2723EF1800F58ED1 /* YDEmptyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDEmptyView.m; sourceTree = "<group>"; };
 		1532D2AE2723F02C00F58ED1 /* YDEmptyViewConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDEmptyViewConfig.h; sourceTree = "<group>"; };
@@ -414,6 +420,7 @@
 			isa = PBXGroup;
 			children = (
 				150A678827060159009EE4AF /* VC */,
+				1522555028B2613100ED20FC /* YDHomePageAsset.xcassets */,
 			);
 			path = YDHomePage;
 			sourceTree = "<group>";
@@ -467,6 +474,7 @@
 			isa = PBXGroup;
 			children = (
 				150A67BE270691F0009EE4AF /* VC */,
+				1522554D28B2611A00ED20FC /* YDMineAsset.xcassets */,
 			);
 			path = YDMine;
 			sourceTree = "<group>";
@@ -1120,8 +1128,10 @@
 			files = (
 				150A67DA27070F86009EE4AF /* YDConfigImage.xcassets in Resources */,
 				1532D2B32723F20500F58ED1 /* YDEmptyAsset.xcassets in Resources */,
+				1522554E28B2611A00ED20FC /* YDMineAsset.xcassets in Resources */,
 				158AF8D6270418FB0095A3B1 /* LaunchScreen.storyboard in Resources */,
 				158AF8D3270418FB0095A3B1 /* Assets.xcassets in Resources */,
+				1522555128B2613100ED20FC /* YDHomePageAsset.xcassets in Resources */,
 				158AF91027043BC20095A3B1 /* yd-general-ios-app-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1146,8 +1156,10 @@
 			files = (
 				150A67DB27070F86009EE4AF /* YDConfigImage.xcassets in Resources */,
 				1532D2B42723F20500F58ED1 /* YDEmptyAsset.xcassets in Resources */,
+				1522554F28B2611A00ED20FC /* YDMineAsset.xcassets in Resources */,
 				158AF9032704193B0095A3B1 /* LaunchScreen.storyboard in Resources */,
 				158AF9042704193B0095A3B1 /* Assets.xcassets in Resources */,
+				1522555228B2613100ED20FC /* YDHomePageAsset.xcassets in Resources */,
 				158AF90F27043BBF0095A3B1 /* yd-general-ios-app-dev-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

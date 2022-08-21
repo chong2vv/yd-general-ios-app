@@ -43,6 +43,24 @@
     [self loginOrRegisterComplete:@{@"test":@"test"}];
 }
 
+- (void)loginAction {
+    [YDUserConfig shared].userAccount = @"";
+    [YDUserConfig shared].userPassword = @"";
+    
+    @weakify(self)
+    [[YDUserConfig shared] userLogin:^{
+        @strongify(self);
+        [self loginOrRegisterComplete:nil];
+        } failure:^(NSString *error) {
+            @strongify(self);
+            [self loginOrRegisterFailure];
+        }];
+}
+
+/// 登录失败
+- (void)loginOrRegisterFailure {
+    
+}
 
 /// 登录成功
 - (void)loginOrRegisterComplete:(NSDictionary *)successInfo {
