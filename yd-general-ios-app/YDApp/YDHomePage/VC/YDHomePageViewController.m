@@ -15,7 +15,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    UIButton *testLoginBt = [UIButton buttonWithType:UIButtonTypeSystem];
+    [testLoginBt setTitle:@"测试" forState:UIControlStateNormal];
+    [testLoginBt addTarget:self action:@selector(testAction) forControlEvents:UIControlEventTouchUpInside];
+    testLoginBt.frame = CGRectMake(100, 100, 200, 200);
+    [self.view addSubview:testLoginBt];
+    
+}
+
+- (void)testAction {
+    [YDLoginService checkAndLoginWithTypeComplete:nil];
 }
 
 /*

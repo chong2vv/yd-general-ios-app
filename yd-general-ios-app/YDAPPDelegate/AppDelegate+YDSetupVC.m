@@ -14,7 +14,7 @@
 #import "CYLTabBarController.h"
 
 //app启动进入首页是否需要登录
-BOOL const YDAppStartNeedLogin = YES;
+BOOL const YDAppStartNeedLogin = NO;
 
 @implementation AppDelegate (YDSetupVC)
 

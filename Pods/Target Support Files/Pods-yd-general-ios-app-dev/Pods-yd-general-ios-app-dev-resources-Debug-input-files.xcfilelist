@@ -2,6 +2,7 @@ ${PODS_ROOT}/Target Support Files/Pods-yd-general-ios-app-dev/Pods-yd-general-io
 ${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle
 ${PODS_ROOT}/SGQRCode/SGQRCode/SGQRCode.bundle
 ${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle
+${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle
 ${PODS_CONFIGURATION_BUILD_DIR}/YDSVProgressHUD/YDProgressHUD.bundle
 ${PODS_CONFIGURATION_BUILD_DIR}/DoraemonKit/DoraemonKit.bundle
 ${PODS_ROOT}/GCDWebServer/GCDWebUploader/GCDWebUploader.bundle

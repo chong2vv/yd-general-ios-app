@@ -19,6 +19,12 @@
     self.title = @"登录";
     
     [self oppenHiddenFunctionVC];
+    
+    UIButton *testLoginBt = [UIButton buttonWithType:UIButtonTypeSystem];
+    [testLoginBt setTitle:@"测试" forState:UIControlStateNormal];
+    [testLoginBt addTarget:self action:@selector(testAction) forControlEvents:UIControlEventTouchUpInside];
+    testLoginBt.frame = CGRectMake(100, 100, 200, 200);
+    [self.view addSubview:testLoginBt];
 }
 
 - (void)oppenHiddenFunctionVC {
@@ -30,6 +36,42 @@
             NSLog(@"隐藏功能");
         });
     }];
+}
+
+- (void)testAction {
+    
+    [self loginOrRegisterComplete:@{@"test":@"test"}];
+}
+
+
+/// 登录成功
+- (void)loginOrRegisterComplete:(NSDictionary *)successInfo {
+    __weak typeof(self) weakSelf = self;
+    void(^complete)(void) = ^(){
+        if (weakSelf.successCallback) {
+            weakSelf.successCallback(YES, YDLoginSuccessTypeLogin, successInfo);
+        }
+    };
+    if (self.callbackAfterDismiss) {
+        [self dismissVCCompletion:complete];
+    } else {
+        complete();
+        [self dismissVCCompletion:nil];
+    }
+}
+
+/// 关闭界面Action
+/// @param completion block
+- (void)dismissVCCompletion:(void(^)(void))completion {
+    //在有键盘弹出的情况下才需要延时dismiss
+    if([IQKeyboardManager sharedManager].keyboardShowing) {
+        [self.view endEditing:YES];
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.25 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+            [self dismissViewControllerAnimated:YES completion:completion];
+        });
+    } else {
+        [self dismissViewControllerAnimated:YES completion:completion];
+    }
 }
 
 @end

@@ -31,12 +31,13 @@ def sharePods
   pod 'SGQRCode', '~> 3.5.1'
   pod 'WMDragView', '~> 1.0.1'
   pod 'JXCategoryView', '1.6.1', :modular_headers => false
+  pod 'TZImagePickerController' # Full version with all features
   
   #YDKit
   #防崩溃、日志、安全线程库
   pod 'YDAvoidCrashKit', '~> 0.1.8'
   #工具类
-  pod 'YDUtilKit', '~> 0.0.6'
+  pod 'YDUtilKit', '~> 0.0.7'
   #网络请求库
   pod 'YDNetworkManager', '~> 0.0.5'
   #权限申请库
