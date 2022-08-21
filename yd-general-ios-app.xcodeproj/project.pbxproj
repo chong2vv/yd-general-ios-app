@@ -75,6 +75,12 @@
 		1522555228B2613100ED20FC /* YDHomePageAsset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1522555028B2613100ED20FC /* YDHomePageAsset.xcassets */; };
 		1522555628B26F6800ED20FC /* YDImagePickerService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1522555528B26F6800ED20FC /* YDImagePickerService.m */; };
 		1522555728B26F6800ED20FC /* YDImagePickerService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1522555528B26F6800ED20FC /* YDImagePickerService.m */; };
+		1522555A28B2845400ED20FC /* YDPlayerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1522555928B2845400ED20FC /* YDPlayerControlView.m */; };
+		1522555B28B2845400ED20FC /* YDPlayerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1522555928B2845400ED20FC /* YDPlayerControlView.m */; };
+		1522555F28B2884600ED20FC /* YDUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1522555E28B2884600ED20FC /* YDUserViewController.m */; };
+		1522556028B2884600ED20FC /* YDUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1522555E28B2884600ED20FC /* YDUserViewController.m */; };
+		1522556828B2893600ED20FC /* YDUserShowService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1522556728B2893600ED20FC /* YDUserShowService.m */; };
+		1522556928B2893600ED20FC /* YDUserShowService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1522556728B2893600ED20FC /* YDUserShowService.m */; };
 		1532D2AC2723EF1800F58ED1 /* YDEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1532D2AB2723EF1800F58ED1 /* YDEmptyView.m */; };
 		1532D2AD2723EF1800F58ED1 /* YDEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1532D2AB2723EF1800F58ED1 /* YDEmptyView.m */; };
 		1532D2B02723F02C00F58ED1 /* YDEmptyViewConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1532D2AF2723F02C00F58ED1 /* YDEmptyViewConfig.m */; };
@@ -249,6 +255,13 @@
 		1522555028B2613100ED20FC /* YDHomePageAsset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = YDHomePageAsset.xcassets; sourceTree = "<group>"; };
 		1522555428B26F6800ED20FC /* YDImagePickerService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDImagePickerService.h; sourceTree = "<group>"; };
 		1522555528B26F6800ED20FC /* YDImagePickerService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDImagePickerService.m; sourceTree = "<group>"; };
+		1522555828B2845400ED20FC /* YDPlayerControlView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDPlayerControlView.h; sourceTree = "<group>"; };
+		1522555928B2845400ED20FC /* YDPlayerControlView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDPlayerControlView.m; sourceTree = "<group>"; };
+		1522555D28B2884600ED20FC /* YDUserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDUserViewController.h; sourceTree = "<group>"; };
+		1522555E28B2884600ED20FC /* YDUserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDUserViewController.m; sourceTree = "<group>"; };
+		1522556628B2893600ED20FC /* YDUserShowService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDUserShowService.h; sourceTree = "<group>"; };
+		1522556728B2893600ED20FC /* YDUserShowService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDUserShowService.m; sourceTree = "<group>"; };
+		1522556A28B2897200ED20FC /* YDUserShowConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDUserShowConfig.h; sourceTree = "<group>"; };
 		1532D2AA2723EF1800F58ED1 /* YDEmptyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDEmptyView.h; sourceTree = "<group>"; };
 		1532D2AB2723EF1800F58ED1 /* YDEmptyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDEmptyView.m; sourceTree = "<group>"; };
 		1532D2AE2723F02C00F58ED1 /* YDEmptyViewConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDEmptyViewConfig.h; sourceTree = "<group>"; };
@@ -402,6 +415,7 @@
 		150A67852706012F009EE4AF /* YDApp */ = {
 			isa = PBXGroup;
 			children = (
+				1522555C28B2882600ED20FC /* YDUserShow */,
 				150A67EC27074062009EE4AF /* YDHiddenFunction */,
 				150A67872706014B009EE4AF /* YDHomePage */,
 				150A67B927068F65009EE4AF /* YDMine */,
@@ -591,6 +605,8 @@
 			children = (
 				152254C428AFDD7D00ED20FC /* YDPlayerView.h */,
 				152254C528AFDD7D00ED20FC /* YDPlayerView.m */,
+				1522555828B2845400ED20FC /* YDPlayerControlView.h */,
+				1522555928B2845400ED20FC /* YDPlayerControlView.m */,
 			);
 			path = YDPlayer;
 			sourceTree = "<group>";
@@ -653,6 +669,42 @@
 				1522555528B26F6800ED20FC /* YDImagePickerService.m */,
 			);
 			path = YDImagePickerService;
+			sourceTree = "<group>";
+		};
+		1522555C28B2882600ED20FC /* YDUserShow */ = {
+			isa = PBXGroup;
+			children = (
+				1522556428B288DB00ED20FC /* App */,
+				1522556328B288D300ED20FC /* Service */,
+				1522556128B2888300ED20FC /* VC */,
+			);
+			path = YDUserShow;
+			sourceTree = "<group>";
+		};
+		1522556128B2888300ED20FC /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				1522555D28B2884600ED20FC /* YDUserViewController.h */,
+				1522555E28B2884600ED20FC /* YDUserViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		1522556328B288D300ED20FC /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				1522556628B2893600ED20FC /* YDUserShowService.h */,
+				1522556728B2893600ED20FC /* YDUserShowService.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		1522556428B288DB00ED20FC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1522556A28B2897200ED20FC /* YDUserShowConfig.h */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 		1532D2A92723EF0200F58ED1 /* YDEmptyView */ = {
@@ -1307,6 +1359,7 @@
 				15BA9C292711E930008019F4 /* YDDB+YDUser.m in Sources */,
 				150A677E2705FFEB009EE4AF /* YDNetWorkConfig.m in Sources */,
 				152254CA28AFE4C600ED20FC /* YDContainer.m in Sources */,
+				1522555F28B2884600ED20FC /* YDUserViewController.m in Sources */,
 				150A67EA27073A69009EE4AF /* YDTableView.m in Sources */,
 				15850CFD2715B7DE002F79B5 /* YDLoggerUploadService.m in Sources */,
 				150A67B327068414009EE4AF /* AppDelegate+YDAvoidCrash.m in Sources */,
@@ -1318,8 +1371,10 @@
 				150A679927060446009EE4AF /* UIViewController+YDNav.m in Sources */,
 				152254EE28B0DB4400ED20FC /* YDAppLogin.m in Sources */,
 				150A67F9270740D5009EE4AF /* YDHiddenFunctionPasswordInputView.m in Sources */,
+				1522555A28B2845400ED20FC /* YDPlayerControlView.m in Sources */,
 				150A67FD27074AB2009EE4AF /* YDHiddenFunctionPasswordView.m in Sources */,
 				15BA9C2F27127AA2008019F4 /* YDUploadService.m in Sources */,
+				1522556828B2893600ED20FC /* YDUserShowService.m in Sources */,
 				157FFCB127180F830034946A /* YDSendCodeCommand.m in Sources */,
 				150A67B727068977009EE4AF /* AppDelegate+YDThird.m in Sources */,
 				1522555628B26F6800ED20FC /* YDImagePickerService.m in Sources */,
@@ -1398,6 +1453,7 @@
 				15BA9C2A2711E930008019F4 /* YDDB+YDUser.m in Sources */,
 				150A677F2705FFEF009EE4AF /* YDNetWorkConfig.m in Sources */,
 				152254CB28AFE4C600ED20FC /* YDContainer.m in Sources */,
+				1522556028B2884600ED20FC /* YDUserViewController.m in Sources */,
 				150A67EB27073A69009EE4AF /* YDTableView.m in Sources */,
 				15850CFE2715B7DF002F79B5 /* YDLoggerUploadService.m in Sources */,
 				150A67B427068414009EE4AF /* AppDelegate+YDAvoidCrash.m in Sources */,
@@ -1409,8 +1465,10 @@
 				150A679A27060446009EE4AF /* UIViewController+YDNav.m in Sources */,
 				152254EF28B0DB4400ED20FC /* YDAppLogin.m in Sources */,
 				150A67FA270740D5009EE4AF /* YDHiddenFunctionPasswordInputView.m in Sources */,
+				1522555B28B2845400ED20FC /* YDPlayerControlView.m in Sources */,
 				150A67FE27074AB4009EE4AF /* YDHiddenFunctionPasswordView.m in Sources */,
 				15BA9C3027127AA2008019F4 /* YDUploadService.m in Sources */,
+				1522556928B2893600ED20FC /* YDUserShowService.m in Sources */,
 				157FFCB227180F830034946A /* YDSendCodeCommand.m in Sources */,
 				150A67B827068977009EE4AF /* AppDelegate+YDThird.m in Sources */,
 				1522555728B26F6800ED20FC /* YDImagePickerService.m in Sources */,

@@ -7,14 +7,16 @@
 
 #import "YDPlayerView.h"
 
+@interface YDPlayerView ()
+
+@property (nonatomic, strong) id<ZFPlayerMediaPlayback> playerManager;
+@property (nonatomic, strong) ZFPlayerController *player;
+//@property (nonatomic, strong) ArtWorldControlPlayerControlView *controlView;
+
+@end
+
 @implementation YDPlayerView
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
-}
-*/
+
 
 @end
