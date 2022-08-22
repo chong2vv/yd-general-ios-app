@@ -35,17 +35,6 @@
 
 //src
 #import "YDAppDefine.h"
-#import "YDStyle.h"
-#import "YDBaseView.h"
-#import "YDPlistConst.h"
-#import "YDUserConfig.h"
-#import "YDUIConfig.h"
-#import "YDAlertViewController.h"
-#import "YDFileManager.h"
-#import "UIViewController+YDEmptyViewShow.h"
-#import "YDAuthorizationUtil.h"
-#import "YDActionSheetViewController.h"
-#import "YDLoginService.h"
 
 //YDFoundation
 #import "YDBaseVC.h"
@@ -56,6 +45,7 @@
 #import <YDImageService/YDImageService.h>
 #import <YDSVProgressHUD/YDProgressHUD.h>
 #import <YDBlockKit/BlocksKit.h>
+#import <YDAlertAction/YDAlert.h>
 
 #endif
 

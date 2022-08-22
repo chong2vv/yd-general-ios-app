@@ -29,7 +29,8 @@ BOOL const YDAppStartNeedLogin = NO;
     }else{
         [self configTabVC];
     }
-    [self loadUserLoginNotification];
+/// 根据实际项目选择是否配置登录、退出通知
+//    [self loadUserLoginNotification];
 }
 
 // 配置登录VC
@@ -46,7 +47,7 @@ BOOL const YDAppStartNeedLogin = NO;
     [self.window makeKeyAndVisible];
 }
 
-//登录、登出消息通知处理
+//登录、登出消息通知处理 看项目配置
 - (void)loadUserLoginNotification {
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(_userLogin) name:YDUserNotificationUserLogin object:nil];
     

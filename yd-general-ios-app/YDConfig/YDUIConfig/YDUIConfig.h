@@ -6,10 +6,24 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <YDSVProgressHUD/YDProgressHUD.h>
+#import <YDImageService/YDImageService.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface YDUIConfig : NSObject
+
++ (void)YDUIConfig;
+
+@end
+
+//YDProgressHUD 配置
+@interface YDProgressHUDConfig (YDUIConfig)
+
+@end
+
+//YDImageService 配置
+@interface YDWebImageConfig : NSObject<YDImageConfigProtocol>
 
 @end
 

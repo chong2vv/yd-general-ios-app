@@ -6,9 +6,14 @@
 //
 
 #import "YDUIConfig.h"
-#import <YDSVProgressHUD/YDProgressHUD.h>
 
 @implementation YDUIConfig
+
++ (void)YDUIConfig {
+    // 配置WebImageService
+    YDWebImageConfig *webImageConfig = [[YDWebImageConfig alloc] init];
+    [[YDImageService shared] resetConfig:webImageConfig];
+}
 
 @end
 
@@ -52,7 +57,6 @@
     return NO;
 }
 
-
 + (YDProgressHUDLoadingType)loadingImageType
 {
     return YDProgressHUDLoadingTypeLottie;
@@ -61,6 +65,26 @@
 + (CGSize)hudBackgroundSize
 {
     return CGSizeMake(246/3*2, 72/3*2);
+}
+
+@end
+
+@implementation YDWebImageConfig
+
+- (NSTimeInterval)ageLimit {
+    return 7 * 24 * 60 * 60;
+}
+
+- (NSUInteger)freeDiskSpaceLimit {
+    return 100 * 1024 * 1024;
+}
+
+- (BOOL)imagePrioritizationLIFO {
+    return YES;
+}
+
+- (NSInteger)maxConcurrentOperationCount{
+    return 3;
 }
 
 @end

@@ -11,6 +11,8 @@
 #import <DoraemonKit/DoraemonManager.h>
 #endif
 
+#import <YDPreLoader/YDPreLoaderManager.h>
+
 @implementation AppDelegate (YDThird)
 
 - (void)thirdPartyConfig:(UIApplication *)application {
@@ -23,6 +25,9 @@
     //DEBUG下开启哆啦A梦
     [[DoraemonManager shareInstance] install];
 #endif
+    
+    //开启预下载
+    [YDPreLoaderManager startProxy];
 }
 
 @end
