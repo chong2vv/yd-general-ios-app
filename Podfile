@@ -28,6 +28,9 @@ def sharePods
   pod 'fishhook'
   #ZF播放器
   pod 'ZFPlayer', '~> 4.0.2'
+  pod 'ZFPlayer/ControlView', '~> 4.0.2'
+  pod 'ZFPlayer/ijkplayer', '~> 4.0.2'
+  pod 'ZFPlayer/AVPlayer', '~> 4.0.2'
   #js桥接库
   pod 'WebViewJavascriptBridge', '~> 6.0'
   #网络库，log可以考虑使用这个上传，可以根据自己项目来
@@ -46,6 +49,8 @@ def sharePods
   pod 'TZImagePickerController' # Full version with all features
   #gif动画库
   pod 'FLAnimatedImage', '~> 1.0.17'
+  #小红点库
+  pod 'WZLBadge'
   
   #YDKit
   #防崩溃、日志、安全线程库

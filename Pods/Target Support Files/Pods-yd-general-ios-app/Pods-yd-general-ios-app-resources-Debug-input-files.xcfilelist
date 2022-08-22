@@ -4,3 +4,4 @@ ${PODS_ROOT}/SGQRCode/SGQRCode/SGQRCode.bundle
 ${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle
 ${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle
 ${PODS_CONFIGURATION_BUILD_DIR}/YDSVProgressHUD/YDProgressHUD.bundle
+${PODS_ROOT}/ZFPlayer/ZFPlayer/Classes/ControlView/ZFPlayer.bundle

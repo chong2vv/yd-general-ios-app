@@ -46,6 +46,7 @@ PODS:
     - GCDWebServer/Core
   - GCDWebServer/WebUploader (3.5.4):
     - GCDWebServer/Core
+  - IJKMediaFramework (0.1.5)
   - IQKeyboardManager (6.5.10)
   - JXCategoryView (1.6.1)
   - KSMediaPlayerService (1.0.4)
@@ -88,6 +89,7 @@ PODS:
     - WHCNetWorkKit/NSURLConnection
   - WHCNetWorkKit/UtillKit (0.0.3)
   - WMDragView (1.0.1)
+  - WZLBadge (1.2.6)
   - YDAlertAction (0.1.0):
     - Masonry
     - YDAlertAction/YDActionAlert (= 0.1.0)
@@ -159,7 +161,14 @@ PODS:
     - YYImage
   - ZFPlayer (4.0.3):
     - ZFPlayer/Core (= 4.0.3)
+  - ZFPlayer/AVPlayer (4.0.3):
+    - ZFPlayer/Core
+  - ZFPlayer/ControlView (4.0.3):
+    - ZFPlayer/Core
   - ZFPlayer/Core (4.0.3)
+  - ZFPlayer/ijkplayer (4.0.3):
+    - IJKMediaFramework
+    - ZFPlayer/Core
 
 DEPENDENCIES:
   - Bugly (= 2.5.0)
@@ -187,6 +196,7 @@ DEPENDENCIES:
   - WebViewJavascriptBridge (~> 6.0)
   - WHCNetWorkKit (~> 0.0.3)
   - WMDragView (~> 1.0.1)
+  - WZLBadge
   - YDAlertAction (~> 0.1.0)
   - YDAuthorizationUtil (~> 0.1.0)
   - YDAvoidCrashKit (~> 0.1.8)
@@ -204,6 +214,9 @@ DEPENDENCIES:
   - YYModel
   - YYWebImage
   - ZFPlayer (~> 4.0.2)
+  - ZFPlayer/AVPlayer (~> 4.0.2)
+  - ZFPlayer/ControlView (~> 4.0.2)
+  - ZFPlayer/ijkplayer (~> 4.0.2)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -217,6 +230,7 @@ SPEC REPOS:
     - FLAnimatedImage
     - FMDB
     - GCDWebServer
+    - IJKMediaFramework
     - IQKeyboardManager
     - JXCategoryView
     - KSMediaPlayerService
@@ -237,6 +251,7 @@ SPEC REPOS:
     - WebViewJavascriptBridge
     - WHCNetWorkKit
     - WMDragView
+    - WZLBadge
     - YDAlertAction
     - YDAuthorizationUtil
     - YDAvoidCrashKit
@@ -268,6 +283,7 @@ SPEC CHECKSUMS:
   FLAnimatedImage: bbf914596368867157cc71b38a8ec834b3eeb32b
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
+  IJKMediaFramework: f1119f6324c96bc4654f3045a5beaa95ba0596c0
   IQKeyboardManager: 45a1fa55c1a5b02c61ac0fd7fd5b62bb4ad20d97
   JXCategoryView: 7b1ee69ede4843c581688afe84d0f047723262f2
   KSMediaPlayerService: fabd9e4cdb4e1516a081369d549e709e06bf43c0
@@ -288,6 +304,7 @@ SPEC CHECKSUMS:
   WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
   WHCNetWorkKit: 169c27c8b8008e8f8d679277929777083a2379b9
   WMDragView: 18f2c5d18c350ea4b0ac1cc64066abfe5caea443
+  WZLBadge: 9ec779dcfd94c825518b395e8315fccaabff1bfa
   YDAlertAction: 0ee391a42edd72d7c7887bbc2c8838d2c1224c7e
   YDAuthorizationUtil: 6ac326f1c75fd82b222d5d9decda532123d4654f
   YDAvoidCrashKit: 801ee4425eb6918c22bf73eb0a0afcce4be452cd
@@ -308,6 +325,6 @@ SPEC CHECKSUMS:
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
   ZFPlayer: 624c92de06eb34df322c3b53b4c9ce760f528f7a
 
-PODFILE CHECKSUM: 8e9268ceb1e6bed81fc94918cb424860876b70ab
+PODFILE CHECKSUM: cbfda108f27f68c552397b74c60a8627a999cf92
 
 COCOAPODS: 1.11.2
