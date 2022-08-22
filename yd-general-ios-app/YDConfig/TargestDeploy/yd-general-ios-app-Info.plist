@@ -2,58 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>CFBundleDevelopmentRegion</key>
-	<string>$(DEVELOPMENT_LANGUAGE)</string>
-	<key>CFBundleDisplayName</key>
-	<string>app_online</string>
-	<key>CFBundleExecutable</key>
-	<string>$(EXECUTABLE_NAME)</string>
-	<key>CFBundleIdentifier</key>
-	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-	<key>CFBundleInfoDictionaryVersion</key>
-	<string>6.0</string>
-	<key>CFBundleName</key>
-	<string>$(PRODUCT_NAME)</string>
-	<key>CFBundlePackageType</key>
-	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
-	<key>CFBundleShortVersionString</key>
-	<string>$(MARKETING_VERSION)</string>
-	<key>CFBundleVersion</key>
-	<string>$(CURRENT_PROJECT_VERSION)</string>
-	<key>LSRequiresIPhoneOS</key>
-	<true/>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>This app needs accurate location so it can show you relevant results.</string>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>This app needs accurate location so it can show you relevant results.</string>
-	<key>NSLocationUsageDescription</key>
-	<string>This app needs accurate location so it can show you relevant results.</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>This app needs accurate location so it can show you relevant results.</string>
-	<key>NSMicrophoneUsageDescription</key>
-	<string>This app needs microphone to talk</string>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>This app needs photo library</string>
-	<key>NSCameraUsageDescription</key>
-	<string>This app needs camera library</string>
-	<key>UIApplicationSupportsIndirectInputEvents</key>
-	<true/>
-	<key>UILaunchStoryboardName</key>
-	<string>Launch Screen</string>
-	<key>UIRequiredDeviceCapabilities</key>
+	<key>CFBundleURLTypes</key>
 	<array>
-		<string>armv7</string>
-	</array>
-	<key>UISupportedInterfaceOrientations</key>
-	<array>
-		<string>UIInterfaceOrientationPortrait</string>
-	</array>
-	<key>UISupportedInterfaceOrientations~ipad</key>
-	<array>
-		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationPortraitUpsideDown</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>ydapp</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>ydapp</string>
+			</array>
+		</dict>
 	</array>
 </dict>
 </plist>

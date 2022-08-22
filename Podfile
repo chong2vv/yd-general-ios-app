@@ -66,12 +66,12 @@ def sharePods
   #缓存清理
   pod 'YDClearCacheService', '~> 0.1.0'
   #路由
-  pod 'YDRouter', '~> 0.1.0'
+  pod 'YDRouter', '~> 0.1.2'
   pod 'YDMediator', '~> 0.1.1'
   #加载loading库
   pod 'YDSVProgressHUD', '~> 0.1.5'
   #图片服务
-  pod 'YDImageService', '~> 0.1.2'
+  pod 'YDImageService', '~> 0.1.5'
   #block分类库
   pod 'YDBlockKit', '~> 0.1.0'
   #ktv封装库，视频预加载

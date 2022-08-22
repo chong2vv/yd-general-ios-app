@@ -28,7 +28,8 @@
     if (![[self.dic objectForKey:key] isEmpty]) {
         return [self.dic objectForKey:key];
     }else {
-//        self.dic setObject:<#(nonnull id)#> forKey:<#(nonnull id<NSCopying>)#>
+        Class clz = NSClassFromString(key);
+        [self.dic setObject:clz forKey:key];
     }
     return nil;
 }
