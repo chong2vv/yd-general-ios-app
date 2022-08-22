@@ -12,6 +12,7 @@
 #import "YDHomePageViewController.h"
 #import "YDMineViewController.h"
 #import "CYLTabBarController.h"
+#import "YDLaunchScreenViewController.h"
 
 //app启动进入首页是否需要登录
 BOOL const YDAppStartNeedLogin = NO;
@@ -40,6 +41,17 @@ BOOL const YDAppStartNeedLogin = NO;
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
 }
+
+-(void)initAppCommandDisplayMainVc {
+    YDLaunchScreenViewController *launchScreenVc = [[YDLaunchScreenViewController alloc] init];
+    UIWindow *window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    window.rootViewController = launchScreenVc;
+    window.windowLevel = UIWindowLevelStatusBar + 3;
+    window.hidden = NO;
+    window.alpha = 1;
+    self.adWindow = window;
+}
+
 
 // 配置tabbar
 - (void)configTabVC {

@@ -160,6 +160,14 @@
 		15E5C34E28B37A920099A643 /* YDSpeedLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E5C34C28B37A920099A643 /* YDSpeedLoadingView.m */; };
 		15E5C35128B37C0A0099A643 /* YDVolumeBrightnessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E5C35028B37C090099A643 /* YDVolumeBrightnessView.m */; };
 		15E5C35228B37C0A0099A643 /* YDVolumeBrightnessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E5C35028B37C090099A643 /* YDVolumeBrightnessView.m */; };
+		15E5C35A28B38CCF0099A643 /* YDLaunchScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E5C35928B38CCF0099A643 /* YDLaunchScreenViewController.m */; };
+		15E5C35B28B38CCF0099A643 /* YDLaunchScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E5C35928B38CCF0099A643 /* YDLaunchScreenViewController.m */; };
+		15E5C35E28B38D460099A643 /* YDLaunchScreenViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E5C35D28B38D460099A643 /* YDLaunchScreenViewModel.m */; };
+		15E5C35F28B38D460099A643 /* YDLaunchScreenViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E5C35D28B38D460099A643 /* YDLaunchScreenViewModel.m */; };
+		15E5C36228B38EBB0099A643 /* YDLaunchScreenCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E5C36128B38EBB0099A643 /* YDLaunchScreenCommand.m */; };
+		15E5C36328B38EBB0099A643 /* YDLaunchScreenCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E5C36128B38EBB0099A643 /* YDLaunchScreenCommand.m */; };
+		15E5C36628B38F140099A643 /* YDLaunchScreenModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E5C36528B38F140099A643 /* YDLaunchScreenModel.m */; };
+		15E5C36728B38F140099A643 /* YDLaunchScreenModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E5C36528B38F140099A643 /* YDLaunchScreenModel.m */; };
 		21035A6C219FA3AB9D49D6B0 /* libPods-yd-general-ios-app.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38246749678BFA03C80151BE /* libPods-yd-general-ios-app.a */; };
 		9F411837E47BDA5B40D7A9AA /* libPods-yd-general-ios-app-dev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E27A2D3BDC72AB5C3E16729 /* libPods-yd-general-ios-app-dev.a */; };
 /* End PBXBuildFile section */
@@ -342,6 +350,14 @@
 		15E5C34C28B37A920099A643 /* YDSpeedLoadingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDSpeedLoadingView.m; sourceTree = "<group>"; };
 		15E5C34F28B37C090099A643 /* YDVolumeBrightnessView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDVolumeBrightnessView.h; sourceTree = "<group>"; };
 		15E5C35028B37C090099A643 /* YDVolumeBrightnessView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDVolumeBrightnessView.m; sourceTree = "<group>"; };
+		15E5C35828B38CCF0099A643 /* YDLaunchScreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDLaunchScreenViewController.h; sourceTree = "<group>"; };
+		15E5C35928B38CCF0099A643 /* YDLaunchScreenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDLaunchScreenViewController.m; sourceTree = "<group>"; };
+		15E5C35C28B38D460099A643 /* YDLaunchScreenViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDLaunchScreenViewModel.h; sourceTree = "<group>"; };
+		15E5C35D28B38D460099A643 /* YDLaunchScreenViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDLaunchScreenViewModel.m; sourceTree = "<group>"; };
+		15E5C36028B38EBB0099A643 /* YDLaunchScreenCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDLaunchScreenCommand.h; sourceTree = "<group>"; };
+		15E5C36128B38EBB0099A643 /* YDLaunchScreenCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDLaunchScreenCommand.m; sourceTree = "<group>"; };
+		15E5C36428B38F140099A643 /* YDLaunchScreenModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDLaunchScreenModel.h; sourceTree = "<group>"; };
+		15E5C36528B38F140099A643 /* YDLaunchScreenModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDLaunchScreenModel.m; sourceTree = "<group>"; };
 		38246749678BFA03C80151BE /* libPods-yd-general-ios-app.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-yd-general-ios-app.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E27A2D3BDC72AB5C3E16729 /* libPods-yd-general-ios-app-dev.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-yd-general-ios-app-dev.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87A3397D9D276E34E025EA8D /* Pods-yd-general-ios-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yd-general-ios-app.release.xcconfig"; path = "Target Support Files/Pods-yd-general-ios-app/Pods-yd-general-ios-app.release.xcconfig"; sourceTree = "<group>"; };
@@ -407,6 +423,7 @@
 		150A67852706012F009EE4AF /* YDApp */ = {
 			isa = PBXGroup;
 			children = (
+				15E5C35328B38C890099A643 /* YDLaunchScreen */,
 				1522555C28B2882600ED20FC /* YDUserShow */,
 				150A67EC27074062009EE4AF /* YDHiddenFunction */,
 				150A67872706014B009EE4AF /* YDHomePage */,
@@ -1024,6 +1041,53 @@
 			path = YDControlView;
 			sourceTree = "<group>";
 		};
+		15E5C35328B38C890099A643 /* YDLaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				15E5C35728B38CB00099A643 /* Command */,
+				15E5C35628B38CA50099A643 /* Model */,
+				15E5C35528B38C9F0099A643 /* ViewModel */,
+				15E5C35428B38C920099A643 /* VC */,
+			);
+			path = YDLaunchScreen;
+			sourceTree = "<group>";
+		};
+		15E5C35428B38C920099A643 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				15E5C35828B38CCF0099A643 /* YDLaunchScreenViewController.h */,
+				15E5C35928B38CCF0099A643 /* YDLaunchScreenViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		15E5C35528B38C9F0099A643 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				15E5C35C28B38D460099A643 /* YDLaunchScreenViewModel.h */,
+				15E5C35D28B38D460099A643 /* YDLaunchScreenViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		15E5C35628B38CA50099A643 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				15E5C36428B38F140099A643 /* YDLaunchScreenModel.h */,
+				15E5C36528B38F140099A643 /* YDLaunchScreenModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		15E5C35728B38CB00099A643 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				15E5C36028B38EBB0099A643 /* YDLaunchScreenCommand.h */,
+				15E5C36128B38EBB0099A643 /* YDLaunchScreenCommand.m */,
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
 		B877425005EF63FE87D986E5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1333,6 +1397,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1532D2B02723F02C00F58ED1 /* YDEmptyViewConfig.m in Sources */,
+				15E5C36228B38EBB0099A643 /* YDLaunchScreenCommand.m in Sources */,
 				15DEA22A271735360011705A /* YDRegisterCommand.m in Sources */,
 				1532D2B72723F31800F58ED1 /* UIViewController+YDEmptyViewShow.m in Sources */,
 				15BA9C38271288D2008019F4 /* YDLoginCommand.m in Sources */,
@@ -1356,6 +1421,7 @@
 				1522555A28B2845400ED20FC /* YDPlayerControlView.m in Sources */,
 				150A67FD27074AB2009EE4AF /* YDHiddenFunctionPasswordView.m in Sources */,
 				15BA9C2F27127AA2008019F4 /* YDUploadService.m in Sources */,
+				15E5C35E28B38D460099A643 /* YDLaunchScreenViewModel.m in Sources */,
 				1522556828B2893600ED20FC /* YDUserShowService.m in Sources */,
 				157FFCB127180F830034946A /* YDSendCodeCommand.m in Sources */,
 				150A67B727068977009EE4AF /* AppDelegate+YDThird.m in Sources */,
@@ -1395,7 +1461,9 @@
 				157FFD0D271967A90034946A /* YDAppCheckUpdateService.m in Sources */,
 				15C5BD8D28AE11D200E5B1EC /* YDAppWeb.m in Sources */,
 				15BA9C252711E4FB008019F4 /* YDUser.m in Sources */,
+				15E5C36628B38F140099A643 /* YDLaunchScreenModel.m in Sources */,
 				15E5C33D28B374430099A643 /* YDPortraitControlView.m in Sources */,
+				15E5C35A28B38CCF0099A643 /* YDLaunchScreenViewController.m in Sources */,
 				150A67D72706A128009EE4AF /* AppDelegate+YDSetupVC.m in Sources */,
 				15C5BD7128ACDA2800E5B1EC /* YDMiniProService.m in Sources */,
 				150A67A7270608BB009EE4AF /* YDLoginViewController.m in Sources */,
@@ -1425,6 +1493,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1532D2B12723F02C00F58ED1 /* YDEmptyViewConfig.m in Sources */,
+				15E5C36328B38EBB0099A643 /* YDLaunchScreenCommand.m in Sources */,
 				15DEA22B271735360011705A /* YDRegisterCommand.m in Sources */,
 				1532D2B82723F31800F58ED1 /* UIViewController+YDEmptyViewShow.m in Sources */,
 				15BA9C39271288D2008019F4 /* YDLoginCommand.m in Sources */,
@@ -1448,6 +1517,7 @@
 				1522555B28B2845400ED20FC /* YDPlayerControlView.m in Sources */,
 				150A67FE27074AB4009EE4AF /* YDHiddenFunctionPasswordView.m in Sources */,
 				15BA9C3027127AA2008019F4 /* YDUploadService.m in Sources */,
+				15E5C35F28B38D460099A643 /* YDLaunchScreenViewModel.m in Sources */,
 				1522556928B2893600ED20FC /* YDUserShowService.m in Sources */,
 				157FFCB227180F830034946A /* YDSendCodeCommand.m in Sources */,
 				150A67B827068977009EE4AF /* AppDelegate+YDThird.m in Sources */,
@@ -1487,7 +1557,9 @@
 				157FFD0E271967A90034946A /* YDAppCheckUpdateService.m in Sources */,
 				15C5BD8E28AE11D200E5B1EC /* YDAppWeb.m in Sources */,
 				15BA9C262711E4FB008019F4 /* YDUser.m in Sources */,
+				15E5C36728B38F140099A643 /* YDLaunchScreenModel.m in Sources */,
 				15E5C33E28B374430099A643 /* YDPortraitControlView.m in Sources */,
+				15E5C35B28B38CCF0099A643 /* YDLaunchScreenViewController.m in Sources */,
 				150A67D82706A128009EE4AF /* AppDelegate+YDSetupVC.m in Sources */,
 				15C5BD7228ACDA2800E5B1EC /* YDMiniProService.m in Sources */,
 				150A67A8270608BB009EE4AF /* YDLoginViewController.m in Sources */,
