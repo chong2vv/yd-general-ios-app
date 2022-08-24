@@ -120,7 +120,7 @@ PODS:
   - YDBlockKit (0.1.0)
   - YDClearCacheService (0.1.0)
   - YDFileManager (0.1.3)
-  - YDImageService (0.1.2):
+  - YDImageService (0.1.5):
     - YDAvoidCrashKit
     - YYImage
     - YYWebImage
@@ -131,7 +131,7 @@ PODS:
     - YTKNetwork
   - YDPreLoader (0.1.0):
     - KTVHTTPCache
-  - YDRouter (0.1.0)
+  - YDRouter (0.1.2)
   - YDSVProgressHUD (0.1.5):
     - lottie-ios (= 2.5.3)
     - SVProgressHUD (= 2.2.5)
@@ -203,11 +203,11 @@ DEPENDENCIES:
   - YDBlockKit (~> 0.1.0)
   - YDClearCacheService (~> 0.1.0)
   - YDFileManager (~> 0.1.3)
-  - YDImageService (~> 0.1.2)
+  - YDImageService (~> 0.1.5)
   - YDMediator (~> 0.1.1)
   - YDNetworkManager (~> 0.0.5)
   - YDPreLoader (~> 0.1.0)
-  - YDRouter (~> 0.1.0)
+  - YDRouter (~> 0.1.2)
   - YDSVProgressHUD (~> 0.1.5)
   - YDUtilKit (~> 0.0.7)
   - YYImage
@@ -311,11 +311,11 @@ SPEC CHECKSUMS:
   YDBlockKit: cc0468932af995d0f53dcecf3ba18813b06882b5
   YDClearCacheService: 3b5d31652e5297db49c1f7169600c6deb863bc7e
   YDFileManager: 249fdae72b418c82d815763bc5bc32a4661ebc83
-  YDImageService: b8c4af18c31e94550778f825092f91210b917458
+  YDImageService: f8921fa9624adb284dcc11886e0d02d24e8869ea
   YDMediator: aac16f02a878e7f149a320d3cc0028611c9707f1
   YDNetworkManager: e72ef7270229d9ccca89f572b3d0bcc3d7a59122
   YDPreLoader: f1351453404b188410fbd43e2ac346fabf7ac2d9
-  YDRouter: 0682d0b7ec3d4c7e4ad6954dbd965fa3ce8f9052
+  YDRouter: 53501cc7300952e96450568ba1ca10db46bc4d5d
   YDSVProgressHUD: 4427e32d1fc3ffe5009b86db672972f03ec51b9d
   YDUtilKit: 7e374da9316162e557d809baf91200877febf963
   YTKNetwork: c16be90b06be003de9e9cd0d3b187cc8eaf35c04
@@ -325,6 +325,6 @@ SPEC CHECKSUMS:
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
   ZFPlayer: 624c92de06eb34df322c3b53b4c9ce760f528f7a
 
-PODFILE CHECKSUM: cbfda108f27f68c552397b74c60a8627a999cf92
+PODFILE CHECKSUM: b767eaf26c22022fae5d26d5db03a427e08e37be
 
-COCOAPODS: 1.11.0.beta.2
+COCOAPODS: 1.11.2

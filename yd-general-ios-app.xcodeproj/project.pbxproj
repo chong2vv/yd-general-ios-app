@@ -168,6 +168,10 @@
 		15E5C36328B38EBB0099A643 /* YDLaunchScreenCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E5C36128B38EBB0099A643 /* YDLaunchScreenCommand.m */; };
 		15E5C36628B38F140099A643 /* YDLaunchScreenModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E5C36528B38F140099A643 /* YDLaunchScreenModel.m */; };
 		15E5C36728B38F140099A643 /* YDLaunchScreenModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E5C36528B38F140099A643 /* YDLaunchScreenModel.m */; };
+		15E5C37928B5C3A50099A643 /* YDMainRouterHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E5C37828B5C3A50099A643 /* YDMainRouterHandle.m */; };
+		15E5C37A28B5C3A60099A643 /* YDMainRouterHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E5C37828B5C3A50099A643 /* YDMainRouterHandle.m */; };
+		15E5C37D28B5C3C40099A643 /* YDRouter+YDRegistConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E5C37C28B5C3C40099A643 /* YDRouter+YDRegistConfig.m */; };
+		15E5C37E28B5C3C40099A643 /* YDRouter+YDRegistConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E5C37C28B5C3C40099A643 /* YDRouter+YDRegistConfig.m */; };
 		21035A6C219FA3AB9D49D6B0 /* libPods-yd-general-ios-app.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38246749678BFA03C80151BE /* libPods-yd-general-ios-app.a */; };
 		9F411837E47BDA5B40D7A9AA /* libPods-yd-general-ios-app-dev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E27A2D3BDC72AB5C3E16729 /* libPods-yd-general-ios-app-dev.a */; };
 /* End PBXBuildFile section */
@@ -358,6 +362,10 @@
 		15E5C36128B38EBB0099A643 /* YDLaunchScreenCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDLaunchScreenCommand.m; sourceTree = "<group>"; };
 		15E5C36428B38F140099A643 /* YDLaunchScreenModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDLaunchScreenModel.h; sourceTree = "<group>"; };
 		15E5C36528B38F140099A643 /* YDLaunchScreenModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDLaunchScreenModel.m; sourceTree = "<group>"; };
+		15E5C37728B5C3A50099A643 /* YDMainRouterHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDMainRouterHandle.h; sourceTree = "<group>"; };
+		15E5C37828B5C3A50099A643 /* YDMainRouterHandle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDMainRouterHandle.m; sourceTree = "<group>"; };
+		15E5C37B28B5C3C40099A643 /* YDRouter+YDRegistConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YDRouter+YDRegistConfig.h"; sourceTree = "<group>"; };
+		15E5C37C28B5C3C40099A643 /* YDRouter+YDRegistConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YDRouter+YDRegistConfig.m"; sourceTree = "<group>"; };
 		38246749678BFA03C80151BE /* libPods-yd-general-ios-app.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-yd-general-ios-app.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E27A2D3BDC72AB5C3E16729 /* libPods-yd-general-ios-app-dev.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-yd-general-ios-app-dev.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87A3397D9D276E34E025EA8D /* Pods-yd-general-ios-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yd-general-ios-app.release.xcconfig"; path = "Target Support Files/Pods-yd-general-ios-app/Pods-yd-general-ios-app.release.xcconfig"; sourceTree = "<group>"; };
@@ -945,6 +953,7 @@
 			children = (
 				152254C828AFE4C600ED20FC /* YDContainer.h */,
 				152254C928AFE4C600ED20FC /* YDContainer.m */,
+				15E5C37628B5C3750099A643 /* YDArouter */,
 				157FFD0A271967820034946A /* YDAppCheckUpdateService */,
 				15850CFA2715B7B5002F79B5 /* YDLoggerUploadService */,
 				1522555328B26F4500ED20FC /* YDImagePickerService */,
@@ -1086,6 +1095,17 @@
 				15E5C36128B38EBB0099A643 /* YDLaunchScreenCommand.m */,
 			);
 			path = Command;
+			sourceTree = "<group>";
+		};
+		15E5C37628B5C3750099A643 /* YDArouter */ = {
+			isa = PBXGroup;
+			children = (
+				15E5C37728B5C3A50099A643 /* YDMainRouterHandle.h */,
+				15E5C37828B5C3A50099A643 /* YDMainRouterHandle.m */,
+				15E5C37B28B5C3C40099A643 /* YDRouter+YDRegistConfig.h */,
+				15E5C37C28B5C3C40099A643 /* YDRouter+YDRegistConfig.m */,
+			);
+			path = YDArouter;
 			sourceTree = "<group>";
 		};
 		B877425005EF63FE87D986E5 /* Frameworks */ = {
@@ -1430,6 +1450,7 @@
 				15E5C34D28B37A920099A643 /* YDSpeedLoadingView.m in Sources */,
 				153D0BBF28B35B7500BC2BB4 /* YDConst.m in Sources */,
 				158AF8C8270418F90095A3B1 /* AppDelegate.m in Sources */,
+				15E5C37D28B5C3C40099A643 /* YDRouter+YDRegistConfig.m in Sources */,
 				150A6791270603AE009EE4AF /* UIViewController+YDHook.m in Sources */,
 				157FFD12271967FB0034946A /* YDAppCheckUpdateCommand.m in Sources */,
 				150A67BC270691EB009EE4AF /* YDMineViewController.m in Sources */,
@@ -1449,6 +1470,7 @@
 				152254C628AFDD7D00ED20FC /* YDPlayerView.m in Sources */,
 				150A678D27060308009EE4AF /* YDBaseViewController.m in Sources */,
 				150A678327060117009EE4AF /* YDUserConfig.m in Sources */,
+				15E5C37928B5C3A50099A643 /* YDMainRouterHandle.m in Sources */,
 				150A67D227069855009EE4AF /* YDButton.m in Sources */,
 				157FFD0327184D5E0034946A /* UpUploadModel.m in Sources */,
 				158AF919270443250095A3B1 /* AppDelegate+YDServicePush.m in Sources */,
@@ -1526,6 +1548,7 @@
 				15E5C34E28B37A920099A643 /* YDSpeedLoadingView.m in Sources */,
 				153D0BC028B35B7500BC2BB4 /* YDConst.m in Sources */,
 				158AF8FE2704193B0095A3B1 /* AppDelegate.m in Sources */,
+				15E5C37E28B5C3C40099A643 /* YDRouter+YDRegistConfig.m in Sources */,
 				150A6792270603AE009EE4AF /* UIViewController+YDHook.m in Sources */,
 				157FFD13271967FB0034946A /* YDAppCheckUpdateCommand.m in Sources */,
 				150A67BD270691EB009EE4AF /* YDMineViewController.m in Sources */,
@@ -1545,6 +1568,7 @@
 				152254C728AFDD7D00ED20FC /* YDPlayerView.m in Sources */,
 				150A678E27060308009EE4AF /* YDBaseViewController.m in Sources */,
 				150A678427060117009EE4AF /* YDUserConfig.m in Sources */,
+				15E5C37A28B5C3A60099A643 /* YDMainRouterHandle.m in Sources */,
 				150A67D327069855009EE4AF /* YDButton.m in Sources */,
 				157FFD0427184D5E0034946A /* UpUploadModel.m in Sources */,
 				158AF91A270443250095A3B1 /* AppDelegate+YDServicePush.m in Sources */,

@@ -102,6 +102,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle"
   install_resource "${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/YDSVProgressHUD/YDProgressHUD.bundle"
+  install_resource "${PODS_ROOT}/ZFPlayer/ZFPlayer/Classes/ControlView/ZFPlayer.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/DoraemonKit/DoraemonKit.bundle"
   install_resource "${PODS_ROOT}/GCDWebServer/GCDWebUploader/GCDWebUploader.bundle"
 fi
@@ -111,6 +112,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle"
   install_resource "${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/YDSVProgressHUD/YDProgressHUD.bundle"
+  install_resource "${PODS_ROOT}/ZFPlayer/ZFPlayer/Classes/ControlView/ZFPlayer.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/DoraemonKit/DoraemonKit.bundle"
   install_resource "${PODS_ROOT}/GCDWebServer/GCDWebUploader/GCDWebUploader.bundle"
 fi
