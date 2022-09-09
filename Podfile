@@ -73,7 +73,7 @@ def sharePods
   #图片服务
   pod 'YDImageService', '~> 0.1.5'
   #block分类库
-  pod 'YDBlockKit', '~> 0.1.0'
+  pod 'YDBlockKit', '~> 0.1.1'
   #ktv封装库，视频预加载
   pod 'YDPreLoader', '~> 0.1.0'
   #Alert库
