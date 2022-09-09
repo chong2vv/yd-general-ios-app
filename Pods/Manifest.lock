@@ -61,6 +61,20 @@ PODS:
   - MMKV (1.2.14):
     - MMKVCore (~> 1.2.14)
   - MMKVCore (1.2.14)
+  - OCMock (3.9.1)
+  - OHHTTPStubs (9.1.0):
+    - OHHTTPStubs/Default (= 9.1.0)
+  - OHHTTPStubs/Core (9.1.0)
+  - OHHTTPStubs/Default (9.1.0):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (9.1.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (9.1.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (9.1.0)
   - ReactiveObjC (3.1.1)
   - SDWebImage (5.8.4):
     - SDWebImage/Core (= 5.8.4)
@@ -187,6 +201,8 @@ DEPENDENCIES:
   - Masonry
   - MJRefresh
   - MMKV
+  - OCMock
+  - OHHTTPStubs
   - ReactiveObjC (~> 3.1.0)
   - SDWebImage (~> 5.8.4)
   - SGQRCode (~> 3.5.1)
@@ -242,6 +258,8 @@ SPEC REPOS:
     - MJRefresh
     - MMKV
     - MMKVCore
+    - OCMock
+    - OHHTTPStubs
     - ReactiveObjC
     - SDWebImage
     - SGQRCode
@@ -295,6 +313,8 @@ SPEC CHECKSUMS:
   MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
   MMKV: 9c4663aa7ca255d478ff10f2f5cb7d17c1651ccd
   MMKVCore: 89f5c8a66bba2dcd551779dea4d412eeec8ff5bb
+  OCMock: 9491e4bec59e0b267d52a9184ff5605995e74be8
+  OHHTTPStubs: 90eac6d8f2c18317baeca36698523dc67c513831
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
   SDWebImage: cf6922231e95550934da2ada0f20f2becf2ceba9
   SGQRCode: 65d6170ddcf3feecc6e2f3601aac78ad93e56589
@@ -325,6 +345,6 @@ SPEC CHECKSUMS:
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
   ZFPlayer: 624c92de06eb34df322c3b53b4c9ce760f528f7a
 
-PODFILE CHECKSUM: ff6ba22ba0bb95afbf7589d95bd488a382a7e119
+PODFILE CHECKSUM: 2af3c2c1d0c2fb890f2091bf3e246e1a3dc07adb
 
 COCOAPODS: 1.11.2

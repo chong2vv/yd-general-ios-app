@@ -130,6 +130,7 @@
 		158AF91F2704455C0095A3B1 /* YDTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 158AF91D2704455C0095A3B1 /* YDTestViewController.m */; };
 		159DAD2728C99C200006B8D0 /* YDBack.m in Sources */ = {isa = PBXBuildFile; fileRef = 159DAD2628C99C200006B8D0 /* YDBack.m */; };
 		159DAD2828C99C200006B8D0 /* YDBack.m in Sources */ = {isa = PBXBuildFile; fileRef = 159DAD2628C99C200006B8D0 /* YDBack.m */; };
+		159DAD2F28CB4CAD0006B8D0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 159DAD2B28CB4C2E0006B8D0 /* XCTest.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		15BA9C252711E4FB008019F4 /* YDUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BA9C242711E4FB008019F4 /* YDUser.m */; };
 		15BA9C262711E4FB008019F4 /* YDUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BA9C242711E4FB008019F4 /* YDUser.m */; };
 		15BA9C292711E930008019F4 /* YDDB+YDUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BA9C282711E930008019F4 /* YDDB+YDUser.m */; };
@@ -175,7 +176,7 @@
 		15E5C37D28B5C3C40099A643 /* YDRouter+YDRegistConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E5C37C28B5C3C40099A643 /* YDRouter+YDRegistConfig.m */; };
 		15E5C37E28B5C3C40099A643 /* YDRouter+YDRegistConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E5C37C28B5C3C40099A643 /* YDRouter+YDRegistConfig.m */; };
 		21035A6C219FA3AB9D49D6B0 /* libPods-yd-general-ios-app.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38246749678BFA03C80151BE /* libPods-yd-general-ios-app.a */; };
-		9F411837E47BDA5B40D7A9AA /* libPods-yd-general-ios-app-dev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E27A2D3BDC72AB5C3E16729 /* libPods-yd-general-ios-app-dev.a */; };
+		9F411837E47BDA5B40D7A9AA /* libPods-yd-general-ios-app-dev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E27A2D3BDC72AB5C3E16729 /* libPods-yd-general-ios-app-dev.a */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -325,6 +326,7 @@
 		158AF91D2704455C0095A3B1 /* YDTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDTestViewController.m; sourceTree = "<group>"; };
 		159DAD2528C99C200006B8D0 /* YDBack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDBack.h; sourceTree = "<group>"; };
 		159DAD2628C99C200006B8D0 /* YDBack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDBack.m; sourceTree = "<group>"; };
+		159DAD2B28CB4C2E0006B8D0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		15BA9C232711E4FB008019F4 /* YDUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDUser.h; sourceTree = "<group>"; };
 		15BA9C242711E4FB008019F4 /* YDUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDUser.m; sourceTree = "<group>"; };
 		15BA9C272711E930008019F4 /* YDDB+YDUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YDDB+YDUser.h"; sourceTree = "<group>"; };
@@ -405,6 +407,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				159DAD2F28CB4CAD0006B8D0 /* XCTest.framework in Frameworks */,
 				9F411837E47BDA5B40D7A9AA /* libPods-yd-general-ios-app-dev.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -964,9 +967,9 @@
 		15BA9C2B27127A5A008019F4 /* YDService */ = {
 			isa = PBXGroup;
 			children = (
-				159DAD2428C99C0B0006B8D0 /* YDBack */,
 				152254C828AFE4C600ED20FC /* YDContainer.h */,
 				152254C928AFE4C600ED20FC /* YDContainer.m */,
+				159DAD2428C99C0B0006B8D0 /* YDBack */,
 				15E5C37628B5C3750099A643 /* YDArouter */,
 				157FFD0A271967820034946A /* YDAppCheckUpdateService */,
 				15850CFA2715B7B5002F79B5 /* YDLoggerUploadService */,
@@ -1125,6 +1128,7 @@
 		B877425005EF63FE87D986E5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				159DAD2B28CB4C2E0006B8D0 /* XCTest.framework */,
 				38246749678BFA03C80151BE /* libPods-yd-general-ios-app.a */,
 				7E27A2D3BDC72AB5C3E16729 /* libPods-yd-general-ios-app-dev.a */,
 			);

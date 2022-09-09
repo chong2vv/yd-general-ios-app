@@ -7,6 +7,14 @@
 
 #import "YDContainer.h"
 
+
+@implementation YDContainerConfig
+
+
+
+@end
+
+
 @interface YDContainer ()
 
 @property (nonatomic, strong)NSMutableDictionary *dic;

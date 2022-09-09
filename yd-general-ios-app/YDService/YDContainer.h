@@ -9,6 +9,10 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@interface YDContainerConfig : NSObject
+
+@end
+
 @interface YDContainer : NSObject
 
 + (instancetype)shared;

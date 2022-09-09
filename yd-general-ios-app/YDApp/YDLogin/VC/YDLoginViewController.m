@@ -38,11 +38,13 @@
     }];
 }
 
+//测试用 ->登录成功
 - (void)testAction {
     
     [self loginOrRegisterComplete:@{@"test":@"test"}];
 }
 
+// 登录调用
 - (void)loginAction {
     [YDUserConfig shared].userAccount = @"";
     [YDUserConfig shared].userPassword = @"";

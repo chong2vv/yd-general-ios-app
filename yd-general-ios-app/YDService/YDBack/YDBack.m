@@ -6,6 +6,7 @@
 //
 
 #import "YDBack.h"
+#import <YDBlockKit/NSObject+YDAsyncBlock.h>
 
 @interface YDBack ()
 
@@ -14,10 +15,11 @@
 
 @implementation YDBack
 
+// 监控退出时用，暂时用不到
 + (void)load {
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        [self ga_setupApplicationHoldRunning];
-    });
+//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+//        [self ga_setupApplicationHoldRunning];
+//    });
 }
 
 // 开启后台任务，延长运行时间
@@ -59,16 +61,19 @@ static BOOL kBGDsemAction = NO;
         kBGDsem = dispatch_semaphore_create(0);
     });
     // 保证页面数据先存到数据库
-//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * NSEC_PER_SEC)), self.gaQueue, ^{
-//        // 埋点数据发送等...
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * NSEC_PER_SEC)), dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_LOW, 0), ^{
+        // 埋点数据发送等...
 //        [self handleBatchTimerExpired];
-//        // 可能还在网络请求，强制保活1秒，之后才允许其他代码执行
-//
-//        [NSObject imy_asyncBlock:^{
-//            dispatch_semaphore_signal(kBGDsem);
-//        } afterSecond:1];
-//    });
+        
+        [NSObject yd_asyncBlock:^{
+            dispatch_semaphore_signal(kBGDsem);
+        } onQueue:dispatch_get_main_queue() afterSecond:1 forKey:@"Back"];
+    });
     kBGDsemAction = YES;
+}
+
+- (void)handleBatchTimerExpired {
+    
 }
 
 @end

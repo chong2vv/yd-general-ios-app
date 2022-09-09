@@ -90,6 +90,8 @@ def testPods
   pod 'DoraemonKit/WithLogger', '~> 3.0.4'
   pod 'DoraemonKit/WithGPS', '~> 3.0.4'
   pod 'DoraemonKit/WithLoad', '~> 3.0.4'
+  pod 'OCMock'
+  pod 'OHHTTPStubs'
   #内存检测工具
 end
 

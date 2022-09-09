@@ -13,7 +13,7 @@
 
 - (UIViewController *)startLoginAppWithParams:(NSDictionary *)aParams {
     YDLoginViewController *vc = [[YDLoginViewController alloc] init];
-    
+    vc.modalPresentationStyle = UIModalPresentationFullScreen;
     if (![[aParams objectForKey:kSuccessCallback] isEmpty]) {
         vc.successCallback = [aParams objectForKey:kSuccessCallback];
     }

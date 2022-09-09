@@ -21,15 +21,17 @@ BOOL const YDAppStartNeedLogin = NO;
 
 - (void)configRootVC:(UIApplication *)application {
     
-    if (YDAppStartNeedLogin) {
-        if ([[YDUserConfig shared] isLogin]) {
-            [self configTabVC];
-        }else{
-            [self configLoginVC];
-        }
-    }else{
-        [self configTabVC];
-    }
+    [self configTabVC];
+//    //根据实际项目配置是否需要初始化就登录
+//    if (YDAppStartNeedLogin) {
+//        if ([[YDUserConfig shared] isLogin]) {
+//            [self configTabVC];
+//        }else{
+//            [self configLoginVC];
+//        }
+//    }else{
+//        [self configTabVC];
+//    }
 /// 根据实际项目选择是否配置登录、退出通知
 //    [self loadUserLoginNotification];
 }
@@ -117,8 +119,8 @@ BOOL const YDAppStartNeedLogin = NO;
     UITabBarItem *tabBar = [UITabBarItem appearance];
     [tabBar setTitleTextAttributes:normalAttrs forState:UIControlStateNormal];
     [tabBar setTitleTextAttributes:selectedAttrs forState:UIControlStateSelected];
-    [[UITabBar appearance] setBackgroundImage:[[UIImage alloc] init]];
-//    [[UITabBar appearance] setBackgroundColor:mainBlck];
+//    [[UITabBar appearance] setBackgroundImage:[[UIImage imageWithColor:[UIColor whiteColor]] init]];
+    [[UITabBar appearance] setBackgroundColor:[UIColor whiteColor]];
 }
 
 - (void)customizeTabBarForController:(CYLTabBarController *)tabBarController

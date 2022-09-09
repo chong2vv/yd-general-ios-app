@@ -6,6 +6,7 @@
 //
 
 #import "YDHomePageViewController.h"
+#import "YDHiddenFunctionViewController.h"
 
 @interface YDHomePageViewController ()
 
@@ -15,16 +16,40 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    UIButton *testLoginBt = [UIButton buttonWithType:UIButtonTypeSystem];
-    [testLoginBt setTitle:@"测试" forState:UIControlStateNormal];
-    [testLoginBt addTarget:self action:@selector(testAction) forControlEvents:UIControlEventTouchUpInside];
-    testLoginBt.frame = CGRectMake(100, 100, 200, 200);
-    [self.view addSubview:testLoginBt];
-    
+    [self oppenHiddenFunctionVC];
+    [self configTestUI];
 }
 
-- (void)testAction {
-    [YDLoginService checkAndLoginWithTypeComplete:nil];
+- (void)oppenHiddenFunctionVC {
+    [self.navigationController.navigationBar whenFiveTapped:^{
+        yd_dispatch_async_main_safe(^{
+            YDHiddenFunctionViewController *vc = [[YDHiddenFunctionViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+            YDLogInfo(@"==== 进入隐藏功能 ====");
+            NSLog(@"隐藏功能");
+        });
+    }];
+}
+
+- (void)configTestUI {
+    UIButton *testLoginBt = [UIButton buttonWithType:UIButtonTypeSystem];
+    [self.view addSubview:testLoginBt];
+    [testLoginBt setTitle:@"登录判断" forState:UIControlStateNormal];
+    [testLoginBt addTarget:self action:@selector(userLoginAction) forControlEvents:UIControlEventTouchUpInside];
+    [testLoginBt mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.equalTo(self.view).offset(20);
+        make.top.equalTo(self.view).offset(20);
+        make.width.mas_equalTo(120);
+        make.height.mas_equalTo(50);
+    }];
+}
+
+- (void)userLoginAction {
+    [YDLoginService checkAndLoginWithTypeComplete:^(BOOL isLogin) {
+        if (isLogin) {
+            NSLog(@"登录成功");
+        }
+    }];
 }
 
 

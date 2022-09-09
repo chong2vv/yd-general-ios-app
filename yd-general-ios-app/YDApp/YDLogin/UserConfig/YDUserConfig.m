@@ -90,6 +90,7 @@
         return;
     }
     
+    
     if (self.userPassword.length == 0 && self.userCode.length == 0) {
         if (self.userCode.length == 0) {
             if (failure) {
