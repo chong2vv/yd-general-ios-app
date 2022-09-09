@@ -128,6 +128,8 @@
 		158AF91A270443250095A3B1 /* AppDelegate+YDServicePush.m in Sources */ = {isa = PBXBuildFile; fileRef = 158AF918270443250095A3B1 /* AppDelegate+YDServicePush.m */; };
 		158AF91E2704455C0095A3B1 /* YDTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 158AF91D2704455C0095A3B1 /* YDTestViewController.m */; };
 		158AF91F2704455C0095A3B1 /* YDTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 158AF91D2704455C0095A3B1 /* YDTestViewController.m */; };
+		159DAD2728C99C200006B8D0 /* YDBack.m in Sources */ = {isa = PBXBuildFile; fileRef = 159DAD2628C99C200006B8D0 /* YDBack.m */; };
+		159DAD2828C99C200006B8D0 /* YDBack.m in Sources */ = {isa = PBXBuildFile; fileRef = 159DAD2628C99C200006B8D0 /* YDBack.m */; };
 		15BA9C252711E4FB008019F4 /* YDUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BA9C242711E4FB008019F4 /* YDUser.m */; };
 		15BA9C262711E4FB008019F4 /* YDUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BA9C242711E4FB008019F4 /* YDUser.m */; };
 		15BA9C292711E930008019F4 /* YDDB+YDUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BA9C282711E930008019F4 /* YDDB+YDUser.m */; };
@@ -321,6 +323,8 @@
 		158AF918270443250095A3B1 /* AppDelegate+YDServicePush.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+YDServicePush.m"; sourceTree = "<group>"; };
 		158AF91C2704455B0095A3B1 /* YDTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDTestViewController.h; sourceTree = "<group>"; };
 		158AF91D2704455C0095A3B1 /* YDTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDTestViewController.m; sourceTree = "<group>"; };
+		159DAD2528C99C200006B8D0 /* YDBack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDBack.h; sourceTree = "<group>"; };
+		159DAD2628C99C200006B8D0 /* YDBack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDBack.m; sourceTree = "<group>"; };
 		15BA9C232711E4FB008019F4 /* YDUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDUser.h; sourceTree = "<group>"; };
 		15BA9C242711E4FB008019F4 /* YDUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDUser.m; sourceTree = "<group>"; };
 		15BA9C272711E930008019F4 /* YDDB+YDUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YDDB+YDUser.h"; sourceTree = "<group>"; };
@@ -939,6 +943,15 @@
 			path = YDTest;
 			sourceTree = "<group>";
 		};
+		159DAD2428C99C0B0006B8D0 /* YDBack */ = {
+			isa = PBXGroup;
+			children = (
+				159DAD2528C99C200006B8D0 /* YDBack.h */,
+				159DAD2628C99C200006B8D0 /* YDBack.m */,
+			);
+			path = YDBack;
+			sourceTree = "<group>";
+		};
 		15BA9C222711E4EA008019F4 /* YDUserModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -951,6 +964,7 @@
 		15BA9C2B27127A5A008019F4 /* YDService */ = {
 			isa = PBXGroup;
 			children = (
+				159DAD2428C99C0B0006B8D0 /* YDBack */,
 				152254C828AFE4C600ED20FC /* YDContainer.h */,
 				152254C928AFE4C600ED20FC /* YDContainer.m */,
 				15E5C37628B5C3750099A643 /* YDArouter */,
@@ -1422,6 +1436,7 @@
 				1532D2B72723F31800F58ED1 /* UIViewController+YDEmptyViewShow.m in Sources */,
 				15BA9C38271288D2008019F4 /* YDLoginCommand.m in Sources */,
 				15E5C34128B374860099A643 /* YDSliderView.m in Sources */,
+				159DAD2728C99C200006B8D0 /* YDBack.m in Sources */,
 				15BA9C292711E930008019F4 /* YDDB+YDUser.m in Sources */,
 				150A677E2705FFEB009EE4AF /* YDNetWorkConfig.m in Sources */,
 				152254CA28AFE4C600ED20FC /* YDContainer.m in Sources */,
@@ -1520,6 +1535,7 @@
 				1532D2B82723F31800F58ED1 /* UIViewController+YDEmptyViewShow.m in Sources */,
 				15BA9C39271288D2008019F4 /* YDLoginCommand.m in Sources */,
 				15E5C34228B374860099A643 /* YDSliderView.m in Sources */,
+				159DAD2828C99C200006B8D0 /* YDBack.m in Sources */,
 				15BA9C2A2711E930008019F4 /* YDDB+YDUser.m in Sources */,
 				150A677F2705FFEF009EE4AF /* YDNetWorkConfig.m in Sources */,
 				152254CB28AFE4C600ED20FC /* YDContainer.m in Sources */,

@@ -9,6 +9,9 @@
 
 @interface YDTestViewController ()
 
+@property (nonatomic, strong) UIImageView *downloadImageView;
+
+
 @end
 
 @implementation YDTestViewController
@@ -17,6 +20,20 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor redColor];
     self.title = @"测试专用";
+    
+    UIButton *bt1 = [UIButton buttonWithType:UIButtonTypeSystem];
+    
+}
+
+- (void)downloadImage {
+    
+}
+
+- (UIImageView *)downloadImageView {
+    if (!_downloadImageView) {
+        _downloadImageView = [[UIImageView alloc] init];
+    }
+    return _downloadImageView;
 }
 
 @end
